@@ -11,9 +11,15 @@ export function ImmigrationSection() {
           <SectionTitle title="Göçmenlik ve Vize" />
         </div>
         <div className="space-y-4">
-          <ImmigrationItem icon="description" title="H-1B Vize Başvuruları Başladı" badgeLabel="GÜNCEL" />
-          <ImmigrationItem icon="calendar_month" title="Green Card Çekiliş Sonuçları" badgeLabel="MAYIS 2024" badgeVariant="muted" />
-          <ImmigrationItem icon="info" title="F-1 Öğrenci Vizesi Yeni Kurallar" badgeLabel="REHBER" badgeVariant="soft" />
+          <ImmigrationItem icon="description" title="H-1B Vize Başvuruları Başladı" slug="h1b-basvurulari-basladi" badgeLabel="GÜNCEL" />
+          <ImmigrationItem
+            icon="calendar_month"
+            title="Green Card Çekiliş Sonuçları"
+            slug="green-card-cekilis-sonuclari"
+            badgeLabel="MAYIS 2024"
+            badgeVariant="muted"
+          />
+          <ImmigrationItem icon="info" title="F-1 Öğrenci Vizesi Yeni Kurallar" slug="f1-ogrenci-vizesi-yeni-kurallar" badgeLabel="REHBER" badgeVariant="soft" />
         </div>
       </div>
 
