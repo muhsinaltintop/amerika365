@@ -12,7 +12,7 @@ export function HomePage() {
       <SiteHeader />
       <DailyDigest />
 
-      <main className="mx-auto max-w-[1200px] space-y-12 px-6 py-8">
+      <main className="mx-auto max-w-[1200px] space-y-10 px-4 py-6 sm:space-y-12 sm:px-6 sm:py-8">
         <HeroSlider />
         <TopNewsSection />
         <ImmigrationSection />

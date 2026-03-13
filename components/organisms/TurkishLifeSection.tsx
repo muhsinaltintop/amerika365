@@ -11,10 +11,10 @@ const cards = [
 export function TurkishLifeSection() {
   return (
     <section>
-      <div className="mb-8 flex items-center justify-between">
+      <div className="mb-6 flex items-center justify-between sm:mb-8">
         <SectionTitle title="ABD’de Türk Yaşamı" />
       </div>
-      <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 md:grid-cols-4">
         {cards.map((card) => (
           <LifeCard key={card.title} {...card} />
         ))}
