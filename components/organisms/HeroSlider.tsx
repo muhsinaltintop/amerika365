@@ -1,23 +1,26 @@
 "use client";
 
+import Link from "next/link";
 import { TouchEvent, useEffect, useState } from "react";
 import { Icon } from "../atoms/Icon";
-import { PrimaryButton } from "../atoms/PrimaryButton";
 
 const slides = [
   {
+    slug: "abd-secim-sonuclari-yeni-donem",
     image: "https://images.unsplash.com/photo-1496588152823-86ff7695d13f?auto=format&fit=crop&w=1400&q=80",
     badge: "Öne Çıkan",
     title: "Amerika’da Bugün: Türkler İçin En Kritik Gelişmeler",
     text: "ABD genelinde yaşayan Türk toplumunu yakından ilgilendiren en son gelişmeleri, yasal düzenlemeleri ve fırsatları keşfedin.",
   },
   {
+    slug: "beyaz-saray-gocmenlik-paketi",
     image: "https://images.unsplash.com/photo-1580625920434-cf39b90ca9d0?auto=format&fit=crop&w=1400&q=80",
     badge: "Gündem",
     title: "2024 Seçim Süreci ve Türk Toplumuna Etkileri",
     text: "ABD siyasetindeki son değişimlerin vize süreçleri ve sosyal haklar üzerindeki muhtemel yansımalarını inceledik.",
   },
   {
+    slug: "fed-faiz-sinyali-enflasyon-sonrasi",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80",
     badge: "Ekonomi",
     title: "Girişimcilik ve Yatırım: Amerika Fırsatlar Dünyası",
@@ -82,15 +85,18 @@ export function HeroSlider() {
                 <img alt={slide.title} className="h-full w-full object-cover" src={slide.image} />
               </div>
               <div className="flex flex-col justify-center space-y-4 p-5 pb-6 sm:space-y-6 sm:p-8 lg:w-2/5 lg:p-12">
-                <span className="w-fit rounded-full bg-[#0756b0]/10 px-3 py-1 text-xs font-extrabold uppercase tracking-widest text-[#0756b0]">
+                <span className="w-fit rounded-full bg-[#0756b0]/10 px-3 py-1 text-xs font-extrabold tracking-widest text-[#0756b0] uppercase">
                   {slide.badge}
                 </span>
                 <h2 className="text-2xl font-extrabold leading-tight text-[#1b1a6b] dark:text-white sm:text-3xl lg:text-4xl">{slide.title}</h2>
                 <p className="text-base leading-relaxed text-slate-600 dark:text-slate-400 sm:text-lg">{slide.text}</p>
-                <PrimaryButton className="flex w-full items-center justify-center gap-2 sm:w-fit">
+                <Link
+                  href={`/${slide.slug}`}
+                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#0756b0] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#0756b0]/90 sm:w-fit sm:px-8 sm:py-4 sm:text-base"
+                >
                   Devamını Oku
                   <Icon name="arrow_forward" />
-                </PrimaryButton>
+                </Link>
               </div>
             </div>
           ))}
@@ -98,13 +104,13 @@ export function HeroSlider() {
       </div>
 
       <button
-        className="absolute top-1/2 left-4 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#1b1a6b] opacity-0 shadow-lg transition-all md:flex md:group-hover:opacity-100 hover:bg-[#0756b0] hover:text-white dark:bg-slate-800/90 dark:text-white"
+        className="absolute top-1/2 left-4 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#1b1a6b] opacity-0 shadow-lg transition-all hover:bg-[#0756b0] hover:text-white md:flex md:group-hover:opacity-100 dark:bg-slate-800/90 dark:text-white"
         onClick={goToPrevSlide}
       >
         <Icon name="chevron_left" />
       </button>
       <button
-        className="absolute top-1/2 right-4 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#1b1a6b] opacity-0 shadow-lg transition-all md:flex md:group-hover:opacity-100 hover:bg-[#0756b0] hover:text-white dark:bg-slate-800/90 dark:text-white"
+        className="absolute top-1/2 right-4 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-[#1b1a6b] opacity-0 shadow-lg transition-all hover:bg-[#0756b0] hover:text-white md:flex md:group-hover:opacity-100 dark:bg-slate-800/90 dark:text-white"
         onClick={goToNextSlide}
       >
         <Icon name="chevron_right" />

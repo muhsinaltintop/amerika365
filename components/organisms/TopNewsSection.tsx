@@ -1,20 +1,24 @@
+import Link from "next/link";
 import { SectionTitle } from "../atoms/SectionTitle";
 import { NewsMeta } from "../molecules/NewsMeta";
 
 const cards = [
   {
+    slug: "beyaz-saray-gocmenlik-paketi",
     image: "https://images.unsplash.com/photo-1617581629397-a72507c3de9e?auto=format&fit=crop&w=900&q=80",
     category: "SİYASET",
     time: "2 SAAT ÖNCE",
     title: "Beyaz Saray'dan Yeni Göçmenlik Paketi Açıklaması",
   },
   {
+    slug: "fed-faiz-sinyali-enflasyon-sonrasi",
     image: "https://images.unsplash.com/photo-1642543348745-1f56d7cd5f95?auto=format&fit=crop&w=900&q=80",
     category: "EKONOMİ",
     time: "5 SAAT ÖNCE",
     title: "Enflasyon Verileri Sonrası Fed'den Kritik Faiz Sinyali",
   },
   {
+    slug: "turk-girisimi-10-milyon-yatirim",
     image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80",
     category: "TEKNOLOJİ",
     time: "8 SAAT ÖNCE",
@@ -33,15 +37,15 @@ export function TopNewsSection() {
       </div>
       <div className="grid grid-cols-1 gap-5 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
-          <div key={card.title} className="overflow-hidden rounded-xl bg-white shadow-sm transition-shadow hover:shadow-md dark:bg-slate-900">
+          <Link key={card.title} href={`/${card.slug}`} className="overflow-hidden rounded-xl bg-white shadow-sm transition-shadow hover:shadow-md dark:bg-slate-900">
             <img alt={card.title} className="h-44 w-full object-cover sm:h-48" src={card.image} />
             <div className="space-y-3 p-5 sm:p-6">
               <NewsMeta category={card.category} time={card.time} />
-              <h4 className="cursor-pointer text-base font-bold leading-snug text-[#1b1a6b] transition-colors hover:text-[#0756b0] sm:text-lg dark:text-white">
+              <h4 className="text-base font-bold leading-snug text-[#1b1a6b] transition-colors hover:text-[#0756b0] sm:text-lg dark:text-white">
                 {card.title}
               </h4>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
