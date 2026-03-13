@@ -81,7 +81,7 @@ export function HeroSlider() {
               <div className="relative h-[230px] sm:h-[300px] lg:h-[500px] lg:w-3/5">
                 <img alt={slide.title} className="h-full w-full object-cover" src={slide.image} />
               </div>
-              <div className="flex flex-col justify-center space-y-4 p-5 sm:space-y-6 sm:p-8 lg:w-2/5 lg:p-12">
+              <div className="flex flex-col justify-center space-y-4 p-5 pb-6 sm:space-y-6 sm:p-8 lg:w-2/5 lg:p-12">
                 <span className="w-fit rounded-full bg-[#0756b0]/10 px-3 py-1 text-xs font-extrabold uppercase tracking-widest text-[#0756b0]">
                   {slide.badge}
                 </span>
@@ -110,7 +110,7 @@ export function HeroSlider() {
         <Icon name="chevron_right" />
       </button>
 
-      <div className="absolute right-4 bottom-4 left-4 flex items-center justify-between rounded-full bg-white/90 px-3 py-2 text-xs font-semibold text-[#1b1a6b] shadow-md backdrop-blur-sm md:hidden dark:bg-slate-900/90 dark:text-slate-100">
+      <div className="mt-3 flex items-center justify-between rounded-full bg-white px-3 py-2 text-xs font-semibold text-[#1b1a6b] shadow-sm md:hidden dark:bg-slate-900 dark:text-slate-100">
         <span className="flex items-center gap-1">
           <Icon name="swipe" className="text-sm" />
           Kaydırarak geçiş yap
