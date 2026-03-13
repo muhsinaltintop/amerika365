@@ -2,7 +2,7 @@ const items = ["Gündem", "ABD", "Göçmenlik", "Ekonomi", "Toplum", "Yorum"];
 
 export function NavMenu() {
   return (
-    <nav className="hidden items-center gap-8 md:flex">
+    <nav className="hidden items-center gap-6 md:flex lg:gap-8">
       {items.map((item) => (
         <a
           key={item}

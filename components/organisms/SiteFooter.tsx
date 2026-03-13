@@ -2,8 +2,8 @@ import { Icon } from "../atoms/Icon";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-12 border-t border-slate-200 bg-white py-12 dark:border-slate-800 dark:bg-slate-900">
-      <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-12 px-6 md:grid-cols-4">
+    <footer className="mt-10 border-t border-slate-200 bg-white py-10 sm:mt-12 sm:py-12 dark:border-slate-800 dark:bg-slate-900">
+      <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-10 px-4 sm:px-6 md:grid-cols-4 md:gap-12">
         <div className="col-span-1 space-y-6 md:col-span-2">
           <div className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0756b0] text-white">
@@ -39,7 +39,7 @@ export function SiteFooter() {
           </div>
         </div>
       </div>
-      <div className="mx-auto mt-12 max-w-[1200px] border-t border-slate-100 px-6 pt-8 text-center text-xs text-slate-400 dark:border-slate-800">
+      <div className="mx-auto mt-10 max-w-[1200px] border-t border-slate-100 px-4 pt-6 text-center text-xs text-slate-400 sm:mt-12 sm:px-6 sm:pt-8 dark:border-slate-800">
         © 2024 Amerika 365. Tüm hakları saklıdır.
       </div>
     </footer>
