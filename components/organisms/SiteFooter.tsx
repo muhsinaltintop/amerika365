@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { Icon } from "../atoms/Icon";
+import Image from "next/image";
 
 export function SiteFooter() {
   return (
@@ -6,20 +8,24 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-10 px-4 sm:px-6 md:grid-cols-4 md:gap-12">
         <div className="col-span-1 space-y-6 md:col-span-2">
           <div className="flex items-center gap-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0756b0] text-white">
-              <Icon name="newspaper" className="text-sm" />
+            <Link href="/">
+            <div>
+              <Image src="/amerika365logo.png" width="150" height="100" alt="Amerika 365 Logo" />
             </div>
-            <h2 className="text-xl font-extrabold text-[#1b1a6b] dark:text-white">Amerika 365</h2>
+            {/* <div className="block ml-2 md:hidden">
+              <Image src="/365logo.png" width="50" height="50" alt="Amerika 365 Logo" />
+            </div> */}
+          </Link>
           </div>
           <p className="max-w-sm text-slate-500 dark:text-slate-400">
-            ABD&apos;deki Türk toplumunun en güvenilir haber ve bilgi kaynağı. Güncel gelişmeler, vize rehberleri ve yaşam haberleri tek adreste.
+            ABD Haberlerini Türkçe Olarak Takip Edin.
           </p>
         </div>
 
         <div className="space-y-4">
           <h4 className="font-bold text-[#1b1a6b] dark:text-white">Kategoriler</h4>
           <ul className="space-y-2 text-sm text-slate-500 dark:text-slate-400">
-            {['Haberler', 'Göçmenlik', 'Vize Rehberi', 'Yaşam'].map((item) => (
+            {['Gündem', 'Politika', 'Göçmenlik', 'Ekonomi', 'Sanat', 'Yorum', 'Spor'].map((item) => (
               <li key={item}>
                 <a className="transition-colors hover:text-[#0756b0]" href="#">{item}</a>
               </li>
@@ -40,7 +46,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="mx-auto mt-10 max-w-[1200px] border-t border-slate-100 px-4 pt-6 text-center text-xs text-slate-400 sm:mt-12 sm:px-6 sm:pt-8 dark:border-slate-800">
-        © 2024 Amerika 365. Tüm hakları saklıdır.
+        © 2026 Amerika 365. Tüm hakları saklıdır.
       </div>
     </footer>
   );
