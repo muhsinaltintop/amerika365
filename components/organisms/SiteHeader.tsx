@@ -1,15 +1,24 @@
+import Image from "next/image";
 import { Icon } from "../atoms/Icon";
 import { NavMenu } from "../molecules/NavMenu";
+import Link from "next/link";
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 flex h-16 items-center justify-center border-b border-[#e6eef5] bg-white px-4 sm:h-20 sm:px-6 dark:border-slate-800 dark:bg-slate-900">
       <div className="flex w-full max-w-[1200px] items-center justify-between">
         <div className="flex min-w-0 items-center gap-2 sm:gap-3">
-          <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#0756b0] text-white sm:h-10 sm:w-10">
+          {/* <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#0756b0] text-white sm:h-10 sm:w-10">
             <Icon name="newspaper" />
-          </div>
-          <h1 className="truncate text-lg font-extrabold tracking-tight text-[#1b1a6b] sm:text-2xl dark:text-white">Amerika 365</h1>
+          </div> */}
+          <Link href="/">
+            <div className="hidden md:block">
+              <Image src="/amerika365logo.png" width="150" height="100" alt="Amerika 365 Logo" />
+            </div>
+            <div className="block ml-2 md:hidden">
+              <Image src="/365logo.png" width="50" height="50" alt="Amerika 365 Logo" />
+            </div>
+          </Link>
         </div>
         <NavMenu />
         <div className="flex items-center gap-2 sm:gap-4">

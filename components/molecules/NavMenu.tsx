@@ -1,4 +1,4 @@
-const items = ["Gündem", "ABD", "Göçmenlik", "Ekonomi", "Toplum", "Yorum"];
+const items = ["Gündem", "Politika", "Göçmenlik", "Ekonomi", "Sanat", "Yorum", "Spor"];
 
 export function NavMenu() {
   return (
