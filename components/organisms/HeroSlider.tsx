@@ -9,6 +9,18 @@ interface HeroSliderProps {
   slides: ArticleRecord[];
 }
 
+function getTitleSizeClass(title: string) {
+  if (title.length > 120) {
+    return "text-xl sm:text-2xl lg:text-3xl";
+  }
+
+  if (title.length > 80) {
+    return "text-2xl sm:text-3xl lg:text-[2rem]";
+  }
+
+  return "text-2xl sm:text-3xl lg:text-4xl";
+}
+
 export function HeroSlider({ slides }: HeroSliderProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
@@ -82,19 +94,34 @@ export function HeroSlider({ slides }: HeroSliderProps) {
       >
         <div className="flex transition-transform duration-500 ease-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
           {slides.map((slide) => (
-            <div key={slide.slug} className="flex min-w-full flex-col lg:flex-row">
-              <div className="relative h-[230px] sm:h-[300px] lg:h-[500px] lg:w-3/5">
+            <div key={slide.slug} className="flex min-w-full flex-col lg:h-[500px] lg:flex-row">
+              <div className="relative h-[230px] sm:h-[300px] lg:h-full lg:w-3/5">
                 <img alt={slide.title} className="h-full w-full object-cover" src={slide.heroImage} />
               </div>
-              <div className="flex flex-col justify-center space-y-4 p-5 pb-6 sm:space-y-6 sm:p-8 lg:w-2/5 lg:p-12">
-                <span className="w-fit rounded-full bg-[#0756b0]/10 px-3 py-1 text-xs font-extrabold tracking-widest text-[#0756b0] uppercase">
+
+              <div className="flex min-h-0 flex-col justify-between gap-3 p-5 pb-6 sm:gap-4 sm:p-8 lg:h-full lg:w-2/5 lg:p-10">
+                <span className="w-fit shrink-0 rounded-full bg-[#0756b0]/10 px-3 py-1 text-xs font-extrabold tracking-widest text-[#0756b0] uppercase">
                   {slide.category}
                 </span>
-                <h2 className="text-2xl font-extrabold leading-tight text-[#1b1a6b] dark:text-white sm:text-3xl lg:text-4xl">{slide.title}</h2>
-                <p className="text-base leading-relaxed text-slate-600 dark:text-slate-400 sm:text-lg">{slide.excerpt}</p>
+
+                <h2 className={`${getTitleSizeClass(slide.title)} overflow-hidden font-extrabold leading-tight text-[#1b1a6b] dark:text-white`}>
+                  {slide.title}
+                </h2>
+
+                <p
+                  className="overflow-hidden text-sm leading-relaxed text-slate-600 dark:text-slate-400 sm:text-base"
+                  style={{
+                    display: "-webkit-box",
+                    WebkitLineClamp: 4,
+                    WebkitBoxOrient: "vertical",
+                  }}
+                >
+                  {slide.excerpt}
+                </p>
+
                 <Link
                   href={`/${slide.slug}`}
-                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#0756b0] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#0756b0]/90 sm:w-fit sm:px-8 sm:py-4 sm:text-base"
+                  className="flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-[#0756b0] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#0756b0]/90 sm:w-fit"
                 >
                   Devamını Oku
                   <Icon name="arrow_forward" />
