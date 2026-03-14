@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# amerika365
 
-## Getting Started
+Bu proje Next.js tabanlı bir web uygulamasıdır.
 
-First, run the development server:
+## Docker ile çalıştırma (MySQL + PhpMyAdmin + Prisma Studio)
+
+Aşağıdaki yapı tek komutla 4 servisi ayağa kaldırır:
+- `web`: Next.js uygulaması (`http://localhost:3000`)
+- `mysql`: MySQL 8.4
+- `phpmyadmin`: veritabanı yönetim paneli (`http://localhost:8080`)
+- `prisma-studio`: Prisma Studio arayüzü (`http://localhost:5555`)
+
+### 1) Ortam değişkenlerini hazırlayın
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2) Konteynerleri başlatın
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+docker compose up --build -d
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3) Prisma migration çalıştırın
 
-## Learn More
+İlk kurulumda şema tablolarını oluşturmak için:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+docker compose exec web npx prisma migrate dev --name init
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4) Servislere erişin
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Uygulama: `http://localhost:3000`
+- PhpMyAdmin: `http://localhost:8080`
+  - Sunucu/Host: `mysql`
+  - Kullanıcı: `root`
+  - Şifre: `root`
+- Prisma Studio: `http://localhost:5555`
 
-## Deploy on Vercel
+## Lokal (Docker'sız) geliştirme
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tarayıcıda `http://localhost:3000` açın.
