@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
+import { SocialShareFab } from "@/components/organisms/SocialShareFab";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -25,7 +26,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700"
         />
       </head>
-      <body className={`${manrope.variable} font-sans antialiased`}>{children}</body>
+      <body className={`${manrope.variable} font-sans antialiased`}>
+        {children}
+        <SocialShareFab />
+      </body>
     </html>
   );
 }
