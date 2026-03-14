@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
 
 type Platform =
   | "x"
@@ -122,16 +121,7 @@ const buildShareTargets = (url: string): ShareTarget[] => {
 
 export function SocialShareFab() {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  const currentUrl = useMemo(() => {
-    const baseUrl =
-      typeof window === "undefined" ? "https://amerika365.com" : window.location.origin;
-    const query = searchParams.toString();
-
-    return `${baseUrl}${pathname}${query ? `?${query}` : ""}`;
-  }, [pathname, searchParams]);
+  const [currentUrl, setCurrentUrl] = useState("https://amerika365.com");
 
   const shareTargets = useMemo(() => buildShareTargets(currentUrl), [currentUrl]);
 
@@ -165,7 +155,10 @@ export function SocialShareFab() {
 
         <button
           type="button"
-          onClick={() => setIsOpen((prev) => !prev)}
+          onClick={() => {
+            setCurrentUrl(window.location.href);
+            setIsOpen((prev) => !prev);
+          }}
           aria-expanded={isOpen}
           aria-label="Sosyal paylaşım seçeneklerini aç"
           className="flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 text-white shadow-lg transition hover:scale-105 hover:bg-zinc-800"
