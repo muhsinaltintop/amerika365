@@ -1,0 +1,228 @@
+[
+  {
+    "id": "art_001",
+    "slug": "abd-secim-sonuclari-yeni-donem",
+    "category": "ABD",
+    "subcategory": "Siyaset",
+    "title": "ABD Seçim Sonuçları: Yeni Dönemde Amerika-Türkiye İlişkilerini Ne Bekliyor?",
+    "excerpt": "Washington'daki yeni yönetimin Ankara ile diplomatik trafiği; savunma, ekonomi ve bölgesel güvenlik başlıklarında yeni bir dönemi başlatabilir.",
+    "author": "Ahmet Yılmaz",
+    "publishLabel": "12 dakika önce",
+    "readTime": "6 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-13T10:00:00.000Z",
+    "seo": {
+      "title": "ABD Seçim Sonuçları: Yeni Dönem Analizi",
+      "description": "Yeni dönemde ABD-Türkiye ilişkilerinde beklenen diplomatik, ekonomik ve güvenlik başlıkları.",
+      "keywords": "ABD seçim sonuçları, Amerika Türkiye ilişkileri"
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Yeni dönemde Washington ve Ankara hattında diplomatik temasların hızlanması bekleniyor."
+      }
+    ]
+  },
+  {
+    "id": "art_002",
+    "slug": "beyaz-saray-gocmenlik-paketi",
+    "category": "Siyaset",
+    "title": "Beyaz Saray'dan Yeni Göçmenlik Paketi Açıklaması",
+    "excerpt": "Yeni taslak, çalışma izinleri ve aile birleşimi süreçlerinde hızlandırılmış bir takvim vadediyor.",
+    "author": "Zeynep Arslan",
+    "publishLabel": "2 saat önce",
+    "readTime": "4 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1617581629397-a72507c3de9e?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-13T09:00:00.000Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Göçmenlik paketine ilişkin detaylar önümüzdeki günlerde açıklanacak."
+      }
+    ]
+  },
+  {
+    "id": "art_003",
+    "slug": "fed-faiz-sinyali-enflasyon-sonrasi",
+    "category": "Ekonomi",
+    "title": "Enflasyon Verileri Sonrası Fed'den Kritik Faiz Sinyali",
+    "excerpt": "Piyasalar, enflasyondaki sınırlı gerilemeye rağmen Fed'in temkinli duruşunu koruyacağını fiyatlıyor.",
+    "author": "Mert Demir",
+    "publishLabel": "5 saat önce",
+    "readTime": "5 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1642543348745-1f56d7cd5f95?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-13T08:00:00.000Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Fed'in faiz politikası üzerindeki belirsizlik bir süre daha sürebilir."
+      }
+    ]
+  },
+  {
+    "id": "art_004",
+    "slug": "turk-girisimi-10-milyon-yatirim",
+    "category": "Teknoloji",
+    "title": "Silikon Vadisi'nde Yeni Türk Girişimi 10 Milyon Dolar Yatırım Aldı",
+    "excerpt": "Yapay zekâ tabanlı çözüm geliştiren girişim, yeni turla birlikte ABD pazarında büyümeyi hedefliyor.",
+    "author": "Ece Korkmaz",
+    "publishLabel": "8 saat önce",
+    "readTime": "4 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-13T07:00:00.000Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Yeni yatırım turu ile ekip büyütme ve ürün geliştirme planları hız kazanıyor."
+      }
+    ]
+  },
+  {
+    "id": "art_005",
+    "slug": "h1b-basvurulari-basladi",
+    "category": "Göçmenlik",
+    "title": "H-1B Vize Başvuruları Başladı",
+    "excerpt": "2026 dönemi için başvurularda yeni dijital doğrulama adımları devreye alındı.",
+    "author": "Editör",
+    "publishLabel": "güncel",
+    "readTime": "3 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-13T06:00:00.000Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Başvuru sahipleri için yeni doğrulama adımları zorunlu hale getirildi."
+      }
+    ]
+  },
+  {
+    "id": "art_006",
+    "slug": "green-card-cekilis-sonuclari",
+    "category": "Göçmenlik",
+    "title": "Green Card Çekiliş Sonuçları",
+    "excerpt": "Sonuç ekranı erişime açıldı; başvuru sahipleri doğrulama numaralarıyla durumlarını kontrol edebilir.",
+    "author": "Editör",
+    "publishLabel": "mayıs 2024",
+    "readTime": "3 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-13T05:00:00.000Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Kazanan adaylar resmi sonuç ekranından durumlarını doğrulayabilir."
+      }
+    ]
+  },
+  {
+    "id": "art_007",
+    "slug": "f1-ogrenci-vizesi-yeni-kurallar",
+    "category": "Göçmenlik",
+    "title": "F-1 Öğrenci Vizesi Yeni Kurallar",
+    "excerpt": "Dil yeterlilik ve finansal belge kriterlerinde güncellenen maddeler başvuru stratejilerini etkiliyor.",
+    "author": "Editör",
+    "publishLabel": "rehber",
+    "readTime": "4 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-13T04:00:00.000Z",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Yeni kural seti, başvuru evraklarının hazırlanışını doğrudan etkiliyor."
+      }
+    ]
+  },
+  {
+    "id": "art_008",
+    "slug": "michigan-sinagoga-aracli-saldiri",
+    "category": "ABD",
+    "subcategory": "Güvenlik",
+    "title": "Michigan’daki Sinagoga Araçlı Saldırı: Saldırgan Güvenlik Görevlileriyle Çatışmanın Ardından Öldü",
+    "excerpt": "ABD’nin Michigan eyaletinde bulunan Temple Israel Sinagogu’na kamyonetle giren saldırganın, güvenlik görevlileriyle yaşanan silahlı müdahale sonrası hayatını kaybettiği açıklandı. Olayda bir güvenlik görevlisi yaralanırken, içeride bulunan 140 anaokulu öğrencisi güvenli şekilde tahliye edildi.",
+    "author": "Editör",
+    "publishLabel": "güncel",
+    "readTime": "4 dk okuma",
+    "heroImage": "https://images.unsplash.com/photo-1473186578172-c141e6798cf4?auto=format&fit=crop&w=1400&q=80",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-03-14T02:00:00.000Z",
+    "seo": {
+      "title": "Michigan’daki Sinagoga Araçlı Saldırı: Son Dakika Gelişmeleri",
+      "description": "West Bloomfield’de Temple Israel Sinagogu’na araçla yapılan saldırıda saldırgan öldürüldü, bir güvenlik görevlisi yaralandı ve 140 anaokulu öğrencisi güvenli şekilde tahliye edildi.",
+      "keywords": "Michigan, Temple Israel, sinagog saldırısı, West Bloomfield, antisemitizm",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Michigan’daki Sinagoga Araçlı Saldırı: Saldırgan Güvenlik Görevlileriyle Çatışmanın Ardından Öldü",
+        "description": "West Bloomfield’de Temple Israel Sinagogu’na araçla yapılan saldırıda saldırgan öldürüldü, bir güvenlik görevlisi yaralandı ve 140 anaokulu öğrencisi tahliye edildi.",
+        "author": {
+          "@type": "Organization",
+          "name": "Amerika365"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Amerika365"
+        }
+      }
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "ABD’nin Michigan eyaletine bağlı West Bloomfield bölgesinde bulunan Temple Israel Sinagogu’na düzenlenen araçlı saldırı, ülkede güvenlik ve antisemitizm tartışmalarını yeniden gündeme taşıdı."
+      },
+      {
+        "type": "paragraph",
+        "text": "Yetkililerin verdiği bilgiye göre saldırgan, kamyonetle sinagogun giriş kapılarını kırarak binaya girdi ve koridor boyunca ilerledi. Olay sırasında bina içinde yangın çıktığı bildirildi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Oakland County Şerifi yetkilileri, sinagog güvenliğinin saldırgana silahla karşılık verdiğini, saldırganın olay yerinde hayatını kaybettiğini ancak ölüm nedeninin kesin olarak henüz belirlenemediğini açıkladı."
+      },
+      {
+        "type": "paragraph",
+        "text": "Şerif yetkilileri, güvenlik kamerası görüntülerinde saldırganın bina içinde amacının belirgin şekilde ilerlediğinin görüldüğünü belirtti."
+      },
+      {
+        "type": "heading",
+        "text": "Bir güvenlik görevlisi yaralandı"
+      },
+      {
+        "type": "paragraph",
+        "text": "Saldırı sırasında araç bir güvenlik görevlisine çarptı. Yaralanan görevlinin hastaneye kaldırıldığı ve hayati tehlikesinin bulunmadığı açıklandı."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sinagog yönetimi tarafından yapılan açıklamada, olay anında içeride bulunan 140 okul öncesi öğrencinin ve öğretmenlerin eğitimli personel tarafından sakin şekilde tahliye edildiği belirtildi."
+      },
+      {
+        "type": "quote",
+        "text": "Açıklamada güvenlik görevlileri için “kahramanca müdahale” ifadesi kullanıldı."
+      },
+      {
+        "type": "heading",
+        "text": "Federal soruşturma başlatıldı"
+      },
+      {
+        "type": "paragraph",
+        "text": "Olay yerine Federal Bureau of Investigation, Bureau of Alcohol, Tobacco, Firearms and Explosives ve eyalet polisi ekipleri sevk edildi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Yetkililer, saldırganın kullandığı araçta patlayıcı bulunup bulunmadığını araştırırken, saldırının motivasyonuna ilişkin soruşturmanın sürdüğünü bildirdi."
+      },
+      {
+        "type": "heading",
+        "text": "Antisemitizm endişesi yeniden gündemde"
+      },
+      {
+        "type": "paragraph",
+        "text": "Olayın ardından ABD genelinde birçok şehirde sinagoglar ve Yahudi kurumları çevresinde güvenlik önlemleri artırıldı. Yetkililer saldırının nedenine ilişkin henüz net bir sonuca ulaşılmadığını bildirdi."
+      }
+    ]
+  }
+]
