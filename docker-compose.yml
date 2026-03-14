@@ -1,0 +1,65 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: amerika365-web
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: mysql://amerika365:amerika365@mysql:3306/amerika365
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  mysql:
+    image: mysql:8.4
+    container_name: amerika365-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: amerika365
+      MYSQL_USER: amerika365
+      MYSQL_PASSWORD: amerika365
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -uroot -proot"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  phpmyadmin:
+    image: phpmyadmin:5.2-apache
+    container_name: amerika365-phpmyadmin
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: root
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  prisma-studio:
+    image: node:20-alpine
+    container_name: amerika365-prisma-studio
+    working_dir: /app
+    command: sh -c "npm install && npx prisma studio --hostname 0.0.0.0 --port 5555"
+    ports:
+      - "5555:5555"
+    environment:
+      DATABASE_URL: mysql://amerika365:amerika365@mysql:3306/amerika365
+    volumes:
+      - ./:/app
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+volumes:
+  mysql_data:
