@@ -1,6 +1,35 @@
 import Link from "next/link";
-import { Icon } from "../atoms/Icon";
 import Image from "next/image";
+
+const socialLinks = [
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/amerika365news/",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-5 w-5">
+        <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5a4.25 4.25 0 0 0-4.25-4.25h-8.5Zm9.13 1.75a1.12 1.12 0 1 1 0 2.25 1.12 1.12 0 0 1 0-2.25ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" />
+      </svg>
+    ),
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/amerika365news",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-5 w-5">
+        <path d="M13.76 22v-8.19h2.77l.41-3.2h-3.18V8.57c0-.93.27-1.56 1.63-1.56h1.74V4.14c-.3-.04-1.34-.14-2.55-.14-2.52 0-4.25 1.53-4.25 4.34v2.27H7.5v3.2h2.83V22h3.43Z" />
+      </svg>
+    ),
+  },
+  {
+    name: "X",
+    href: "https://x.com/Amerika365news",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-5 w-5">
+        <path d="M18.9 2H22l-6.78 7.75L23.2 22h-6.26l-4.9-6.63L6.2 22H3.1l7.24-8.29L.8 2h6.42l4.42 5.98L18.9 2Zm-1.1 18.15h1.73L6.27 3.76H4.4L17.8 20.15Z" />
+      </svg>
+    ),
+  },
+];
 
 export function SiteFooter() {
   return (
@@ -36,12 +65,18 @@ export function SiteFooter() {
         <div className="space-y-4">
           <h4 className="font-bold text-[#1b1a6b] dark:text-white">Bizi Takip Edin</h4>
           <div className="flex gap-4">
-            <a className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-[#1b1a6b] transition-all hover:bg-[#0756b0] hover:text-white dark:bg-slate-800 dark:text-slate-300" href="#">
-              <Icon name="public" />
-            </a>
-            <a className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-[#1b1a6b] transition-all hover:bg-[#0756b0] hover:text-white dark:bg-slate-800 dark:text-slate-300" href="#">
-              <Icon name="mail" />
-            </a>
+            {socialLinks.map((socialLink) => (
+              <a
+                key={socialLink.name}
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-[#1b1a6b] transition-all hover:bg-[#0756b0] hover:text-white dark:bg-slate-800 dark:text-slate-300"
+                href={socialLink.href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={socialLink.name}
+              >
+                {socialLink.icon}
+              </a>
+            ))}
           </div>
         </div>
       </div>
