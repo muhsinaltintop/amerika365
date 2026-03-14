@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 
 type Platform =
   | "x"
@@ -121,9 +122,16 @@ const buildShareTargets = (url: string): ShareTarget[] => {
 
 export function SocialShareFab() {
   const [isOpen, setIsOpen] = useState(false);
-  const [currentUrl] = useState(() =>
-    typeof window === "undefined" ? "https://amerika365.com" : window.location.href,
-  );
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const currentUrl = useMemo(() => {
+    const baseUrl =
+      typeof window === "undefined" ? "https://amerika365.com" : window.location.origin;
+    const query = searchParams.toString();
+
+    return `${baseUrl}${pathname}${query ? `?${query}` : ""}`;
+  }, [pathname, searchParams]);
 
   const shareTargets = useMemo(() => buildShareTargets(currentUrl), [currentUrl]);
 
