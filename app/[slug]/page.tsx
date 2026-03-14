@@ -1,24 +1,47 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/organisms/SiteFooter";
 import { SiteHeader } from "@/components/organisms/SiteHeader";
-import { newsArticles, newsBySlug } from "@/lib/news";
+import { getPublishedArticleBySlug, getPublishedArticles } from "@/lib/articles";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-export function generateStaticParams() {
-  return newsArticles.map((article) => ({ slug: article.slug }));
+export async function generateStaticParams() {
+  const articles = await getPublishedArticles();
+  return articles.map((article) => ({ slug: article.slug }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const article = await getPublishedArticleBySlug(slug);
+
+  if (!article) {
+    return {};
+  }
+
+  return {
+    title: article.seo?.title ?? article.title,
+    description: article.seo?.description ?? article.excerpt,
+    keywords: article.seo?.keywords ?? undefined,
+  };
 }
 
 export default async function NewsDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const article = newsBySlug.get(slug);
+  const [article, relatedArticles] = await Promise.all([
+    getPublishedArticleBySlug(slug),
+    getPublishedArticles(),
+  ]);
 
   if (!article) {
     notFound();
   }
+
+  const contentBlocks = Array.isArray(article.content) ? article.content : [];
+  const seoJson = article.seo?.jsonLd && typeof article.seo.jsonLd === "object" ? article.seo.jsonLd : null;
 
   return (
     <div className="bg-[#f7fbfd] text-slate-900 dark:bg-[#101822] dark:text-slate-100">
@@ -56,27 +79,33 @@ export default async function NewsDetailPage({ params }: PageProps) {
 
             <div className="space-y-6 leading-relaxed text-slate-700 dark:text-slate-300">
               <p className="text-xl font-medium text-slate-900 dark:text-white">{article.excerpt}</p>
-              <p>
-                Yeni dönemde Washington ve Ankara hattında diplomatik temasların hızlanması bekleniyor. Özellikle güvenlik,
-                ekonomi ve toplumsal hareketlilik başlıklarında atılacak adımlar, iki ülke ilişkilerinin yönünü belirleyecek.
-              </p>
-              <p>
-                Uzmanlara göre ilk 100 gün, teknik komitelerin yeniden yapılandırılması ve takvimlendirilmiş görüşmelerin
-                başlatılması açısından kritik öneme sahip. İş dünyası ve sivil toplum temsilcileri de sürecin yakından takip
-                edilmesi gerektiğini vurguluyor.
-              </p>
-              <blockquote className="rounded-r-xl border-l-4 border-[#0756b0] bg-[#0756b0]/5 p-6">
-                <p className="text-xl font-bold text-[#1b1a6b] italic dark:text-[#4fc5db]">
-                  &quot;Önümüzdeki süreç, yalnızca siyasi gündemle değil; yatırım, eğitim ve mobilite alanlarındaki somut kararlarla
-                  şekillenecek.&quot;
-                </p>
-              </blockquote>
-              <h2 className="text-2xl font-bold text-[#1b1a6b] dark:text-white">Öne Çıkan Başlıklar</h2>
-              <p>
-                İlgili kurumların hazırlayacağı yeni yol haritası; düzenli görüşme trafiği, karşılıklı ticaret hedefleri ve
-                sektörel iş birlikleri üzerinden çok boyutlu bir çerçeve sunuyor.
-              </p>
+
+              {contentBlocks.map((block, index) => {
+                if (!block || typeof block !== "object" || !("type" in block)) {
+                  return null;
+                }
+
+                if (block.type === "heading") {
+                  return (
+                    <h2 key={`${block.text}-${index}`} className="text-2xl font-bold text-[#1b1a6b] dark:text-white">
+                      {block.text}
+                    </h2>
+                  );
+                }
+
+                if (block.type === "quote") {
+                  return (
+                    <blockquote key={`${block.text}-${index}`} className="rounded-r-xl border-l-4 border-[#0756b0] bg-[#0756b0]/5 p-6">
+                      <p className="text-xl font-bold text-[#1b1a6b] italic dark:text-[#4fc5db]">{block.text}</p>
+                    </blockquote>
+                  );
+                }
+
+                return <p key={`${block.text}-${index}`}>{block.text}</p>;
+              })}
             </div>
+
+            {seoJson ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(seoJson) }} /> : null}
           </article>
 
           <aside className="space-y-8 lg:w-[32%]">
@@ -96,7 +125,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
             <section className="rounded-2xl bg-white p-6 dark:bg-slate-900">
               <h3 className="mb-4 text-lg font-bold text-[#1b1a6b] dark:text-white">İlginizi Çekebilir</h3>
               <div className="space-y-4">
-                {newsArticles
+                {relatedArticles
                   .filter((item) => item.slug !== article.slug)
                   .slice(0, 3)
                   .map((item) => (
