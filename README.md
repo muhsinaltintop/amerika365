@@ -47,3 +47,18 @@ npm run dev
 ```
 
 Tarayıcıda `http://localhost:3000` açın.
+
+## Admin panel + Clerk login akışı
+
+- Admin panel adresi: `http://localhost:3000/admin`
+- Giriş sayfası: `http://localhost:3000/giris`
+
+Bu projede Clerk hosted sign-in/sign-out URL'leri environment üzerinden yönetilir:
+
+```bash
+NEXT_PUBLIC_SITE_URL="http://localhost:3000"
+NEXT_PUBLIC_CLERK_SIGN_IN_URL="https://<clerk-domain>/sign-in"
+NEXT_PUBLIC_CLERK_SIGN_OUT_URL="https://<clerk-domain>/sign-out"
+```
+
+`/admin` rotası middleware ile korunur. Geçerli Clerk session cookie'si (`__session`) yoksa kullanıcı giriş sayfasına (veya Clerk sign-in URL'sine) yönlendirilir.
