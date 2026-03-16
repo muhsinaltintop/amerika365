@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import Link from "next/link";
-import { ClerkProvider, Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import { ClerkProvider, SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 import { SocialShareFab } from "@/components/organisms/SocialShareFab";
 import "./globals.css";
 
@@ -36,17 +36,17 @@ export default function RootLayout({
                 Amerika365
               </Link>
               <div className="flex items-center gap-2">
-                <Show when="signed-out">
+                <SignedOut>
                   <SignInButton>
                     <button className="rounded-lg border border-slate-300 px-3 py-1.5 text-xs font-semibold text-slate-700">Giriş Yap</button>
                   </SignInButton>
                   <SignUpButton>
                     <button className="rounded-lg bg-[#0756b0] px-3 py-1.5 text-xs font-semibold text-white">Kayıt Ol</button>
                   </SignUpButton>
-                </Show>
-                <Show when="signed-in">
+                </SignedOut>
+                <SignedIn>
                   <UserButton afterSignOutUrl="/" />
-                </Show>
+                </SignedIn>
               </div>
             </div>
           </header>
