@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { auth } from "@clerk/nextjs/server";
 
 interface GeneratePayload {
   sourceText?: string;
@@ -18,6 +19,12 @@ function toSlug(value: string) {
 }
 
 export async function POST(request: Request) {
+  const { userId } = await auth();
+
+  if (!userId) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const body = (await request.json()) as GeneratePayload;
   const sourceText = body.sourceText?.trim();
 

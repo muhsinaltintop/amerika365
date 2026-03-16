@@ -53,12 +53,14 @@ Tarayıcıda `http://localhost:3000` açın.
 - Admin panel adresi: `http://localhost:3000/admin`
 - Giriş sayfası: `http://localhost:3000/giris`
 
-Bu projede Clerk hosted sign-in/sign-out URL'leri environment üzerinden yönetilir:
+Bu projede Clerk, App Router ile `proxy.ts` + `ClerkProvider` yaklaşımıyla entegre edildi.
+
+> Keyless mode desteklenir: Clerk publishable/secret key tanımlamadan da uygulama lokal ortamda çalışabilir.
+
+Kurulum için (ağ/registry erişimi varsa):
 
 ```bash
-NEXT_PUBLIC_SITE_URL="http://localhost:3000"
-NEXT_PUBLIC_CLERK_SIGN_IN_URL="https://<clerk-domain>/sign-in"
-NEXT_PUBLIC_CLERK_SIGN_OUT_URL="https://<clerk-domain>/sign-out"
+npm install @clerk/nextjs
 ```
 
-`/admin` rotası middleware ile korunur. Geçerli Clerk session cookie'si (`__session`) yoksa kullanıcı giriş sayfasına (veya Clerk sign-in URL'sine) yönlendirilir.
+`/admin` sayfası sunucu tarafında `auth()` ile korunur; oturum yoksa kullanıcı Clerk giriş akışına yönlendirilir.

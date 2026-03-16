@@ -1,16 +1,13 @@
 import Link from "next/link";
-import { headers } from "next/headers";
-import { redirect } from "next/navigation";
+import { UserButton } from "@clerk/nextjs";
+import { auth } from "@clerk/nextjs/server";
 import { NewsComposerPanel } from "@/components/admin/NewsComposerPanel";
-import { getClerkSignInUrl, getClerkSignOutUrl, getSiteUrl, hasClerkSessionCookie } from "@/lib/auth/clerk";
 
 export default async function AdminPage() {
-  const headerStore = await headers();
-  const siteUrl = getSiteUrl();
-  const hasSession = hasClerkSessionCookie(headerStore.get("cookie"));
+  const { userId, redirectToSignIn } = await auth();
 
-  if (!hasSession) {
-    redirect(getClerkSignInUrl(`${siteUrl}/admin`));
+  if (!userId) {
+    return redirectToSignIn({ returnBackUrl: "/admin" });
   }
 
   return (
@@ -25,12 +22,7 @@ export default async function AdminPage() {
             <Link href="/" className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700">
               Siteye Dön
             </Link>
-            <a
-              href={getClerkSignOutUrl(siteUrl)}
-              className="rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white"
-            >
-              Çıkış Yap
-            </a>
+            <UserButton afterSignOutUrl="/" />
           </div>
         </header>
 
