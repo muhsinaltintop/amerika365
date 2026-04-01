@@ -4,9 +4,9 @@ interface NewsBadgeProps {
 }
 
 const variants = {
-  primary: "bg-[#0756b0] text-white",
-  muted: "bg-slate-200 text-slate-600 dark:bg-slate-700 dark:text-slate-400",
-  soft: "bg-[#0756b0]/20 text-[#0756b0]",
+  primary: "bg-[color:var(--navy)] text-white",
+  muted: "bg-slate-200 text-slate-600",
+  soft: "bg-[color:var(--accent-soft)] text-[color:var(--navy)]",
 };
 
 export function NewsBadge({ label, variant = "primary" }: NewsBadgeProps) {

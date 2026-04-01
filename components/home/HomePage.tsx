@@ -1,30 +1,32 @@
 import { getPublishedArticles } from "@/lib/articles";
-import { DailyDigest } from "../organisms/DailyDigest";
-import { HeroSlider } from "../organisms/HeroSlider";
-import { ImmigrationSection } from "../organisms/ImmigrationSection";
-import { SiteFooter } from "../organisms/SiteFooter";
-import { SiteHeader } from "../organisms/SiteHeader";
-import { TopNewsSection } from "../organisms/TopNewsSection";
-import { TurkishLifeSection } from "../organisms/TurkishLifeSection";
+import { RefinedDailyDigest } from "../organisms/RefinedDailyDigest";
+import { RefinedHeroSlider } from "../organisms/RefinedHeroSlider";
+import { RefinedImmigrationSection } from "../organisms/RefinedImmigrationSection";
+import { RefinedSiteFooter } from "../organisms/RefinedSiteFooter";
+import { RefinedSiteHeader } from "../organisms/RefinedSiteHeader";
+import { RefinedTopNewsSection } from "../organisms/RefinedTopNewsSection";
+import { RefinedTurkishLifeSection } from "../organisms/RefinedTurkishLifeSection";
 
 export async function HomePage() {
   const articles = await getPublishedArticles();
   const sliderArticles = articles.slice(0, 3);
-  const topNewsArticles = articles.slice(3, 6);
+  const topNewsArticles = articles.slice(3, 7);
 
   return (
-    <div className="bg-[#f7fbfd] text-slate-900 dark:bg-[#101822] dark:text-slate-100">
-      <SiteHeader />
-      <DailyDigest />
+    <div className="min-h-screen text-slate-900">
+      <RefinedSiteHeader />
+      <RefinedDailyDigest />
 
-      <main className="mx-auto max-w-[1200px] space-y-10 px-4 py-6 sm:space-y-12 sm:px-6 sm:py-8">
-        <HeroSlider slides={sliderArticles} />
-        <TopNewsSection cards={topNewsArticles} />
-        <ImmigrationSection />
-        <TurkishLifeSection />
+      <main className="space-y-14 pb-12 sm:space-y-16 sm:pb-16">
+        <RefinedHeroSlider slides={sliderArticles} />
+        <div className="mx-auto max-w-[1240px] space-y-14 px-4 sm:space-y-16 sm:px-6">
+          <RefinedTopNewsSection cards={topNewsArticles} />
+          <RefinedImmigrationSection />
+          <RefinedTurkishLifeSection />
+        </div>
       </main>
 
-      <SiteFooter />
+      <RefinedSiteFooter />
     </div>
   );
 }

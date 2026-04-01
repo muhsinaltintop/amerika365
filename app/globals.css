@@ -4,6 +4,59 @@
   --font-sans: var(--font-manrope);
 }
 
+:root {
+  --page-bg: #f4efe7;
+  --surface: #fffaf3;
+  --ink: #0f1726;
+  --navy: #0f2d4a;
+  --navy-soft: #234d74;
+  --accent: #d97745;
+  --accent-soft: #f2d3bf;
+  --line: rgba(15, 45, 74, 0.14);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(217, 119, 69, 0.18), transparent 32%),
+    linear-gradient(180deg, #f7f2ea 0%, #f4efe7 52%, #efe8de 100%);
+  color: var(--ink);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: scale(1.04) translate3d(0, -6px, 0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 700ms ease-out both;
+}
+
+.animate-drift {
+  animation: drift 14s ease-in-out infinite;
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
