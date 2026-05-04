@@ -1,228 +1,703 @@
-[
-  {
-    "id": "art_001",
-    "slug": "abd-secim-sonuclari-yeni-donem",
-    "category": "ABD",
-    "subcategory": "Siyaset",
-    "title": "ABD Seçim Sonuçları: Yeni Dönemde Amerika-Türkiye İlişkilerini Ne Bekliyor?",
-    "excerpt": "Washington'daki yeni yönetimin Ankara ile diplomatik trafiği; savunma, ekonomi ve bölgesel güvenlik başlıklarında yeni bir dönemi başlatabilir.",
-    "author": "Ahmet Yılmaz",
-    "publishLabel": "12 dakika önce",
-    "readTime": "6 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-13T10:00:00.000Z",
-    "seo": {
-      "title": "ABD Seçim Sonuçları: Yeni Dönem Analizi",
-      "description": "Yeni dönemde ABD-Türkiye ilişkilerinde beklenen diplomatik, ekonomik ve güvenlik başlıkları.",
-      "keywords": "ABD seçim sonuçları, Amerika Türkiye ilişkileri"
-    },
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Yeni dönemde Washington ve Ankara hattında diplomatik temasların hızlanması bekleniyor."
-      }
-    ]
-  },
-  {
-    "id": "art_002",
-    "slug": "beyaz-saray-gocmenlik-paketi",
-    "category": "Siyaset",
-    "title": "Beyaz Saray'dan Yeni Göçmenlik Paketi Açıklaması",
-    "excerpt": "Yeni taslak, çalışma izinleri ve aile birleşimi süreçlerinde hızlandırılmış bir takvim vadediyor.",
-    "author": "Zeynep Arslan",
-    "publishLabel": "2 saat önce",
-    "readTime": "4 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1617581629397-a72507c3de9e?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-13T09:00:00.000Z",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Göçmenlik paketine ilişkin detaylar önümüzdeki günlerde açıklanacak."
-      }
-    ]
-  },
-  {
-    "id": "art_003",
-    "slug": "fed-faiz-sinyali-enflasyon-sonrasi",
-    "category": "Ekonomi",
-    "title": "Enflasyon Verileri Sonrası Fed'den Kritik Faiz Sinyali",
-    "excerpt": "Piyasalar, enflasyondaki sınırlı gerilemeye rağmen Fed'in temkinli duruşunu koruyacağını fiyatlıyor.",
-    "author": "Mert Demir",
-    "publishLabel": "5 saat önce",
-    "readTime": "5 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1642543348745-1f56d7cd5f95?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-13T08:00:00.000Z",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Fed'in faiz politikası üzerindeki belirsizlik bir süre daha sürebilir."
-      }
-    ]
-  },
-  {
-    "id": "art_004",
-    "slug": "turk-girisimi-10-milyon-yatirim",
-    "category": "Teknoloji",
-    "title": "Silikon Vadisi'nde Yeni Türk Girişimi 10 Milyon Dolar Yatırım Aldı",
-    "excerpt": "Yapay zekâ tabanlı çözüm geliştiren girişim, yeni turla birlikte ABD pazarında büyümeyi hedefliyor.",
-    "author": "Ece Korkmaz",
-    "publishLabel": "8 saat önce",
-    "readTime": "4 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-13T07:00:00.000Z",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Yeni yatırım turu ile ekip büyütme ve ürün geliştirme planları hız kazanıyor."
-      }
-    ]
-  },
-  {
-    "id": "art_005",
-    "slug": "h1b-basvurulari-basladi",
-    "category": "Göçmenlik",
-    "title": "H-1B Vize Başvuruları Başladı",
-    "excerpt": "2026 dönemi için başvurularda yeni dijital doğrulama adımları devreye alındı.",
-    "author": "Editör",
-    "publishLabel": "güncel",
-    "readTime": "3 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-13T06:00:00.000Z",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Başvuru sahipleri için yeni doğrulama adımları zorunlu hale getirildi."
-      }
-    ]
-  },
-  {
-    "id": "art_006",
-    "slug": "green-card-cekilis-sonuclari",
-    "category": "Göçmenlik",
-    "title": "Green Card Çekiliş Sonuçları",
-    "excerpt": "Sonuç ekranı erişime açıldı; başvuru sahipleri doğrulama numaralarıyla durumlarını kontrol edebilir.",
-    "author": "Editör",
-    "publishLabel": "mayıs 2024",
-    "readTime": "3 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-13T05:00:00.000Z",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Kazanan adaylar resmi sonuç ekranından durumlarını doğrulayabilir."
-      }
-    ]
-  },
-  {
-    "id": "art_007",
-    "slug": "f1-ogrenci-vizesi-yeni-kurallar",
-    "category": "Göçmenlik",
-    "title": "F-1 Öğrenci Vizesi Yeni Kurallar",
-    "excerpt": "Dil yeterlilik ve finansal belge kriterlerinde güncellenen maddeler başvuru stratejilerini etkiliyor.",
-    "author": "Editör",
-    "publishLabel": "rehber",
-    "readTime": "4 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-13T04:00:00.000Z",
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Yeni kural seti, başvuru evraklarının hazırlanışını doğrudan etkiliyor."
-      }
-    ]
-  },
-  {
-    "id": "art_008",
-    "slug": "michigan-sinagoga-aracli-saldiri",
-    "category": "ABD",
-    "subcategory": "Güvenlik",
-    "title": "Michigan’daki Sinagoga Araçlı Saldırı: Saldırgan Güvenlik Görevlileriyle Çatışmanın Ardından Öldü",
-    "excerpt": "ABD’nin Michigan eyaletinde bulunan Temple Israel Sinagogu’na kamyonetle giren saldırganın, güvenlik görevlileriyle yaşanan silahlı müdahale sonrası hayatını kaybettiği açıklandı. Olayda bir güvenlik görevlisi yaralanırken, içeride bulunan 140 anaokulu öğrencisi güvenli şekilde tahliye edildi.",
-    "author": "Editör",
-    "publishLabel": "güncel",
-    "readTime": "4 dk okuma",
-    "heroImage": "https://images.unsplash.com/photo-1473186578172-c141e6798cf4?auto=format&fit=crop&w=1400&q=80",
-    "status": "PUBLISHED",
-    "publishedAt": "2026-03-14T02:00:00.000Z",
-    "seo": {
-      "title": "Michigan’daki Sinagoga Araçlı Saldırı: Son Dakika Gelişmeleri",
-      "description": "West Bloomfield’de Temple Israel Sinagogu’na araçla yapılan saldırıda saldırgan öldürüldü, bir güvenlik görevlisi yaralandı ve 140 anaokulu öğrencisi güvenli şekilde tahliye edildi.",
-      "keywords": "Michigan, Temple Israel, sinagog saldırısı, West Bloomfield, antisemitizm",
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "headline": "Michigan’daki Sinagoga Araçlı Saldırı: Saldırgan Güvenlik Görevlileriyle Çatışmanın Ardından Öldü",
-        "description": "West Bloomfield’de Temple Israel Sinagogu’na araçla yapılan saldırıda saldırgan öldürüldü, bir güvenlik görevlisi yaralandı ve 140 anaokulu öğrencisi tahliye edildi.",
-        "author": {
-          "@type": "Organization",
-          "name": "Amerika365"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Amerika365"
-        }
+{
+  "version": "1.0",
+  "generated_at": "2026-05-04T12:30:00Z",
+  "news": [
+    {
+      "id": "news_0001",
+      "slug": "autokiniton-313m-yatirim",
+      "title": "ABD\u2019de otomotiv devinden 313 milyon dolarl\u0131k yat\u0131r\u0131m",
+      "summary": "Autokiniton\u2019un Ohio\u2019daki dev yat\u0131r\u0131m\u0131 \u00fcretimi b\u00fcy\u00fct\u00fcrken yeni istihdam yaratacak.",
+      "content": "<p>ABD\u2019nin Ohio eyaletinde faaliyet g\u00f6steren Autokiniton, Bellevue\u2019daki \u00fcretim tesisini geni\u015fletmek i\u00e7in 313 milyon dolarl\u0131k yat\u0131r\u0131m a\u00e7\u0131klad\u0131.</p><p>Proje kapsam\u0131nda tesis yakla\u015f\u0131k 215 bin metrekare b\u00fcy\u00fct\u00fclecek, yeni \u00fcretim hatlar\u0131 kurulacak ve ileri teknoloji montaj ekipmanlar\u0131 devreye al\u0131nacak.</p><p>Yakla\u015f\u0131k 18 ay s\u00fcrecek yat\u0131r\u0131m\u0131n 100\u2019e yak\u0131n yeni istihdam yaratmas\u0131 ve mevcut 440 \u00e7al\u0131\u015fan\u0131n korunmas\u0131 bekleniyor.</p><p>\u015eirket, Ford, Toyota, Volkswagen, GM ve BMW gibi \u00fcreticilere par\u00e7a sa\u011fl\u0131yor. Bu yat\u0131r\u0131m ile \u00fcretim kapasitesini iki kat\u0131na \u00e7\u0131karmay\u0131 hedefliyor.</p><p>Yerel yetkililer, yat\u0131r\u0131m\u0131n b\u00f6lgesel ekonomi ve tedarik zinciri i\u00e7in stratejik \u00f6nem ta\u015f\u0131d\u0131\u011f\u0131n\u0131 belirtiyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_business",
+        "name": "\u0130\u015f D\u00fcnyas\u0131"
+      },
+      "tags": [
+        "otomotiv",
+        "abd",
+        "yat\u0131r\u0131m"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/auto.jpg",
+        "alt": "Otomotiv \u00fcretim hatt\u0131"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T09:00:00Z",
+      "created_at": "2026-05-04T08:30:00Z",
+      "updated_at": "2026-05-04T09:10:00Z",
+      "seo": {
+        "meta_title": "Autokiniton ABD yat\u0131r\u0131m\u0131",
+        "meta_description": "ABD\u2019de otomotiv sekt\u00f6r\u00fcnde yeni yat\u0131r\u0131m",
+        "canonical_url": "https://amerika365.com/haber/autokiniton-313m-yatirim"
       }
     },
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "ABD’nin Michigan eyaletine bağlı West Bloomfield bölgesinde bulunan Temple Israel Sinagogu’na düzenlenen araçlı saldırı, ülkede güvenlik ve antisemitizm tartışmalarını yeniden gündeme taşıdı."
+    {
+      "id": "news_146702bd",
+      "slug": "abd\u2019de-sa\u011fl\u0131k-masraflar\u0131-milyonlar\u0131-tasarrufa-zorluyor",
+      "title": "ABD\u2019de sa\u011fl\u0131k masraflar\u0131 milyonlar\u0131 tasarrufa zorluyor",
+      "summary": "Artan sa\u011fl\u0131k giderleri nedeniyle milyonlarca Amerikal\u0131 harcamalar\u0131n\u0131 k\u0131smak zorunda kal\u0131yor.",
+      "content": "<p>ABD\u2019de sa\u011fl\u0131k harcamalar\u0131 h\u0131zla y\u00fckselirken, milyonlarca ki\u015fi temel ihtiya\u00e7lar\u0131ndan k\u0131smak zorunda kal\u0131yor. Yap\u0131lan son ara\u015ft\u0131rmaya g\u00f6re yakla\u015f\u0131k 82 milyon Amerikal\u0131, sa\u011fl\u0131k giderlerini kar\u015f\u0131layabilmek i\u00e7in yemek atlamak, daha az ara\u00e7 kullanmak veya bor\u00e7 almak gibi y\u00f6ntemlere ba\u015fvuruyor.</p>\n<p>Ankete kat\u0131lanlar\u0131n %15\u2019i son bir y\u0131lda sa\u011fl\u0131k giderleri i\u00e7in bor\u00e7land\u0131\u011f\u0131n\u0131, %11\u2019i ise do\u011frudan yemek atlad\u0131\u011f\u0131n\u0131 belirtiyor. Sigortas\u0131 olmayan bireylerde bu oranlar \u00e7ok daha y\u00fcksek seviyelere \u00e7\u0131k\u0131yor.</p>\n<p>Sa\u011fl\u0131k maliyetleri yaln\u0131zca g\u00fcnl\u00fck harcamalar\u0131 de\u011fil, uzun vadeli kararlar\u0131 da etkiliyor. Kat\u0131l\u0131mc\u0131lar\u0131n \u00f6nemli bir k\u0131sm\u0131 ameliyatlar\u0131 erteledi\u011fini, tatil planlar\u0131n\u0131 iptal etti\u011fini veya \u00e7ocuk sahibi olmay\u0131 geciktirdi\u011fini ifade ediyor.</p>\n<p>Uzmanlara g\u00f6re sorun yaln\u0131zca sigortas\u0131z bireylerle s\u0131n\u0131rl\u0131 de\u011fil. \u0130\u015fveren destekli sigortaya sahip olanlar da artan primler ve cepten yap\u0131lan harcamalar nedeniyle ciddi bir mali bask\u0131 alt\u0131nda.</p>\n<p>Sa\u011fl\u0131k harcamalar\u0131n\u0131n ABD\u2019de en b\u00fcy\u00fck ekonomik endi\u015fe kalemi haline gelmesi, yakla\u015fan se\u00e7imlerde de \u00f6nemli bir tart\u0131\u015fma ba\u015fl\u0131\u011f\u0131 olarak \u00f6ne \u00e7\u0131k\u0131yor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
       },
-      {
-        "type": "paragraph",
-        "text": "Yetkililerin verdiği bilgiye göre saldırgan, kamyonetle sinagogun giriş kapılarını kırarak binaya girdi ve koridor boyunca ilerledi. Olay sırasında bina içinde yangın çıktığı bildirildi."
+      "category": {
+        "id": "cat_health",
+        "name": "Sa\u011fl\u0131k"
       },
-      {
-        "type": "paragraph",
-        "text": "Oakland County Şerifi yetkilileri, sinagog güvenliğinin saldırgana silahla karşılık verdiğini, saldırganın olay yerinde hayatını kaybettiğini ancak ölüm nedeninin kesin olarak henüz belirlenemediğini açıkladı."
+      "tags": [
+        "abd",
+        "sa\u011fl\u0131k",
+        "ekonomi"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019de sa\u011fl\u0131k masraflar\u0131 milyonlar\u0131 tasarrufa zorluyor"
       },
-      {
-        "type": "paragraph",
-        "text": "Şerif yetkilileri, güvenlik kamerası görüntülerinde saldırganın bina içinde amacının belirgin şekilde ilerlediğinin görüldüğünü belirtti."
-      },
-      {
-        "type": "heading",
-        "text": "Bir güvenlik görevlisi yaralandı"
-      },
-      {
-        "type": "paragraph",
-        "text": "Saldırı sırasında araç bir güvenlik görevlisine çarptı. Yaralanan görevlinin hastaneye kaldırıldığı ve hayati tehlikesinin bulunmadığı açıklandı."
-      },
-      {
-        "type": "paragraph",
-        "text": "Sinagog yönetimi tarafından yapılan açıklamada, olay anında içeride bulunan 140 okul öncesi öğrencinin ve öğretmenlerin eğitimli personel tarafından sakin şekilde tahliye edildiği belirtildi."
-      },
-      {
-        "type": "quote",
-        "text": "Açıklamada güvenlik görevlileri için “kahramanca müdahale” ifadesi kullanıldı."
-      },
-      {
-        "type": "heading",
-        "text": "Federal soruşturma başlatıldı"
-      },
-      {
-        "type": "paragraph",
-        "text": "Olay yerine Federal Bureau of Investigation, Bureau of Alcohol, Tobacco, Firearms and Explosives ve eyalet polisi ekipleri sevk edildi."
-      },
-      {
-        "type": "paragraph",
-        "text": "Yetkililer, saldırganın kullandığı araçta patlayıcı bulunup bulunmadığını araştırırken, saldırının motivasyonuna ilişkin soruşturmanın sürdüğünü bildirdi."
-      },
-      {
-        "type": "heading",
-        "text": "Antisemitizm endişesi yeniden gündemde"
-      },
-      {
-        "type": "paragraph",
-        "text": "Olayın ardından ABD genelinde birçok şehirde sinagoglar ve Yahudi kurumları çevresinde güvenlik önlemleri artırıldı. Yetkililer saldırının nedenine ilişkin henüz net bir sonuca ulaşılmadığını bildirdi."
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:15:06.948729Z",
+      "created_at": "2026-05-04T16:15:06.948729Z",
+      "updated_at": "2026-05-04T16:15:06.948729Z",
+      "seo": {
+        "meta_title": "ABD\u2019de sa\u011fl\u0131k masraflar\u0131 milyonlar\u0131 tasarrufa zorluyor",
+        "meta_description": "Artan sa\u011fl\u0131k giderleri nedeniyle milyonlarca Amerikal\u0131 harcamalar\u0131n\u0131 k\u0131smak zorunda kal\u0131yor.",
+        "canonical_url": "https://amerika365.com/haber/abd\u2019de-sa\u011fl\u0131k-masraflar\u0131-milyonlar\u0131-tasarrufa-zorluyor"
       }
-    ]
-  }
-]
+    },
+    {
+      "id": "news_d9c447b5",
+      "slug": "bam-adebayo\u2019dan-83-say\u0131l\u0131k-tarihi-performans",
+      "title": "Bam Adebayo\u2019dan 83 say\u0131l\u0131k tarihi performans",
+      "summary": "NBA\u2019de Bam Adebayo\u2019nun 83 say\u0131l\u0131k ma\u00e7\u0131 rekor tart\u0131\u015fmalar\u0131n\u0131 yeniden ba\u015flatt\u0131.",
+      "content": "<p>Miami Heat\u2019in y\u0131ld\u0131z\u0131 Bam Adebayo, NBA tarihine ge\u00e7ecek bir performansla bir ma\u00e7ta 83 say\u0131 \u00fcreterek dikkatleri \u00fczerine \u00e7ekti. Bu performans, Wilt Chamberlain\u2019in 100 say\u0131l\u0131k rekorunun yeniden tart\u0131\u015f\u0131lmas\u0131na neden oldu.</p>\n<p>Adebayo\u2019nun bu performans\u0131, NBA\u2019de artan tempo, h\u00fccum verimlili\u011fi ve y\u0131ld\u0131z oyuncular\u0131n daha fazla top kullanmas\u0131 gibi yeni trendlerle birlikte de\u011ferlendiriliyor.</p>\n<p>Uzmanlara g\u00f6re g\u00fcn\u00fcm\u00fczde tak\u0131mlar daha h\u0131zl\u0131 oynuyor ve h\u00fccum odakl\u0131 sistemler y\u0131ld\u0131z oyuncular\u0131n \u00e7ok daha y\u00fcksek skor \u00fcretmesine olanak tan\u0131yor.</p>\n<p>\u00d6zellikle sakatl\u0131klar ve kadro eksiklikleri nedeniyle bir oyuncuya daha fazla sorumluluk y\u00fcklenmesi, bu t\u00fcr ekstrem performanslar\u0131n \u00f6n\u00fcn\u00fc a\u00e7\u0131yor.</p>\n<p>Bu geli\u015fmeler, do\u011fru \u015fartlar olu\u015ftu\u011funda NBA\u2019de 100 say\u0131l\u0131k ma\u00e7\u0131n yeniden m\u00fcmk\u00fcn olabilece\u011fi g\u00f6r\u00fc\u015f\u00fcn\u00fc g\u00fc\u00e7lendiriyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_sports",
+        "name": "Spor"
+      },
+      "tags": [
+        "nba",
+        "basketbol",
+        "abd"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "Bam Adebayo\u2019dan 83 say\u0131l\u0131k tarihi performans"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:15:06.949160Z",
+      "created_at": "2026-05-04T16:15:06.949160Z",
+      "updated_at": "2026-05-04T16:15:06.949160Z",
+      "seo": {
+        "meta_title": "Bam Adebayo\u2019dan 83 say\u0131l\u0131k tarihi performans",
+        "meta_description": "NBA\u2019de Bam Adebayo\u2019nun 83 say\u0131l\u0131k ma\u00e7\u0131 rekor tart\u0131\u015fmalar\u0131n\u0131 yeniden ba\u015flatt\u0131.",
+        "canonical_url": "https://amerika365.com/haber/bam-adebayo\u2019dan-83-say\u0131l\u0131k-tarihi-performans"
+      }
+    },
+    {
+      "id": "news_028d9711",
+      "slug": "fed-faizleri-sabit-tuttu,-belirsizlik-art\u0131yor",
+      "title": "Fed faizleri sabit tuttu, belirsizlik art\u0131yor",
+      "summary": "\u0130ran sava\u015f\u0131 sonras\u0131 artan enerji fiyatlar\u0131 Fed\u2019in kararlar\u0131n\u0131 zorla\u015ft\u0131r\u0131yor.",
+      "content": "<p>ABD Merkez Bankas\u0131 (Fed), faiz oranlar\u0131n\u0131 sabit tutma karar\u0131 al\u0131rken ekonomik g\u00f6r\u00fcn\u00fcmde belirsizliklerin artt\u0131\u011f\u0131na dikkat \u00e7ekti. Karar, \u00f6zellikle Orta Do\u011fu\u2019daki jeopolitik geli\u015fmelerin piyasalar \u00fczerindeki etkisiyle yak\u0131ndan ili\u015fkili.</p>\n<p>Fed Ba\u015fkan\u0131 Jerome Powell, enerji fiyatlar\u0131ndaki y\u00fckseli\u015fin enflasyonu art\u0131rabilece\u011fini ve b\u00fcy\u00fcmeyi bask\u0131layabilece\u011fini belirtti.</p>\n<p>Yetkililer, y\u0131l i\u00e7inde s\u0131n\u0131rl\u0131 faiz indirimi ihtimalini masada tutsa da enflasyonun beklenenden y\u00fcksek seyretmesi bu planlar\u0131 zorla\u015ft\u0131r\u0131yor.</p>\n<p>Fed i\u00e7indeki g\u00f6r\u00fc\u015f ayr\u0131l\u0131klar\u0131 da dikkat \u00e7ekiyor; baz\u0131 \u00fcyeler faiz indirimi gerekti\u011fini savunurken, baz\u0131lar\u0131 mevcut ko\u015fullarda art\u0131\u015f ihtimalinin bile g\u00f6z ard\u0131 edilmemesi gerekti\u011fini d\u00fc\u015f\u00fcn\u00fcyor.</p>\n<p>Genel tablo, Fed\u2019in \u00f6n\u00fcm\u00fczdeki d\u00f6nemde daha temkinli ve veri odakl\u0131 hareket edece\u011fine i\u015faret ediyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "fed",
+        "enflasyon",
+        "abd"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "Fed faizleri sabit tuttu, belirsizlik art\u0131yor"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:15:06.949291Z",
+      "created_at": "2026-05-04T16:15:06.949291Z",
+      "updated_at": "2026-05-04T16:15:06.949291Z",
+      "seo": {
+        "meta_title": "Fed faizleri sabit tuttu, belirsizlik art\u0131yor",
+        "meta_description": "\u0130ran sava\u015f\u0131 sonras\u0131 artan enerji fiyatlar\u0131 Fed\u2019in kararlar\u0131n\u0131 zorla\u015ft\u0131r\u0131yor.",
+        "canonical_url": "https://amerika365.com/haber/fed-faizleri-sabit-tuttu,-belirsizlik-art\u0131yor"
+      }
+    },
+    {
+      "id": "news_050d2940",
+      "slug": "abd\u2019de-orta-s\u0131n\u0131f-plazma-satarak-ge\u00e7inmeye-\u00e7al\u0131\u015f\u0131yor",
+      "title": "ABD\u2019de orta s\u0131n\u0131f plazma satarak ge\u00e7inmeye \u00e7al\u0131\u015f\u0131yor",
+      "summary": "Artan ya\u015fam maliyetleri orta s\u0131n\u0131f\u0131 ek gelir aray\u0131\u015f\u0131na itti.",
+      "content": "<p>ABD\u2019de artan ya\u015fam maliyetleri, orta s\u0131n\u0131f\u0131 da ek gelir aray\u0131\u015f\u0131na itmi\u015f durumda. Son y\u0131llarda kan plazmas\u0131 sat\u0131\u015f\u0131, yaln\u0131zca d\u00fc\u015f\u00fck gelir grubunun de\u011fil, d\u00fczenli i\u015fi olan bireylerin de ba\u015fvurdu\u011fu bir gelir kayna\u011f\u0131 haline geldi.</p>\n<p>Uzmanlara g\u00f6re ABD, d\u00fcnya plazma arz\u0131n\u0131n yakla\u015f\u0131k %70\u2019ini sa\u011fl\u0131yor ve bu sekt\u00f6r milyarlarca dolarl\u0131k bir hacme ula\u015fm\u0131\u015f durumda.</p>\n<p>Plazma merkezlerinin art\u0131k d\u00fc\u015f\u00fck gelirli b\u00f6lgeler yerine banliy\u00f6lerde ve orta s\u0131n\u0131f mahallelerinde a\u00e7\u0131lmas\u0131, bu de\u011fi\u015fimin en net g\u00f6stergelerinden biri.</p>\n<p>Bir\u00e7ok ki\u015fi haftada iki kez plazma vererek ayl\u0131k 500-600 dolar ek gelir elde edebiliyor. Bu gelir, kira, sa\u011fl\u0131k sigortas\u0131 veya temel ihtiya\u00e7lar i\u00e7in kullan\u0131l\u0131yor.</p>\n<p>Ekonomistler, bu trendi \u201cg\u00f6lge g\u00fcvenlik a\u011f\u0131\u201d olarak tan\u0131mlarken, gelirlerin ya\u015fam maliyetlerini kar\u015f\u0131lamaya yetmemesinin \u00f6nemli bir i\u015fareti oldu\u011funu belirtiyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "abd",
+        "ya\u015fam maliyeti"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019de orta s\u0131n\u0131f plazma satarak ge\u00e7inmeye \u00e7al\u0131\u015f\u0131yor"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:15:06.949394Z",
+      "created_at": "2026-05-04T16:15:06.949394Z",
+      "updated_at": "2026-05-04T16:15:06.949394Z",
+      "seo": {
+        "meta_title": "ABD\u2019de orta s\u0131n\u0131f plazma satarak ge\u00e7inmeye \u00e7al\u0131\u015f\u0131yor",
+        "meta_description": "Artan ya\u015fam maliyetleri orta s\u0131n\u0131f\u0131 ek gelir aray\u0131\u015f\u0131na itti.",
+        "canonical_url": "https://amerika365.com/haber/abd\u2019de-orta-s\u0131n\u0131f-plazma-satarak-ge\u00e7inmeye-\u00e7al\u0131\u015f\u0131yor"
+      }
+    },
+    {
+      "id": "news_a40a1f2d",
+      "slug": "abd\u2019de-\u00f6\u011frenci-kredisi-krizi-b\u00fcy\u00fcyor",
+      "title": "ABD\u2019de \u00f6\u011frenci kredisi krizi b\u00fcy\u00fcyor",
+      "summary": "7,7 milyon ki\u015fi \u00f6\u011frenci kredilerini \u00f6deyemiyor.",
+      "content": "<p>ABD\u2019de \u00f6\u011frenci kredisi krizi b\u00fcy\u00fcyor. E\u011fitim Bakanl\u0131\u011f\u0131 verilerine g\u00f6re 7,7 milyon ki\u015fi toplam 181 milyar dolarl\u0131k federal \u00f6\u011frenci kredisini \u00f6deyemedi\u011fi i\u00e7in temerr\u00fcde d\u00fc\u015ft\u00fc.</p>\n<p>Bu rakam, son y\u0131llar\u0131n en y\u00fcksek seviyesine i\u015faret ederken, \u00f6zellikle pandemi sonras\u0131 ekonomik ko\u015fullar\u0131n bor\u00e7lular \u00fczerindeki etkisini ortaya koyuyor.</p>\n<p>Faizlerin y\u00fckselmesi ve ya\u015fam maliyetlerinin artmas\u0131, bir\u00e7ok mezunun kredi geri \u00f6demelerini s\u00fcrd\u00fcrememesine neden oluyor.</p>\n<p>Uzmanlar, bu durumun hem bireysel finansal istikrar\u0131 hem de genel ekonomik dengeleri etkileyebilece\u011fi uyar\u0131s\u0131nda bulunuyor.</p>\n<p>\u00d6\u011frenci bor\u00e7lar\u0131, ABD\u2019de ekonomik ve politik tart\u0131\u015fmalar\u0131n merkezinde yer almaya devam ediyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "abd",
+        "e\u011fitim",
+        "bor\u00e7"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019de \u00f6\u011frenci kredisi krizi b\u00fcy\u00fcyor"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:15:06.949777Z",
+      "created_at": "2026-05-04T16:15:06.949777Z",
+      "updated_at": "2026-05-04T16:15:06.949777Z",
+      "seo": {
+        "meta_title": "ABD\u2019de \u00f6\u011frenci kredisi krizi b\u00fcy\u00fcyor",
+        "meta_description": "7,7 milyon ki\u015fi \u00f6\u011frenci kredilerini \u00f6deyemiyor.",
+        "canonical_url": "https://amerika365.com/haber/abd\u2019de-\u00f6\u011frenci-kredisi-krizi-b\u00fcy\u00fcyor"
+      }
+    },
+    {
+      "id": "news_16c002fd",
+      "slug": "blackrock-uzun-vadeli-yatirim",
+      "title": "BlackRock CEO\u2019su: Uzun vadeli yat\u0131r\u0131m kazand\u0131r\u0131r",
+      "summary": "K\u0131sa vadeli dalgalanmalar yerine uzun vadeli yat\u0131r\u0131m \u00f6ne \u00e7\u0131k\u0131yor.",
+      "content": "<p>BlackRock CEO\u2019su, k\u00fcresel belirsizliklere ra\u011fmen uzun vadeli yat\u0131r\u0131m\u0131n \u00f6nemine dikkat \u00e7ekti.</p><p>K\u0131sa vadeli piyasa hareketlerinin yat\u0131r\u0131mc\u0131lar\u0131 yan\u0131ltabilece\u011fini belirten CEO, zamanlama yerine sab\u0131rl\u0131 yat\u0131r\u0131m\u0131n daha y\u00fcksek getiri sa\u011flad\u0131\u011f\u0131n\u0131 vurgulad\u0131.</p><p>Son 20 y\u0131lda S&P 500 yat\u0131r\u0131mlar\u0131n\u0131n 8 kat b\u00fcy\u00fcd\u00fc\u011f\u00fc, ancak en iyi g\u00fcnlerin ka\u00e7\u0131r\u0131lmas\u0131 durumunda kazanc\u0131n ciddi \u015fekilde d\u00fc\u015ft\u00fc\u011f\u00fc ifade edildi.</p><p>Servetin b\u00fcy\u00fck \u00f6l\u00e7\u00fcde varl\u0131k sahiplerine gitmesi e\u015fitsizli\u011fi art\u0131r\u0131rken, yapay zek\u00e2 bu fark\u0131 daha da b\u00fcy\u00fctebilir.</p><p>CEO, yat\u0131r\u0131m\u0131n yayg\u0131nla\u015fmas\u0131n\u0131n hem bireylerin hem de ekonomilerin b\u00fcy\u00fcmesine katk\u0131 sa\u011flayaca\u011f\u0131n\u0131 belirtti.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "yat\u0131r\u0131m",
+        "piyasa",
+        "abd"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "BlackRock CEO\u2019su: Uzun vadeli yat\u0131r\u0131m kazand\u0131r\u0131r"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:18:21.228663Z",
+      "created_at": "2026-05-04T16:18:21.228676Z",
+      "updated_at": "2026-05-04T16:18:21.228679Z",
+      "seo": {
+        "meta_title": "BlackRock CEO\u2019su: Uzun vadeli yat\u0131r\u0131m kazand\u0131r\u0131r",
+        "meta_description": "K\u0131sa vadeli dalgalanmalar yerine uzun vadeli yat\u0131r\u0131m \u00f6ne \u00e7\u0131k\u0131yor.",
+        "canonical_url": "https://amerika365.com/haber/blackrock-uzun-vadeli-yatirim"
+      }
+    },
+    {
+      "id": "news_1a82a5c1",
+      "slug": "meta-youtube-bagimlilik-davasi",
+      "title": "Meta ve YouTube\u2019a ba\u011f\u0131ml\u0131l\u0131k davas\u0131nda tarihi karar",
+      "summary": "Sosyal medya \u015firketleri kullan\u0131c\u0131ya zarar vermekten sorumlu tutuldu.",
+      "content": "<p>ABD\u2019de g\u00f6r\u00fclen davada j\u00fcri, Meta ve YouTube\u2019un ba\u011f\u0131ml\u0131l\u0131k yaratan tasar\u0131m \u00f6zellikleri nedeniyle bir kullan\u0131c\u0131ya zarar verdi\u011fine h\u00fckmetti.</p><p>Mahkeme, Meta\u2019ya 4.2 milyon dolar, YouTube\u2019a ise 1.8 milyon dolar tazminat \u00f6denmesine karar verdi.</p><p>Dava, sosyal medya platformlar\u0131n\u0131n \u00fcr\u00fcn tasar\u0131m\u0131 \u00fczerinden sorumlu tutulabilece\u011fini ortaya koyan \u00f6nemli bir emsal olarak de\u011ferlendiriliyor.</p><p>Uzmanlara g\u00f6re bu karar, teknoloji \u015firketlerinin \u00f6zellikle gen\u00e7 kullan\u0131c\u0131lar i\u00e7in tasar\u0131mlar\u0131n\u0131 de\u011fi\u015ftirmesine yol a\u00e7abilir.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_tech",
+        "name": "Teknoloji"
+      },
+      "tags": [
+        "sosyal medya",
+        "hukuk",
+        "abd"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "Meta ve YouTube\u2019a ba\u011f\u0131ml\u0131l\u0131k davas\u0131nda tarihi karar"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:18:21.228795Z",
+      "created_at": "2026-05-04T16:18:21.228799Z",
+      "updated_at": "2026-05-04T16:18:21.228800Z",
+      "seo": {
+        "meta_title": "Meta ve YouTube\u2019a ba\u011f\u0131ml\u0131l\u0131k davas\u0131nda tarihi karar",
+        "meta_description": "Sosyal medya \u015firketleri kullan\u0131c\u0131ya zarar vermekten sorumlu tutuldu.",
+        "canonical_url": "https://amerika365.com/haber/meta-youtube-bagimlilik-davasi"
+      }
+    },
+    {
+      "id": "news_0946e9bd",
+      "slug": "abd-goc-yavasladi",
+      "title": "ABD\u2019de g\u00f6\u00e7 yava\u015flad\u0131, n\u00fcfus art\u0131\u015f\u0131 d\u00fc\u015ft\u00fc",
+      "summary": "Yeni veriler g\u00f6\u00e7te ciddi d\u00fc\u015f\u00fc\u015f oldu\u011funu g\u00f6steriyor.",
+      "content": "<p>ABD Census verilerine g\u00f6re \u00fclkedeki t\u00fcm metropol b\u00f6lgelerde g\u00f6\u00e7 oranlar\u0131 d\u00fc\u015ft\u00fc.</p><p>\u0130l\u00e7elerin yakla\u015f\u0131k %75\u2019inde n\u00fcfus art\u0131\u015f\u0131 yava\u015flad\u0131 ya da negatife d\u00f6nd\u00fc.</p><p>Los Angeles, Miami ve New York gibi b\u00fcy\u00fck \u015fehirlerde n\u00fcfus kayb\u0131 ya\u015fand\u0131.</p><p>D\u00fc\u015fen do\u011fum oranlar\u0131 da tabloyu a\u011f\u0131rla\u015ft\u0131r\u0131rken bir\u00e7ok b\u00f6lgede \u00f6l\u00fcmler do\u011fumlar\u0131 ge\u00e7ti.</p><p>Uzmanlar, g\u00f6\u00e7\u00fcn uzun s\u00fcre d\u00fc\u015f\u00fck kalmas\u0131n\u0131n i\u015f g\u00fcc\u00fc ve ekonomik b\u00fcy\u00fcme a\u00e7\u0131s\u0131ndan risk olu\u015fturabilece\u011fini belirtiyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "g\u00f6\u00e7",
+        "n\u00fcfus",
+        "abd"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019de g\u00f6\u00e7 yava\u015flad\u0131, n\u00fcfus art\u0131\u015f\u0131 d\u00fc\u015ft\u00fc"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:18:21.228883Z",
+      "created_at": "2026-05-04T16:18:21.228885Z",
+      "updated_at": "2026-05-04T16:18:21.228886Z",
+      "seo": {
+        "meta_title": "ABD\u2019de g\u00f6\u00e7 yava\u015flad\u0131, n\u00fcfus art\u0131\u015f\u0131 d\u00fc\u015ft\u00fc",
+        "meta_description": "Yeni veriler g\u00f6\u00e7te ciddi d\u00fc\u015f\u00fc\u015f oldu\u011funu g\u00f6steriyor.",
+        "canonical_url": "https://amerika365.com/haber/abd-goc-yavasladi"
+      }
+    },
+    {
+      "id": "news_8fe77994",
+      "slug": "hormuz-gubre-krizi",
+      "title": "H\u00fcrm\u00fcz krizi g\u00fcbreyi vurdu, g\u0131da fiyatlar\u0131 artabilir",
+      "summary": "Sava\u015f g\u00fcbre arz\u0131n\u0131 etkileyerek g\u0131da enflasyonunu tetikleyebilir.",
+      "content": "<p>H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019nda ya\u015fanan kriz, k\u00fcresel g\u00fcbre ticaretinin yakla\u015f\u0131k \u00fc\u00e7te birini etkiledi.</p><p>\u0130ran sava\u015f\u0131 sonras\u0131 g\u00fcbre fiyatlar\u0131 h\u0131zla y\u00fckselirken, baz\u0131 b\u00f6lgelerde ton ba\u015f\u0131na fiyatlar 700 dolara ula\u015ft\u0131.</p><p>Azot bazl\u0131 g\u00fcbrelerin kritik \u00f6nemi nedeniyle tar\u0131msal \u00fcretimde d\u00fc\u015f\u00fc\u015f riski art\u0131yor.</p><p>Uzmanlar, k\u0131sa vadede stoklar\u0131n etkili olaca\u011f\u0131n\u0131 ancak ilerleyen d\u00f6nemde g\u0131da fiyatlar\u0131n\u0131n artabilece\u011fini belirtiyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "enerji",
+        "g\u0131da",
+        "enflasyon"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "H\u00fcrm\u00fcz krizi g\u00fcbreyi vurdu, g\u0131da fiyatlar\u0131 artabilir"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:18:21.228968Z",
+      "created_at": "2026-05-04T16:18:21.228970Z",
+      "updated_at": "2026-05-04T16:18:21.228971Z",
+      "seo": {
+        "meta_title": "H\u00fcrm\u00fcz krizi g\u00fcbreyi vurdu, g\u0131da fiyatlar\u0131 artabilir",
+        "meta_description": "Sava\u015f g\u00fcbre arz\u0131n\u0131 etkileyerek g\u0131da enflasyonunu tetikleyebilir.",
+        "canonical_url": "https://amerika365.com/haber/hormuz-gubre-krizi"
+      }
+    },
+    {
+      "id": "news_255da669",
+      "slug": "oecd-enflasyon-uyari",
+      "title": "OECD: K\u00fcresel enflasyon yeniden y\u00fckseliyor",
+      "summary": "Orta Do\u011fu sava\u015f\u0131 enflasyonu art\u0131r\u0131yor.",
+      "content": "<p>OECD, Orta Do\u011fu\u2019daki sava\u015f\u0131n k\u00fcresel enflasyonu art\u0131rd\u0131\u011f\u0131n\u0131 a\u00e7\u0131klad\u0131.</p><p>ABD\u2019de enflasyonun %4.2\u2019ye \u00e7\u0131kmas\u0131 beklenirken, G20 genelinde oran %4\u2019e y\u00fckseldi.</p><p>Artan enerji fiyatlar\u0131 b\u00fcy\u00fcmeyi bask\u0131larken merkez bankalar\u0131n\u0131n faiz indirimlerini ertelemesine neden oluyor.</p><p>OECD, \u00e7at\u0131\u015fman\u0131n uzamas\u0131 halinde daha b\u00fcy\u00fck ekonomik riskler olu\u015fabilece\u011fi uyar\u0131s\u0131nda bulundu.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "enflasyon",
+        "oecd",
+        "k\u00fcresel"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "OECD: K\u00fcresel enflasyon yeniden y\u00fckseliyor"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:18:21.229033Z",
+      "created_at": "2026-05-04T16:18:21.229035Z",
+      "updated_at": "2026-05-04T16:18:21.229036Z",
+      "seo": {
+        "meta_title": "OECD: K\u00fcresel enflasyon yeniden y\u00fckseliyor",
+        "meta_description": "Orta Do\u011fu sava\u015f\u0131 enflasyonu art\u0131r\u0131yor.",
+        "canonical_url": "https://amerika365.com/haber/oecd-enflasyon-uyari"
+      }
+    },
+    {
+      "id": "news_7a7f8e64",
+      "slug": "turkiye-dunya-kupasi-2026",
+      "title": "T\u00fcrkiye 24 y\u0131l sonra D\u00fcnya Kupas\u0131\u2019nda",
+      "summary": "Milli tak\u0131m Kosova\u2019y\u0131 yenerek D\u00fcnya Kupas\u0131 bileti ald\u0131.",
+      "content": "<p>T\u00fcrkiye, Kosova\u2019y\u0131 1-0 ma\u011flup ederek 2026 D\u00fcnya Kupas\u0131\u2019na kat\u0131lma hakk\u0131 kazand\u0131.</p><p>Ma\u00e7\u0131n tek gol\u00fc Kerem Akt\u00fcrko\u011flu\u2019ndan gelirken, asistte Orkun K\u00f6k\u00e7\u00fc ve Kenan Y\u0131ld\u0131z etkili oldu.</p><p>Kaleci U\u011furcan \u00c7ak\u0131r kritik kurtar\u0131\u015flar\u0131yla galibiyette \u00f6nemli rol oynad\u0131.</p><p>Bu sonu\u00e7la T\u00fcrkiye, 2002\u2019den bu yana s\u00fcren 24 y\u0131ll\u0131k D\u00fcnya Kupas\u0131 hasretini sona erdirdi.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_sports",
+        "name": "Spor"
+      },
+      "tags": [
+        "futbol",
+        "d\u00fcnya kupas\u0131",
+        "t\u00fcrkiye"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "T\u00fcrkiye 24 y\u0131l sonra D\u00fcnya Kupas\u0131\u2019nda"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:18:21.229095Z",
+      "created_at": "2026-05-04T16:18:21.229097Z",
+      "updated_at": "2026-05-04T16:18:21.229099Z",
+      "seo": {
+        "meta_title": "T\u00fcrkiye 24 y\u0131l sonra D\u00fcnya Kupas\u0131\u2019nda",
+        "meta_description": "Milli tak\u0131m Kosova\u2019y\u0131 yenerek D\u00fcnya Kupas\u0131 bileti ald\u0131.",
+        "canonical_url": "https://amerika365.com/haber/turkiye-dunya-kupasi-2026"
+      }
+    },
+    {
+      "id": "news_2ed06a0f",
+      "slug": "apple-ceo-degisimi-ternus",
+      "title": "Apple\u2019da CEO de\u011fi\u015fimi",
+      "summary": "Tim Cook g\u00f6revini John Ternus\u2019a devrediyor.",
+      "content": "<p>Apple, Tim Cook\u2019un 1 Eyl\u00fcl 2026 itibar\u0131yla CEO\u2019luk g\u00f6revini John Ternus\u2019a devredece\u011fini a\u00e7\u0131klad\u0131. Cook, g\u00f6rev de\u011fi\u015fiminin ard\u0131ndan y\u00f6netim kurulunda ba\u015fkan olarak kalacak.</p><p>Ternus, Apple\u2019da uzun y\u0131llard\u0131r donan\u0131m m\u00fchendisli\u011fi lideri olarak g\u00f6rev yap\u0131yor ve iPhone, Mac ve di\u011fer ana \u00fcr\u00fcnlerin geli\u015ftirilmesinde kritik rol oynad\u0131.</p><p>Cook d\u00f6neminde Apple\u2019\u0131n piyasa de\u011feri yakla\u015f\u0131k 4 trilyon dolara ula\u015ft\u0131. Ancak yeni d\u00f6nemde \u015firketi yapay zek\u00e2 rekabeti, tedarik zinciri riskleri ve jeopolitik bask\u0131lar bekliyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_tech",
+        "name": "Teknoloji"
+      },
+      "tags": [
+        "apple",
+        "abd",
+        "teknoloji"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "Apple\u2019da CEO de\u011fi\u015fimi"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986421Z",
+      "created_at": "2026-05-04T16:19:58.986421Z",
+      "updated_at": "2026-05-04T16:26:14.755391Z",
+      "seo": {
+        "meta_title": "Apple\u2019da CEO de\u011fi\u015fimi",
+        "meta_description": "Tim Cook g\u00f6revini John Ternus\u2019a devrediyor.",
+        "canonical_url": "https://amerika365.com/haber/apple-ceo-degisimi-ternus"
+      }
+    },
+    {
+      "id": "news_298a13bb",
+      "slug": "bae-opec-ayrilik",
+      "title": "BAE OPEC\u2019ten ayr\u0131ld\u0131",
+      "summary": "Karar petrol piyasas\u0131nda etkili olabilir.",
+      "content": "<p>Birle\u015fik Arap Emirlikleri, OPEC \u00fcyeli\u011finden ayr\u0131ld\u0131\u011f\u0131n\u0131 a\u00e7\u0131klad\u0131. Bu karar, \u00f6rg\u00fct\u00fcn petrol piyasas\u0131 \u00fczerindeki etkisini zay\u0131flatabilecek \u00f6nemli bir geli\u015fme olarak g\u00f6r\u00fcl\u00fcyor.</p><p>BAE, Suudi Arabistan ile birlikte y\u00fcksek yedek \u00fcretim kapasitesine sahip \u00fclkelerden biriydi. Uzmanlara g\u00f6re bu kapasite, kriz d\u00f6nemlerinde fiyatlar\u0131 dengelemede kritik rol oynuyordu.</p><p>K\u0131sa vadede fiyatlar \u00fczerinde s\u0131n\u0131rl\u0131 etki beklenirken, uzun vadede daha y\u00fcksek oynakl\u0131k \u00f6ng\u00f6r\u00fcl\u00fcyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "petrol",
+        "opec",
+        "enerji"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "BAE OPEC\u2019ten ayr\u0131ld\u0131"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986535Z",
+      "created_at": "2026-05-04T16:19:58.986535Z",
+      "updated_at": "2026-05-04T16:26:14.755406Z",
+      "seo": {
+        "meta_title": "BAE OPEC\u2019ten ayr\u0131ld\u0131",
+        "meta_description": "Karar petrol piyasas\u0131nda etkili olabilir.",
+        "canonical_url": "https://amerika365.com/haber/bae-opec-ayrilik"
+      }
+    },
+    {
+      "id": "news_ca3df7f8",
+      "slug": "fed-oy-ayriligi",
+      "title": "Fed\u2019de g\u00f6r\u00fc\u015f ayr\u0131l\u0131\u011f\u0131 artt\u0131",
+      "summary": "Faiz politikas\u0131 konusunda b\u00f6l\u00fcnme derinle\u015fiyor.",
+      "content": "<p>ABD Merkez Bankas\u0131 i\u00e7inde faiz politikas\u0131 konusunda g\u00f6r\u00fc\u015f ayr\u0131l\u0131klar\u0131 belirginle\u015fti.</p><p>Baz\u0131 yetkililer faiz indirimi sinyali verilmesine kar\u015f\u0131 \u00e7\u0131karak, mevcut ekonomik ko\u015fullarda hem faiz art\u0131\u015f\u0131 hem de indirimin m\u00fcmk\u00fcn oldu\u011funu savundu.</p><p>Enflasyonun y\u00fcksek seyretmesi ve Orta Do\u011fu\u2019daki geli\u015fmeler, Fed\u2019in daha temkinli bir ileti\u015fim kurmas\u0131 gerekti\u011fi g\u00f6r\u00fc\u015f\u00fcn\u00fc g\u00fc\u00e7lendiriyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "fed",
+        "faiz",
+        "abd"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "Fed\u2019de g\u00f6r\u00fc\u015f ayr\u0131l\u0131\u011f\u0131 artt\u0131"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986609Z",
+      "created_at": "2026-05-04T16:19:58.986609Z",
+      "updated_at": "2026-05-04T16:26:14.755410Z",
+      "seo": {
+        "meta_title": "Fed\u2019de g\u00f6r\u00fc\u015f ayr\u0131l\u0131\u011f\u0131 artt\u0131",
+        "meta_description": "Faiz politikas\u0131 konusunda b\u00f6l\u00fcnme derinle\u015fiyor.",
+        "canonical_url": "https://amerika365.com/haber/fed-oy-ayriligi"
+      }
+    },
+    {
+      "id": "news_39b534b1",
+      "slug": "dhs-kapanma-sona-erdi",
+      "title": "ABD\u2019de DHS kapanmas\u0131 sona erdi",
+      "summary": "76 g\u00fcnl\u00fck kapanma sona erdi.",
+      "content": "<p>ABD\u2019de \u0130\u00e7 G\u00fcvenlik Bakanl\u0131\u011f\u0131\u2019nda ya\u015fanan 76 g\u00fcnl\u00fck kapanma sona erdi.</p><p>Temsilciler Meclisi, kurumun yeniden a\u00e7\u0131lmas\u0131n\u0131 sa\u011flayacak finansman tasar\u0131s\u0131n\u0131 kabul etti. Ancak g\u00f6\u00e7menlik birimlerinin b\u00fct\u00e7esi bu d\u00fczenleme d\u0131\u015f\u0131nda b\u0131rak\u0131ld\u0131.</p><p>Kriz, g\u00f6\u00e7 politikalar\u0131 ve reform talepleri nedeniyle ya\u015fanan siyasi anla\u015fmazl\u0131klardan kaynaklan\u0131yordu.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_politics",
+        "name": "Politika"
+      },
+      "tags": [
+        "abd",
+        "g\u00fcvenlik",
+        "politika"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019de DHS kapanmas\u0131 sona erdi"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986697Z",
+      "created_at": "2026-05-04T16:19:58.986697Z",
+      "updated_at": "2026-05-04T16:26:14.755414Z",
+      "seo": {
+        "meta_title": "ABD\u2019de DHS kapanmas\u0131 sona erdi",
+        "meta_description": "76 g\u00fcnl\u00fck kapanma sona erdi.",
+        "canonical_url": "https://amerika365.com/haber/dhs-kapanma-sona-erdi"
+      }
+    },
+    {
+      "id": "news_b57261dd",
+      "slug": "abd-70-milyar-goc-butcesi",
+      "title": "ABD\u2019den g\u00f6\u00e7 i\u00e7in 70 milyar dolar",
+      "summary": "Yeni b\u00fct\u00e7e plan\u0131 kabul edildi.",
+      "content": "<p>ABD Temsilciler Meclisi, g\u00f6\u00e7menlik uygulamalar\u0131 i\u00e7in 70 milyar dolarl\u0131k b\u00fct\u00e7enin \u00f6n\u00fcn\u00fc a\u00e7an plan\u0131 kabul etti.</p><p>Plan, G\u00f6\u00e7menlik ve G\u00fcmr\u00fck Muhafaza ile S\u0131n\u0131r Koruma birimlerine ek finansman sa\u011flanmas\u0131n\u0131 hedefliyor.</p><p>Karar, \u0130\u00e7 G\u00fcvenlik Bakanl\u0131\u011f\u0131\u2019n\u0131 yeniden a\u00e7ma s\u00fcrecinin bir par\u00e7as\u0131 olarak de\u011ferlendiriliyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_politics",
+        "name": "Politika"
+      },
+      "tags": [
+        "g\u00f6\u00e7",
+        "abd",
+        "b\u00fct\u00e7e"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019den g\u00f6\u00e7 i\u00e7in 70 milyar dolar"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986761Z",
+      "created_at": "2026-05-04T16:19:58.986761Z",
+      "updated_at": "2026-05-04T16:26:14.755417Z",
+      "seo": {
+        "meta_title": "ABD\u2019den g\u00f6\u00e7 i\u00e7in 70 milyar dolar",
+        "meta_description": "Yeni b\u00fct\u00e7e plan\u0131 kabul edildi.",
+        "canonical_url": "https://amerika365.com/haber/abd-70-milyar-goc-butcesi"
+      }
+    },
+    {
+      "id": "news_3e926023",
+      "slug": "abd-enflasyon-mart-2026",
+      "title": "ABD\u2019de enflasyon y\u00fckseldi",
+      "summary": "\u00c7ekirdek enflasyon %3,2 oldu.",
+      "content": "<p>ABD\u2019de \u00e7ekirdek enflasyon mart ay\u0131nda %3,2\u2019ye y\u00fckseldi.</p><p>Ekonomi y\u0131l\u0131n ilk \u00e7eyre\u011finde %2 b\u00fcy\u00fcrken, bu oran beklentilerin alt\u0131nda kald\u0131. \u0130\u015f g\u00fcc\u00fc piyasas\u0131 ise g\u00fc\u00e7l\u00fc kalmaya devam etti.</p><p>Y\u00fcksek enerji fiyatlar\u0131 enflasyon \u00fczerinde bask\u0131 olu\u015ftururken, t\u00fcketiciler \u00fczerindeki maliyet y\u00fck\u00fc art\u0131yor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "enflasyon",
+        "abd"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019de enflasyon y\u00fckseldi"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986819Z",
+      "created_at": "2026-05-04T16:19:58.986819Z",
+      "updated_at": "2026-05-04T16:26:14.755420Z",
+      "seo": {
+        "meta_title": "ABD\u2019de enflasyon y\u00fckseldi",
+        "meta_description": "\u00c7ekirdek enflasyon %3,2 oldu.",
+        "canonical_url": "https://amerika365.com/haber/abd-enflasyon-mart-2026"
+      }
+    },
+    {
+      "id": "news_9aec6b35",
+      "slug": "petrol-126-dolar",
+      "title": "Petrol fiyatlar\u0131 dalgaland\u0131",
+      "summary": "Brent petrol 126 dolar\u0131 g\u00f6rd\u00fc.",
+      "content": "<p>Petrol fiyatlar\u0131 ABD-\u0130ran gerilimiyle sert dalgaland\u0131.</p><p>Brent petrol 126 dolara kadar y\u00fckselerek son y\u0131llar\u0131n en y\u00fcksek seviyesini g\u00f6rd\u00fc ancak daha sonra geri \u00e7ekildi.</p><p>H\u00fcrm\u00fcz Bo\u011faz\u0131\u2019ndaki riskler ve arz endi\u015feleri fiyatlar\u0131n ana belirleyicisi olmaya devam ediyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "petrol",
+        "enerji"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "Petrol fiyatlar\u0131 dalgaland\u0131"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986901Z",
+      "created_at": "2026-05-04T16:19:58.986901Z",
+      "updated_at": "2026-05-04T16:26:14.755422Z",
+      "seo": {
+        "meta_title": "Petrol fiyatlar\u0131 dalgaland\u0131",
+        "meta_description": "Brent petrol 126 dolar\u0131 g\u00f6rd\u00fc.",
+        "canonical_url": "https://amerika365.com/haber/petrol-126-dolar"
+      }
+    },
+    {
+      "id": "news_28c44063",
+      "slug": "abd-ogrenci-kredi-limit",
+      "title": "ABD\u2019de \u00f6\u011frenci kredilerine s\u0131n\u0131r",
+      "summary": "Yeni d\u00fczenleme y\u00fcr\u00fcrl\u00fc\u011fe giriyor.",
+      "content": "<p>ABD, lisans\u00fcst\u00fc \u00f6\u011frenci kredilerine \u00fcst s\u0131n\u0131r getirdi.</p><p>Yeni d\u00fczenlemeye g\u00f6re \u00f6\u011frenciler y\u0131ll\u0131k ve toplam kredi limitlerine tabi olacak. Ama\u00e7, \u00fcniversite maliyetlerini d\u00fc\u015f\u00fcrmek ve bor\u00e7lanmay\u0131 kontrol alt\u0131na almak.</p><p>Mevcut \u00f6\u011frenciler i\u00e7in ge\u00e7i\u015f s\u00fcrecinde baz\u0131 istisnalar uygulanacak.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Edit\u00f6r Ekibi"
+      },
+      "category": {
+        "id": "cat_education",
+        "name": "E\u011fitim"
+      },
+      "tags": [
+        "e\u011fitim",
+        "abd",
+        "kredi"
+      ],
+      "cover_image": {
+        "url": "https://cdn.amerika365.com/images/default.jpg",
+        "alt": "ABD\u2019de \u00f6\u011frenci kredilerine s\u0131n\u0131r"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-05-04T16:19:58.986984Z",
+      "created_at": "2026-05-04T16:19:58.986984Z",
+      "updated_at": "2026-05-04T16:26:14.755425Z",
+      "seo": {
+        "meta_title": "ABD\u2019de \u00f6\u011frenci kredilerine s\u0131n\u0131r",
+        "meta_description": "Yeni d\u00fczenleme y\u00fcr\u00fcrl\u00fc\u011fe giriyor.",
+        "canonical_url": "https://amerika365.com/haber/abd-ogrenci-kredi-limit"
+      }
+    }
+  ]
+}
