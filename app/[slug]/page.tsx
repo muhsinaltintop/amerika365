@@ -40,7 +40,6 @@ export default async function NewsDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const contentBlocks = Array.isArray(article.content) ? article.content : [];
   const seoJson = article.seo?.jsonLd && typeof article.seo.jsonLd === "object" ? article.seo.jsonLd : null;
 
   return (
@@ -74,35 +73,12 @@ export default async function NewsDetailPage({ params }: PageProps) {
             </div>
 
             <figure className="mb-8 overflow-hidden rounded-2xl bg-slate-200">
-              <img src={article.heroImage} alt={article.title} className="aspect-video w-full object-cover" />
+              <img src={article.heroImage} alt={article.heroImageAlt} className="aspect-video w-full object-cover" />
             </figure>
 
             <div className="space-y-6 leading-relaxed text-slate-700 dark:text-slate-300">
               <p className="text-xl font-medium text-slate-900 dark:text-white">{article.excerpt}</p>
-
-              {contentBlocks.map((block, index) => {
-                if (!block || typeof block !== "object" || !("type" in block)) {
-                  return null;
-                }
-
-                if (block.type === "heading") {
-                  return (
-                    <h2 key={`${block.text}-${index}`} className="text-2xl font-bold text-[#1b1a6b] dark:text-white">
-                      {block.text}
-                    </h2>
-                  );
-                }
-
-                if (block.type === "quote") {
-                  return (
-                    <blockquote key={`${block.text}-${index}`} className="rounded-r-xl border-l-4 border-[#0756b0] bg-[#0756b0]/5 p-6">
-                      <p className="text-xl font-bold text-[#1b1a6b] italic dark:text-[#4fc5db]">{block.text}</p>
-                    </blockquote>
-                  );
-                }
-
-                return <p key={`${block.text}-${index}`}>{block.text}</p>;
-              })}
+              <div className="space-y-6" dangerouslySetInnerHTML={{ __html: article.content }} />
             </div>
 
             {seoJson ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(seoJson) }} /> : null}

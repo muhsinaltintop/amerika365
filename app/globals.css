@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-manrope);
+  --font-sans: var(--font-manrope, "Manrope", "Inter", system-ui, sans-serif);
 }
 
 .no-scrollbar::-webkit-scrollbar {
