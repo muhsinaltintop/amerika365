@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
 import { SocialShareFab } from "@/components/organisms/SocialShareFab";
 import "./globals.css";
-
-const manrope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Amerika 365",
@@ -21,12 +15,14 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700"
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Material+Symbols+Outlined:wght@100..700&display=swap"
         />
       </head>
-      <body className={`${manrope.variable} font-sans antialiased`}>
+      <body className="font-sans antialiased">
         {children}
         <SocialShareFab />
       </body>
