@@ -38,6 +38,7 @@ export interface ArticleRecord {
   authorRecord: ArticleAuthor;
   category: string;
   categoryRecord: ArticleCategory;
+  categorySlug: string;
   tags: string[];
   cover_image: ArticleImage;
   heroImage: string;
@@ -54,12 +55,26 @@ export interface ArticleRecord {
   seo?: ArticleSeo;
 }
 
+export interface CategoryNavItem {
+  id: string;
+  name: string;
+  label: string;
+  slug: string;
+}
+
+export interface ResolvedCategory {
+  id: string;
+  name: string;
+  label: string;
+  slug: string;
+}
+
 export interface ArticleData {
   version: string;
   generated_at: string;
   stats?: {
     total_news: number;
-    generated_at: string;
+    generated_at?: string;
   };
   news: RawArticleRecord[];
 }
@@ -83,6 +98,8 @@ interface RawArticleRecord {
   seo?: ArticleSeo;
 }
 
+const CATEGORY_NAV_LIMIT = 7;
+
 const data = articleData as ArticleData;
 const articles = data.news.map(toArticleRecord);
 
@@ -94,6 +111,7 @@ function toArticleRecord(article: RawArticleRecord): ArticleRecord {
     authorRecord: article.author,
     category: article.category.name,
     categoryRecord: article.category,
+    categorySlug: slugifyCategory(article.category.name),
     heroImage: article.cover_image.url,
     heroImageAlt: article.cover_image.alt,
     publishedAt: article.published_at,
@@ -131,6 +149,50 @@ function formatPublishLabel(publishedAt: string) {
   }).format(new Date(publishedAt));
 }
 
+export function slugifyCategory(value: string) {
+  return value
+    .toLocaleLowerCase("tr-TR")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ğ/g, "g")
+    .replace(/ü/g, "u")
+    .replace(/ş/g, "s")
+    .replace(/ı/g, "i")
+    .replace(/ö/g, "o")
+    .replace(/ç/g, "c")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function normalizeCategoryId(value: string) {
+  return value.replace(/^cat_/, "");
+}
+
+function getCategorySlugCandidates(category: ArticleCategory) {
+  return new Set([category.id, normalizeCategoryId(category.id), slugifyCategory(category.name)]);
+}
+
+function toCategoryNavItem(category: ArticleCategory): CategoryNavItem {
+  return {
+    id: category.id,
+    name: category.name,
+    label: category.name,
+    slug: slugifyCategory(category.name),
+  };
+}
+
+function getUniqueCategoriesFromArticles(articleList: ArticleRecord[]) {
+  const categoryMap = new Map<string, ArticleCategory>();
+
+  articleList.forEach((article) => {
+    if (!categoryMap.has(article.categoryRecord.id)) {
+      categoryMap.set(article.categoryRecord.id, article.categoryRecord);
+    }
+  });
+
+  return [...categoryMap.values()];
+}
+
 export async function getAllArticles() {
   return articles;
 }
@@ -161,6 +223,47 @@ export async function getPublishedArticleBySlug(slug: string) {
   }
 
   return article;
+}
+
+export async function getCategoryNavItems(limit = CATEGORY_NAV_LIMIT) {
+  const publishedArticles = await getPublishedArticles();
+
+  return getUniqueCategoriesFromArticles(publishedArticles).slice(0, limit).map(toCategoryNavItem);
+}
+
+export async function getCategoryBySlug(slug: string): Promise<ResolvedCategory | null> {
+  const publishedArticles = await getPublishedArticles();
+  const category = getUniqueCategoriesFromArticles(publishedArticles).find((item) => getCategorySlugCandidates(item).has(slug));
+
+  if (!category) {
+    return null;
+  }
+
+  return toCategoryNavItem(category);
+}
+
+export async function getPublishedArticlesByCategorySlug(slug: string) {
+  const category = await getCategoryBySlug(slug);
+
+  if (!category) {
+    return [];
+  }
+
+  const categoryKeys = new Set([category.id, normalizeCategoryId(category.id), category.name, slugifyCategory(category.name), category.slug]);
+  return (await getPublishedArticles()).filter((article) => {
+    const articleKeys = getCategorySlugCandidates(article.categoryRecord);
+    articleKeys.add(article.categoryRecord.name);
+
+    return [...categoryKeys].some((key) => articleKeys.has(key));
+  });
+}
+
+export async function getCategoryStaticParams() {
+  const publishedArticles = await getPublishedArticles();
+
+  return getUniqueCategoriesFromArticles(publishedArticles)
+    .map((category) => ({ categorySlug: slugifyCategory(category.name) }))
+    .filter((item, index, self) => self.findIndex((candidate) => candidate.categorySlug === item.categorySlug) === index);
 }
 
 // DB'ye geçiş için: aynı imzaları koruyup bu fonksiyonların içini Prisma/API sorgularıyla değiştirmek yeterlidir.
