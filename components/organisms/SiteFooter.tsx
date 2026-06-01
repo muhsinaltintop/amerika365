@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { categoryNavItems } from "@/lib/articles";
 
 const socialLinks = [
   {
@@ -38,13 +39,13 @@ export function SiteFooter() {
         <div className="col-span-1 space-y-6 md:col-span-2">
           <div className="flex items-center gap-3">
             <Link href="/">
-            <div>
-              <Image src="/amerika365logo.png" width="150" height="100" alt="Amerika 365 Logo" />
-            </div>
-            {/* <div className="block ml-2 md:hidden">
-              <Image src="/365logo.png" width="50" height="50" alt="Amerika 365 Logo" />
-            </div> */}
-          </Link>
+              <div>
+                <Image src="/amerika365logo.png" width="150" height="100" alt="Amerika 365 Logo" />
+              </div>
+              {/* <div className="block ml-2 md:hidden">
+                <Image src="/365logo.png" width="50" height="50" alt="Amerika 365 Logo" />
+              </div> */}
+            </Link>
           </div>
           <p className="max-w-sm text-slate-500 dark:text-slate-400">
             ABD Haberlerini Türkçe Olarak Takip Edin.
@@ -54,9 +55,11 @@ export function SiteFooter() {
         <div className="space-y-4">
           <h4 className="font-bold text-[#1b1a6b] dark:text-white">Kategoriler</h4>
           <ul className="space-y-2 text-sm text-slate-500 dark:text-slate-400">
-            {['Gündem', 'Politika', 'Göçmenlik', 'Ekonomi', 'Sanat', 'Yorum', 'Spor'].map((item) => (
-              <li key={item}>
-                <a className="transition-colors hover:text-[#0756b0]" href="#">{item}</a>
+            {categoryNavItems.map((item) => (
+              <li key={item.id}>
+                <Link className="transition-colors hover:text-[#0756b0]" href={`/kategori/${item.slug}`}>
+                  {item.label}
+                </Link>
               </li>
             ))}
           </ul>
