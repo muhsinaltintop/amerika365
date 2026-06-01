@@ -1,10 +1,12 @@
 import Link from "next/link";
-import { categoryNavItems } from "@/lib/articles";
+import { getCategoryNavItems } from "@/lib/articles";
 
-export function NavMenu() {
+export async function NavMenu() {
+  const items = await getCategoryNavItems();
+
   return (
     <nav className="hidden items-center gap-6 md:flex lg:gap-8">
-      {categoryNavItems.map((item) => (
+      {items.map((item) => (
         <Link
           key={item.id}
           href={`/kategori/${item.slug}`}

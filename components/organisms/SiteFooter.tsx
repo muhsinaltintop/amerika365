@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { categoryNavItems } from "@/lib/articles";
+import { getCategoryNavItems } from "@/lib/articles";
 
 const socialLinks = [
   {
@@ -32,7 +32,9 @@ const socialLinks = [
   },
 ];
 
-export function SiteFooter() {
+export async function SiteFooter() {
+  const categoryNavItems = await getCategoryNavItems();
+
   return (
     <footer className="mt-10 border-t border-slate-200 bg-white py-10 sm:mt-12 sm:py-12 dark:border-slate-800 dark:bg-slate-900">
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-10 px-4 sm:px-6 md:grid-cols-4 md:gap-12">

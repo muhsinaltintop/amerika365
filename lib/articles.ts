@@ -60,7 +60,6 @@ export interface CategoryNavItem {
   name: string;
   label: string;
   slug: string;
-  aliases?: string[];
 }
 
 export interface ResolvedCategory {
@@ -99,15 +98,7 @@ interface RawArticleRecord {
   seo?: ArticleSeo;
 }
 
-export const categoryNavItems: CategoryNavItem[] = [
-  { id: "cat_gundem", name: "Gündem", label: "Gündem", slug: "gundem" },
-  { id: "cat_politics", name: "Politika", label: "Politika", slug: "politika" },
-  { id: "cat_goc", name: "Göç", label: "Göçmenlik", slug: "gocmenlik", aliases: ["goc"] },
-  { id: "cat_economy", name: "Ekonomi", label: "Ekonomi", slug: "ekonomi" },
-  { id: "cat_art", name: "Sanat", label: "Sanat", slug: "sanat" },
-  { id: "cat_opinion", name: "Yorum", label: "Yorum", slug: "yorum" },
-  { id: "cat_sports", name: "Spor", label: "Spor", slug: "spor" },
-];
+const CATEGORY_NAV_LIMIT = 7;
 
 const data = articleData as ArticleData;
 const articles = data.news.map(toArticleRecord);
@@ -177,19 +168,29 @@ function normalizeCategoryId(value: string) {
   return value.replace(/^cat_/, "");
 }
 
-function isCategoryNavItem(category: CategoryNavItem | ArticleCategory): category is CategoryNavItem {
-  return "label" in category && "slug" in category;
+function getCategorySlugCandidates(category: ArticleCategory) {
+  return new Set([category.id, normalizeCategoryId(category.id), slugifyCategory(category.name)]);
 }
 
-function getCategorySlugCandidates(category: ArticleCategory) {
-  return new Set([
-    category.id,
-    normalizeCategoryId(category.id),
-    slugifyCategory(category.name),
-    ...categoryNavItems
-      .filter((item) => item.id === category.id || item.name === category.name)
-      .flatMap((item) => [item.slug, ...(item.aliases ?? [])]),
-  ]);
+function toCategoryNavItem(category: ArticleCategory): CategoryNavItem {
+  return {
+    id: category.id,
+    name: category.name,
+    label: category.name,
+    slug: slugifyCategory(category.name),
+  };
+}
+
+function getUniqueCategoriesFromArticles(articleList: ArticleRecord[]) {
+  const categoryMap = new Map<string, ArticleCategory>();
+
+  articleList.forEach((article) => {
+    if (!categoryMap.has(article.categoryRecord.id)) {
+      categoryMap.set(article.categoryRecord.id, article.categoryRecord);
+    }
+  });
+
+  return [...categoryMap.values()];
 }
 
 export async function getAllArticles() {
@@ -224,27 +225,21 @@ export async function getPublishedArticleBySlug(slug: string) {
   return article;
 }
 
+export async function getCategoryNavItems(limit = CATEGORY_NAV_LIMIT) {
+  const publishedArticles = await getPublishedArticles();
+
+  return getUniqueCategoriesFromArticles(publishedArticles).slice(0, limit).map(toCategoryNavItem);
+}
+
 export async function getCategoryBySlug(slug: string): Promise<ResolvedCategory | null> {
   const publishedArticles = await getPublishedArticles();
-  const publishedCategories = publishedArticles.map((article) => article.categoryRecord);
-  const category = [...categoryNavItems, ...publishedCategories].find((item) => {
-    const candidateSlugs = isCategoryNavItem(item)
-      ? new Set([item.id, normalizeCategoryId(item.id), item.slug, ...(item.aliases ?? []), slugifyCategory(item.name)])
-      : getCategorySlugCandidates(item);
-
-    return candidateSlugs.has(slug);
-  });
+  const category = getUniqueCategoriesFromArticles(publishedArticles).find((item) => getCategorySlugCandidates(item).has(slug));
 
   if (!category) {
     return null;
   }
 
-  return {
-    id: category.id,
-    name: category.name,
-    label: isCategoryNavItem(category) ? category.label : category.name,
-    slug: isCategoryNavItem(category) ? category.slug : slugifyCategory(category.name),
-  };
+  return toCategoryNavItem(category);
 }
 
 export async function getPublishedArticlesByCategorySlug(slug: string) {
@@ -265,15 +260,10 @@ export async function getPublishedArticlesByCategorySlug(slug: string) {
 
 export async function getCategoryStaticParams() {
   const publishedArticles = await getPublishedArticles();
-  const articleCategorySlugs = publishedArticles.map((article) => ({ categorySlug: article.categorySlug }));
-  const navCategorySlugs = categoryNavItems.flatMap((item) => [
-    { categorySlug: item.slug },
-    ...(item.aliases ?? []).map((alias) => ({ categorySlug: alias })),
-  ]);
 
-  return [...navCategorySlugs, ...articleCategorySlugs].filter(
-    (item, index, self) => self.findIndex((candidate) => candidate.categorySlug === item.categorySlug) === index,
-  );
+  return getUniqueCategoriesFromArticles(publishedArticles)
+    .map((category) => ({ categorySlug: slugifyCategory(category.name) }))
+    .filter((item, index, self) => self.findIndex((candidate) => candidate.categorySlug === item.categorySlug) === index);
 }
 
 // DB'ye geçiş için: aynı imzaları koruyup bu fonksiyonların içini Prisma/API sorgularıyla değiştirmek yeterlidir.
