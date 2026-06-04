@@ -78,7 +78,10 @@ export default async function NewsDetailPage({ params }: PageProps) {
 
             <div className="space-y-6 leading-relaxed text-slate-700 dark:text-slate-300">
               <p className="text-xl font-medium text-slate-900 dark:text-white">{article.excerpt}</p>
-              <div className="space-y-6" dangerouslySetInnerHTML={{ __html: article.content }} />
+              <div
+                className="space-y-6 [&_h2]:mt-8 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-[#1b1a6b] [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-slate-900 [&_li]:ml-5 [&_li]:list-disc [&_table]:w-full [&_table]:overflow-hidden [&_table]:rounded-xl [&_table]:border [&_table]:border-slate-200 [&_td]:border-t [&_td]:border-slate-200 [&_td]:p-3 [&_th]:bg-slate-100 [&_th]:p-3 [&_th]:text-left dark:[&_h2]:text-white dark:[&_h3]:text-white dark:[&_table]:border-slate-700 dark:[&_td]:border-slate-700 dark:[&_th]:bg-slate-800"
+                dangerouslySetInnerHTML={{ __html: article.content }}
+              />
             </div>
 
             {seoJson ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(seoJson) }} /> : null}
