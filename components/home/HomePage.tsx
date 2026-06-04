@@ -10,7 +10,7 @@ import { TopNewsSection } from "../organisms/TopNewsSection";
 export async function HomePage() {
   const articles = await getPublishedArticles();
   const sliderArticles = articles.slice(0, 3);
-  const topNewsArticles = articles.slice(3, 6);
+  const topNewsArticles = articles.slice(3, 9);
 
   return (
     <div className="bg-[#f7fbfd] text-slate-900 dark:bg-[#101822] dark:text-slate-100">
