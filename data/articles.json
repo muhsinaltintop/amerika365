@@ -2,9 +2,117 @@
   "version": "1.0",
   "generated_at": "2026-05-04T12:30:00Z",
   "stats": {
-    "total_news": 32
+    "total_news": 18
   },
   "news": [
+    {
+      "id": "news_2026_gocmenlik_degisiklikleri",
+      "slug": "2026-gocmenlik-degisiklikleri",
+      "title": "2026 Göçmenlik Değişiklikleri",
+      "summary": "ABD göçmenlik sistemindeki 2026 düzenlemeleri çalışma vizeleri, Green Card süreçleri ve statü değişikliği başvurularını yakından ilgilendiriyor.",
+      "content": "<p>ABD göçmenlik sistemi 2026 yılında da önemli değişikliklere sahne olmaya devam ediyor. Özellikle çalışma vizeleri, Green Card süreçleri ve statü değişikliği başvurularında yapılan düzenlemeler hem yeni başvuru yapacak kişileri hem de hali hazırda süreç içerisinde bulunan göçmenleri yakından ilgilendiriyor.</p>\n<p>Son dönemde ABD Vatandaşlık ve Göçmenlik Hizmetleri (USCIS) tarafından yayınlanan politika güncellemeleri, başvuruların daha ayrıntılı incelenmesine ve bazı kategorilerde ek belge taleplerinin artmasına neden oldu. Özellikle iş temelli göçmenlik başvurularında iş planları, mali yeterlilik ve başvuru sahibinin geçmiş profesyonel deneyimleri daha fazla önem kazanmaya başladı.</p>\n<p>Bunun yanında bazı Green Card başvurularında ülke dışından işlem yapılmasını gerektirebilecek yeni uygulamalar da gündeme geldi. Uzmanlar, başvuru sahiplerinin süreç boyunca güncel düzenlemeleri takip etmelerinin ve gerekli belgeleri eksiksiz hazırlamalarının her zamankinden daha önemli olduğunu vurguluyor.</p>\n<p>ABD’ye yerleşmeyi, çalışmayı veya eğitim almayı planlayan kişiler için göçmenlik sistemindeki değişiklikleri yakından takip etmek, olası gecikmelerin ve başvuru hatalarının önüne geçmek açısından büyük önem taşıyor.</p>\n<h2>İlgili Konular</h2>\n<ul>\n<li>Green Card Başvuruları</li>\n<li>H-1B ve Çalışma Vizeleri</li>\n<li>Statü Değişikliği</li>\n<li>USCIS Güncellemeleri</li>\n</ul>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_immigration",
+        "name": "Göçmenlik"
+      },
+      "tags": [
+        "göçmenlik",
+        "green card",
+        "uscis",
+        "çalışma vizeleri"
+      ],
+      "cover_image": {
+        "url": "/abd-goc-yavasladi.png",
+        "alt": "2026 Göçmenlik Değişiklikleri"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-06-04T09:00:00Z",
+      "created_at": "2026-06-04T09:00:00Z",
+      "updated_at": "2026-06-04T09:00:00Z",
+      "seo": {
+        "meta_title": "2026 Göçmenlik Değişiklikleri",
+        "meta_description": "ABD göçmenlik sistemindeki 2026 değişiklikleri ve başvuru süreçlerine etkileri.",
+        "canonical_url": "https://amerika365.com/haber/2026-gocmenlik-degisiklikleri"
+      }
+    },
+    {
+      "id": "news_green_card_belgeleri",
+      "slug": "green-card-belgeleri",
+      "title": "Green Card Belgeleri",
+      "summary": "Green Card başvurularında en sık talep edilen belgeler ve eksiksiz dosya hazırlığı için dikkat edilmesi gerekenler.",
+      "content": "<p>Green Card başvurusu yapmayı planlayan birçok kişi için en önemli konulardan biri gerekli belgelerin doğru ve eksiksiz hazırlanmasıdır. Başvuru türüne göre farklılıklar olsa da, birçok Green Card sürecinde ortak olarak talep edilen temel evraklar bulunmaktadır.</p>\n<p>Genellikle geçerli pasaport, doğum belgesi, medeni durum belgeleri, sabıka kaydı, sağlık muayenesi raporları ve mali yeterlilik belgeleri başvuru dosyasının temel parçalarını oluşturur. Aile sponsorluğu, işveren sponsorluğu veya Green Card çekilişi gibi farklı başvuru kategorilerinde ise ek belgeler talep edilebilir.</p>\n<p>Belgelerin eksik veya hatalı hazırlanması sürecin uzamasına, ek belge taleplerine (RFE) veya bazı durumlarda başvurunun reddedilmesine yol açabilir. Bu nedenle başvuru sahiplerinin güncel belge listelerini takip etmeleri ve gerekli durumlarda profesyonel destek almaları önerilmektedir.</p>\n<h2>En Sık Talep Edilen Belgeler</h2>\n<ul>\n<li>Geçerli Pasaport</li>\n<li>Doğum Belgesi</li>\n<li>Evlilik veya Boşanma Belgeleri</li>\n<li>Sabıka Kaydı</li>\n<li>Sağlık Muayenesi Raporu</li>\n<li>Finansal Belgeler</li>\n<li>Eğitim ve İş Deneyimi Belgeleri</li>\n<li>Sponsorluk Evrakları (varsa)</li>\n</ul>\n<p>Green Card sürecine başlamadan önce başvuru kategorinize uygun güncel belge listesini kontrol etmeniz, sürecin daha sorunsuz ilerlemesine yardımcı olacaktır.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_immigration",
+        "name": "Göçmenlik"
+      },
+      "tags": [
+        "green card",
+        "belgeler",
+        "rfe",
+        "göçmenlik"
+      ],
+      "cover_image": {
+        "url": "/abd-goc-yavasladi.png",
+        "alt": "Green Card Belgeleri"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-06-04T08:45:00Z",
+      "created_at": "2026-06-04T08:45:00Z",
+      "updated_at": "2026-06-04T08:45:00Z",
+      "seo": {
+        "meta_title": "Green Card Belgeleri",
+        "meta_description": "Green Card başvurusu için en sık talep edilen belgeler ve dosya hazırlığı rehberi.",
+        "canonical_url": "https://amerika365.com/haber/green-card-belgeleri"
+      }
+    },
+    {
+      "id": "news_h1b_l1_o1_vizeleri",
+      "slug": "h-1b-l-1-ve-o-1-vizeleri",
+      "title": "H-1B, L-1 ve O-1 Vizeleri",
+      "summary": "ABD’de çalışmak isteyen profesyoneller için H-1B, L-1 ve O-1 vizelerinin farkları, avantajları ve uygunluk kriterleri.",
+      "content": "<p>ABD’de çalışmak isteyen yabancı profesyoneller için en çok tercih edilen vize türleri arasında H-1B, L-1 ve O-1 vizeleri yer almaktadır. Ancak bu vizelerin başvuru şartları, hedef kitlesi ve sağladığı avantajlar birbirinden oldukça farklıdır.</p>\n<h2>H-1B Vizesi</h2>\n<p>H-1B vizesi, uzmanlık gerektiren pozisyonlarda çalışacak yabancı profesyoneller için tasarlanmıştır. Genellikle mühendislik, bilişim teknolojileri, finans, sağlık ve benzeri alanlarda çalışan kişiler tarafından tercih edilir.</p>\n<h3>Avantajları</h3>\n<ul>\n<li>ABD’de çalışma ve yaşama imkânı</li>\n<li>Green Card sürecine geçiş imkânı</li>\n<li>Eş ve çocuklar için belirli haklar</li>\n</ul>\n<h3>Dikkat Edilmesi Gerekenler</h3>\n<ul>\n<li>Yıllık kota sistemi uygulanır</li>\n<li>Çekiliş sürecine tabi olabilir</li>\n</ul>\n<h2>L-1 Vizesi</h2>\n<p>L-1 vizesi, uluslararası şirketlerin yöneticilerini veya uzman çalışanlarını ABD ofislerine transfer etmeleri için kullanılır.</p>\n<h3>Avantajları</h3>\n<ul>\n<li>Kota bulunmaz</li>\n<li>Şirket içi transfer kolaylığı sağlar</li>\n<li>L-1A sahipleri için Green Card süreci daha avantajlı olabilir</li>\n</ul>\n<h3>Kimler İçin Uygundur?</h3>\n<ul>\n<li>Şirket sahipleri</li>\n<li>Üst düzey yöneticiler</li>\n<li>Uluslararası şirket çalışanları</li>\n</ul>\n<h2>O-1 Vizesi</h2>\n<p>O-1 vizesi, bilim, eğitim, sanat, spor veya iş dünyasında olağanüstü başarı göstermiş kişiler için tasarlanmıştır.</p>\n<h3>Avantajları</h3>\n<ul>\n<li>Kota bulunmaz</li>\n<li>Başvuru dönemine bağlı değildir</li>\n<li>Üst düzey profesyoneller için güçlü bir seçenektir</li>\n</ul>\n<h3>Kimler İçin Uygundur?</h3>\n<ul>\n<li>Akademisyenler</li>\n<li>Sanatçılar</li>\n<li>Sporcular</li>\n<li>Girişimciler</li>\n<li>Alanında tanınmış uzmanlar</li>\n</ul>\n<h2>Hangi Vize Daha Uygun?</h2>\n<p>Her vize türü farklı bir profil için tasarlanmıştır.</p>\n<table>\n<thead>\n<tr><th>Vize</th><th>Kimler İçin?</th><th>Kota</th></tr>\n</thead>\n<tbody>\n<tr><td>H-1B</td><td>Uzman çalışanlar</td><td>Var</td></tr>\n<tr><td>L-1</td><td>Şirket içi transferler</td><td>Yok</td></tr>\n<tr><td>O-1</td><td>Olağanüstü yetenek sahipleri</td><td>Yok</td></tr>\n</tbody>\n</table>\n<p>Başvuru sahiplerinin eğitim geçmişi, mesleki deneyimi, mevcut iş durumu ve uzun vadeli hedefleri hangi vize türünün daha uygun olduğunu belirleyen en önemli faktörlerdir.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_immigration",
+        "name": "Göçmenlik"
+      },
+      "tags": [
+        "h-1b",
+        "l-1",
+        "o-1",
+        "çalışma vizeleri"
+      ],
+      "cover_image": {
+        "url": "/abd-goc-yavasladi.png",
+        "alt": "H-1B, L-1 ve O-1 Vizeleri"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-06-04T08:30:00Z",
+      "created_at": "2026-06-04T08:30:00Z",
+      "updated_at": "2026-06-04T08:30:00Z",
+      "seo": {
+        "meta_title": "H-1B, L-1 ve O-1 Vizeleri",
+        "meta_description": "H-1B, L-1 ve O-1 çalışma vizelerinin farkları, avantajları ve uygunluk kriterleri.",
+        "canonical_url": "https://amerika365.com/haber/h-1b-l-1-ve-o-1-vizeleri"
+      }
+    },
     {
       "id": "news_0001",
       "slug": "autokiniton-313m-yatirim",
