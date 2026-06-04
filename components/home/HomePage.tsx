@@ -5,7 +5,7 @@ import { ImmigrationSection } from "../organisms/ImmigrationSection";
 import { SiteFooter } from "../organisms/SiteFooter";
 import { SiteHeader } from "../organisms/SiteHeader";
 import { TopNewsSection } from "../organisms/TopNewsSection";
-import { TurkishLifeSection } from "../organisms/TurkishLifeSection";
+// import { TurkishLifeSection } from "../organisms/TurkishLifeSection";
 
 export async function HomePage() {
   const articles = await getPublishedArticles();
@@ -21,7 +21,8 @@ export async function HomePage() {
         <HeroSlider slides={sliderArticles} />
         <TopNewsSection cards={topNewsArticles} />
         <ImmigrationSection />
-        <TurkishLifeSection />
+        {/* ABD’de Türk Yaşamı bölümü içerikleri hazırlanacağı için geçici olarak kapalı. */}
+        {/* <TurkishLifeSection /> */}
       </main>
 
       <SiteFooter />
