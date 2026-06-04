@@ -11,10 +11,10 @@ export function TopNewsSection({ cards }: TopNewsSectionProps) {
   return (
     <section>
       <div className="mb-6 flex flex-col items-start gap-3 sm:mb-8 sm:flex-row sm:items-center sm:justify-between">
-        <SectionTitle title="Top 5 ABD Haberleri" />
-        <a className="flex items-center gap-1 text-sm font-bold text-[#0756b0] hover:underline" href="#">
+        <SectionTitle title="Top Amerika Haberleri" />
+        <Link className="flex items-center gap-1 text-sm font-bold text-[#0756b0] hover:underline" href="/haberler">
           Tümünü Gör <span>›</span>
-        </a>
+        </Link>
       </div>
       <div className="grid grid-cols-1 gap-5 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
