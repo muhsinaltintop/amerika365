@@ -586,8 +586,8 @@
         "göçmenlik"
       ],
       "cover_image": {
-        "url": "/abd-goc-yavasladi.png",
-        "alt": "Green Card Belgeleri"
+        "url": "/green-card-belgeleri.svg",
+        "alt": "Green Card başvuru belgeleri, kontrol listesi ve onay mührü illüstrasyonu"
       },
       "status": "published",
       "is_featured": false,
@@ -622,8 +622,8 @@
         "çalışma vizeleri"
       ],
       "cover_image": {
-        "url": "/abd-goc-yavasladi.png",
-        "alt": "H-1B, L-1 ve O-1 Vizeleri"
+        "url": "/h1b-l1-o1-vizeleri.svg",
+        "alt": "H-1B, L-1 ve O-1 çalışma vizelerini temsil eden pasaport ve iş dokümanları illüstrasyonu"
       },
       "status": "published",
       "is_featured": false,

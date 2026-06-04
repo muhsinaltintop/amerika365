@@ -1,0 +1,52 @@
+<svg width="1400" height="788" viewBox="0 0 1400 788" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Green Card belge hazırlığı</title>
+  <desc id="desc">Green Card başvurusu için pasaport, kontrol listesi, onay mührü ve evrak klasörlerini gösteren editoryal illüstrasyon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="788" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7F7EF"/>
+      <stop offset="0.52" stop-color="#F7FBFD"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="472" y1="134" x2="957" y2="653" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15803D"/>
+      <stop offset="1" stop-color="#0F5132"/>
+    </linearGradient>
+    <filter id="shadow" x="120" y="71" width="1160" height="648" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#0F172A" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="788" fill="url(#bg)"/>
+  <circle cx="1128" cy="140" r="210" fill="#0756B0" opacity="0.09"/>
+  <circle cx="174" cy="652" r="250" fill="#16A34A" opacity="0.11"/>
+  <g filter="url(#shadow)">
+    <rect x="170" y="122" width="1060" height="520" rx="44" fill="white"/>
+  </g>
+  <rect x="235" y="181" width="386" height="402" rx="30" fill="#F1F5F9"/>
+  <rect x="271" y="219" width="314" height="32" rx="16" fill="#CBD5E1"/>
+  <rect x="271" y="286" width="314" height="48" rx="12" fill="white" stroke="#CBD5E1" stroke-width="4"/>
+  <rect x="271" y="362" width="314" height="48" rx="12" fill="white" stroke="#CBD5E1" stroke-width="4"/>
+  <rect x="271" y="438" width="230" height="48" rx="12" fill="white" stroke="#CBD5E1" stroke-width="4"/>
+  <path d="M299 306L318 325L354 288" stroke="#16A34A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M299 382L318 401L354 364" stroke="#16A34A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M299 458L318 477L354 440" stroke="#16A34A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="653" y="156" width="428" height="288" rx="28" fill="url(#card)"/>
+  <rect x="701" y="206" width="151" height="151" rx="20" fill="#DCFCE7" opacity="0.92"/>
+  <circle cx="776.5" cy="268" r="34" fill="#0F5132" opacity="0.24"/>
+  <path d="M726 340C736 305 816 305 827 340" stroke="#0F5132" stroke-width="16" stroke-linecap="round"/>
+  <rect x="888" y="220" width="134" height="18" rx="9" fill="#BBF7D0"/>
+  <rect x="888" y="268" width="101" height="18" rx="9" fill="#BBF7D0" opacity="0.78"/>
+  <rect x="888" y="316" width="149" height="18" rx="9" fill="#BBF7D0" opacity="0.78"/>
+  <text x="699" y="407" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" letter-spacing="1">GREEN CARD</text>
+  <g transform="translate(816 425)">
+    <rect x="0" y="0" width="300" height="160" rx="22" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="5"/>
+    <rect x="32" y="36" width="235" height="18" rx="9" fill="#0756B0" opacity="0.58"/>
+    <rect x="32" y="78" width="188" height="18" rx="9" fill="#64748B" opacity="0.42"/>
+    <rect x="32" y="120" width="146" height="18" rx="9" fill="#64748B" opacity="0.42"/>
+  </g>
+  <g transform="translate(649 451) rotate(-8)">
+    <circle cx="68" cy="68" r="68" fill="#FEF3C7" stroke="#F59E0B" stroke-width="9"/>
+    <path d="M37 70L58 91L101 45" stroke="#16A34A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M245 624C373 582 480 585 610 621" stroke="#0756B0" stroke-width="10" stroke-linecap="round" opacity="0.16"/>
+  <text x="236" y="102" fill="#1B1A6B" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800">Eksiksiz Başvuru Dosyası</text>
+</svg>

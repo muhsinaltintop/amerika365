@@ -12,8 +12,8 @@ export function ImmigrationSection() {
         </div>
         <div className="space-y-4">
           <ImmigrationItem icon="description" title="2026 Göçmenlik Değişiklikleri" slug="2026-gocmenlik-degisiklikleri" badgeLabel="GÜNCEL" />
-          <ImmigrationItem icon="fact_check" title="Green Card Belgeleri" slug="green-card-belgeleri" badgeLabel="REHBER" badgeVariant="soft" />
-          <ImmigrationItem icon="work" title="H-1B, L-1 ve O-1 Vizeleri" slug="h-1b-l-1-ve-o-1-vizeleri" badgeLabel="VİZELER" badgeVariant="muted" />
+          <ImmigrationItem icon="fact_check" title="Green Card Belgeleri" slug="green-card-belgeleri" badgeLabel="REHBER" badgeVariant="soft" imageSrc="/green-card-belgeleri.svg" imageAlt="Green Card başvuru belgeleri ve kontrol listesi" />
+          <ImmigrationItem icon="work" title="H-1B, L-1 ve O-1 Vizeleri" slug="h-1b-l-1-ve-o-1-vizeleri" badgeLabel="VİZELER" badgeVariant="muted" imageSrc="/h1b-l1-o1-vizeleri.svg" imageAlt="H-1B, L-1 ve O-1 çalışma vizeleri illüstrasyonu" />
         </div>
       </div>
 
