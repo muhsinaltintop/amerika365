@@ -88,7 +88,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
           </article>
 
           <aside className="space-y-8 lg:w-[32%]">
-            <section className="rounded-2xl bg-[#1b1a6b] p-7 text-white">
+            {/* <section className="rounded-2xl bg-[#1b1a6b] p-7 text-white">
               <h3 className="mb-2 text-xl font-bold">Günlük Bültene Kaydolun</h3>
               <p className="mb-5 text-sm text-slate-300">Amerika gündemindeki gelişmeleri her sabah e-postanızda alın.</p>
               <form className="space-y-3">
@@ -99,7 +99,7 @@ export default async function NewsDetailPage({ params }: PageProps) {
                 />
                 <button className="w-full rounded-xl bg-[#0756b0] py-3 text-sm font-bold">Abone Ol</button>
               </form>
-            </section>
+            </section> */}
 
             <section className="rounded-2xl bg-white p-6 dark:bg-slate-900">
               <h3 className="mb-4 text-lg font-bold text-[#1b1a6b] dark:text-white">İlginizi Çekebilir</h3>

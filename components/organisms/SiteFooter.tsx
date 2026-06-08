@@ -52,6 +52,12 @@ export async function SiteFooter() {
           <p className="max-w-sm text-slate-500 dark:text-slate-400">
             ABD Haberlerini Türkçe Olarak Takip Edin.
           </p>
+          <a
+            href="mailto:info@amerika365.com"
+            className="inline-block text-sm font-semibold text-[#0756b0] transition-colors hover:text-[#1b1a6b] dark:text-slate-300 dark:hover:text-white"
+          >
+            info@amerika365.com
+          </a>
         </div>
 
         <div className="space-y-4">

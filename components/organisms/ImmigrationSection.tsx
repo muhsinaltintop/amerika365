@@ -23,9 +23,12 @@ export function ImmigrationSection() {
           <p className="mb-6 leading-relaxed text-white/80">
             Amerika&apos;daki uzman Türk avukatlar ve danışmanlarla iletişime geçin. Sürecinizi güvenle yönetin.
           </p>
-          <button className="rounded-lg bg-white px-6 py-3 font-bold text-[#0756b0] shadow-lg transition-colors hover:bg-slate-50">
+          <a
+            href="mailto:info@amerika365.com"
+            className="inline-block rounded-lg bg-white px-6 py-3 font-bold text-[#0756b0] shadow-lg transition-colors hover:bg-slate-50"
+          >
             Uzmana Sorun
-          </button>
+          </a>
         </div>
         <Icon name="travel_explore" className="absolute -right-8 -bottom-8 rotate-12 text-[200px] text-white/10" />
       </div>
