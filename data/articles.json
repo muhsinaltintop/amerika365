@@ -1,10 +1,47 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-04T12:30:00Z",
+  "generated_at": "2026-06-23T09:00:00Z",
   "stats": {
-    "total_news": 18
+    "total_news": 19
   },
   "news": [
+    {
+      "id": "news_h1b_100k_fee_iptal",
+      "slug": "federal-mahkeme-trump-yonetiminin-100-bin-dolarlik-h-1b-vize-ucretini-iptal-etti",
+      "title": "Federal Mahkeme Trump Yönetiminin 100 Bin Dolarlık H-1B Vize Ücretini İptal Etti",
+      "summary": "ABD'de federal bir yargıç, Trump yönetiminin yeni H-1B vizeleri için uygulamaya koyduğu 100 bin dolarlık ücreti hukuka aykırı bularak iptal etti. Karar, teknoloji şirketleri, üniversiteler ve sağlık kuruluşları tarafından memnuniyetle karşılandı.",
+      "content": "<p>ABD'nin Massachusetts eyaletindeki federal mahkeme, Trump yönetiminin yeni H-1B vize başvuruları için getirdiği 100 bin dolarlık ek ücreti iptal etti.</p>\n<p>Boston Bölge Mahkemesi Yargıcı Leo Sorokin, yönetimin söz konusu uygulamayla yetkisini aştığına ve federal kurumların düzenleme süreçlerini belirleyen İdari Usul Yasası'nı ihlal ettiğine karar verdi.</p>\n<p>Mahkeme kararında, yürütme organının Kongre tarafından açık şekilde yetkilendirilmeden H-1B başvuruları üzerinden fiilen vergi niteliğinde bir ücret uygulayamayacağı vurgulandı.</p>\n<p>Trump yönetimi, ücret artışını Amerikalı çalışanların işlerini koruma amacıyla savunmuş ve yabancı iş gücünün ABD vatandaşlarının istihdam fırsatlarını azaltmasını önlemeyi hedeflediğini açıklamıştı.</p>\n<p>H-1B vizesi, ABD'de yüksek uzmanlık gerektiren ve yerel iş gücüyle doldurulması zor olan pozisyonlar için kullanılıyor. Programdan en fazla yararlanan sektörlerin başında teknoloji geliyor. H-1B onaylarının yaklaşık dörtte üçü Hindistan vatandaşlarına veriliyor.</p>\n<p>Ancak eyalet yönetimleri, üniversiteler ve sağlık kuruluşları, zaten personel bulmakta zorlandıkları öğretmen, akademisyen ve doktor pozisyonlarının bu ücret nedeniyle daha da doldurulamaz hale geleceğini savunuyordu.</p>\n<p>Dava açan 20 eyalet, yüksek ücretin devlet okullarında öğretmen istihdamını zorlaştıracağını, üniversitelerdeki araştırma faaliyetlerini olumsuz etkileyeceğini ve sağlık sektöründeki personel açığını büyüteceğini belirtti.</p>\n<p>Massachusetts Başsavcısı Andrea Joy Campbell, kararın ardından yaptığı açıklamada, H-1B programının eğitim, sağlık ve bilimsel araştırma gibi kritik alanlardaki iş gücü eksikliklerini gidermede önemli bir araç olduğunu söyledi.</p>\n<p>Amerikan Tabipler Birliği Başkanı Bobby Mukkamala da kararı &quot;hastalar için bir zafer&quot; olarak nitelendirdi. Mukkamala, özellikle kırsal bölgelerde ve doktor açığının yoğun olduğu yerlerde uluslararası tıp mezunlarının sağlık hizmetlerinin devamlılığı açısından kritik rol oynadığını ifade etti.</p>\n<p>Karar, ABD'de çalışan veya çalışmayı planlayan yüksek vasıflı yabancı profesyoneller açısından önemli bir gelişme olarak görülüyor. 100 bin dolarlık ücret artışı, duyurulduğu dönemde işverenler, öğrenciler ve vize sahipleri arasında büyük belirsizlik yaratmıştı.</p>\n<p>Buna rağmen hukuki süreç henüz sona ermiş değil. İç Güvenlik Bakanlığı karara itiraz edeceğini açıkladı. Beyaz Saray da temyiz sürecinde kararın bozulacağına inandıklarını duyurdu.</p>\n<p>Önümüzdeki aylarda üst mahkemelerin vereceği kararlar, H-1B programının geleceği ve ABD'nin yüksek nitelikli yabancı iş gücüne yönelik politikaları açısından belirleyici olacak.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_immigration",
+        "name": "Göçmenlik"
+      },
+      "tags": [
+        "h-1b",
+        "vize",
+        "göçmenlik",
+        "trump yönetimi",
+        "federal mahkeme"
+      ],
+      "cover_image": {
+        "url": "/federal-mahkeme-h1b-100-bin-dolar-vize-ucreti-iptal.png",
+        "alt": "Federal Mahkeme Trump Yönetiminin 100 Bin Dolarlık H-1B Vize Ücretini İptal Etti"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-06-23T09:00:00Z",
+      "created_at": "2026-06-23T09:00:00Z",
+      "updated_at": "2026-06-23T09:00:00Z",
+      "seo": {
+        "meta_title": "Federal Mahkeme H-1B 100 Bin Dolarlık Vize Ücretini İptal Etti",
+        "meta_description": "ABD'de federal mahkeme, Trump yönetiminin yeni H-1B başvuruları için getirdiği 100 bin dolarlık ücreti hukuka aykırı bularak iptal etti.",
+        "canonical_url": "https://amerika365.com/haber/federal-mahkeme-trump-yonetiminin-100-bin-dolarlik-h-1b-vize-ucretini-iptal-etti"
+      }
+    },
     {
       "id": "news_0001",
       "slug": "autokiniton-313m-yatirim",
