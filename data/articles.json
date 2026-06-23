@@ -1,14 +1,51 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-23T09:00:00Z",
+  "generated_at": "2026-06-23T10:00:00Z",
   "stats": {
-    "total_news": 19
+    "total_news": 20
   },
   "news": [
     {
+      "id": "news_dhs_secmen_posta_oyu_takip_plani",
+      "slug": "dhs-secmen-vatandasligi-ve-posta-oyu-takip-plani",
+      "title": "DHS’den Seçmen Vatandaşlığı ve Posta Oyu Takip Planı",
+      "summary": "Trump yönetiminin seçim güvenliği gündeminin önemli parçalarından biri olan yeni plan kapsamında eyaletler, seçmen kayıtlarını federal vatandaşlık verileriyle karşılaştırabilecek. Program ayrıca posta yoluyla kullanılan oyların takibini de içeriyor.",
+      "content": "<p>ABD İç Güvenlik Bakanlığı (DHS), kayıtlı seçmenlerin ABD vatandaşı olup olmadığının doğrulanmasını ve posta yoluyla kullanılan oyların takibini amaçlayan yeni bir planı onayladı.</p>\n<p>Mahkemeye sunulan resmi belgelere göre plan geçtiğimiz hafta onaylandı ve uygulamanın Haziran ayı sonuna kadar hayata geçirilmesi bekleniyor.</p>\n<p>Yeni düzenleme kapsamında eyalet yönetimleri, seçmen kayıt listelerinin tamamını federal veri tabanlarıyla karşılaştırabilecek. Bu sayede kayıtlı seçmenlerin vatandaşlık durumları ve oy kullanma uygunlukları doğrulanabilecek.</p>\n<p>Planın merkezinde, federal hükümet tarafından kullanılan SAVE (Systematic Alien Verification for Entitlements) sistemi bulunuyor. Eyaletler, seçmen kayıtlarını bu sistemde yer alan göçmenlik ve vatandaşlık verileriyle karşılaştırarak uygunluk kontrolü yapabilecek.</p>\n<p>Ayrıca eyalet seçim yetkililerine, ABD Vatandaşlık ve Göçmenlik Hizmetleri (USCIS), Sosyal Güvenlik Kurumu (SSA) ve Dışişleri Bakanlığı tarafından tutulan vatandaşlık bilgilerine güvenli erişim sağlanması planlanıyor.</p>\n<p>Düzenlemenin dikkat çeken bir diğer yönü ise ABD Posta Servisi (USPS) ile kurulacak iş birliği oldu.</p>\n<p>Mahkeme belgelerine göre DHS ve USPS, posta yoluyla ve devamsız seçmen (absentee ballot) sistemi üzerinden kullanılan oyların akışını takip edecek. Amaç, olağan dışı oy kullanma modellerini tespit etmek, olası usulsüzlük işaretlerini incelemek ve gerektiğinde soruşturmalara temel oluşturabilecek veriler üretmek.</p>\n<p>Plan, Başkan Donald Trump'ın 31 Mart'ta imzaladığı ve federal seçimlerde vatandaşlık doğrulamasını güçlendirmeyi amaçlayan başkanlık kararnamesinin devamı niteliğinde görülüyor.</p>\n<p>Kararname kapsamında ayrıca eyaletlerle paylaşılacak vatandaşlık listelerinin oluşturulması ve federal kurumların seçmen uygunluğunun doğrulanmasında daha aktif rol alması öngörülüyor.</p>\n<p>Yeni sistemde posta yoluyla gönderilen oy pusulalarının üzerinde resmi seçim postası ibaresi ve özel takip barkodları bulunması planlanıyor. Böylece oy pusulalarının takibi ve doğrulanması daha kolay hale gelecek.</p>\n<p>Trump yönetimi düzenlemeyi seçim güvenliğini artırmaya yönelik bir adım olarak savunurken, uygulamanın veri gizliliği, eyalet yetkileri ve seçim süreçleri üzerindeki etkilerinin önümüzdeki dönemde siyasi ve hukuki tartışmalara konu olması bekleniyor.</p>\n<p>ABD'de yaşayan vatandaşlar ve seçim süreçlerini yakından takip eden göçmen toplulukları açısından bakıldığında, yeni uygulama federal hükümetin seçim doğrulama mekanizmalarındaki rolünü önemli ölçüde genişletecek adımlardan biri olarak değerlendiriliyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_politics",
+        "name": "Politika"
+      },
+      "tags": [
+        "dhs",
+        "seçim güvenliği",
+        "vatandaşlık doğrulama",
+        "posta oyu",
+        "trump yönetimi"
+      ],
+      "cover_image": {
+        "url": "/dhs-secmen-vatandasligi-posta-oyu-takip-plani.png",
+        "alt": "DHS’den Seçmen Vatandaşlığı ve Posta Oyu Takip Planı"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-06-23T10:00:00Z",
+      "created_at": "2026-06-23T10:00:00Z",
+      "updated_at": "2026-06-23T10:00:00Z",
+      "seo": {
+        "meta_title": "DHS’den Seçmen Vatandaşlığı ve Posta Oyu Takip Planı",
+        "meta_description": "ABD İç Güvenlik Bakanlığı, eyaletlerin seçmen kayıtlarını federal vatandaşlık verileriyle karşılaştırmasını ve posta oylarını takip etmesini öngören planı onayladı.",
+        "canonical_url": "https://amerika365.com/haber/dhs-secmen-vatandasligi-ve-posta-oyu-takip-plani"
+      }
+    },
+    {
       "id": "news_h1b_100k_fee_iptal",
       "slug": "federal-mahkeme-trump-yonetiminin-100-bin-dolarlik-h-1b-vize-ucretini-iptal-etti",
-      "title": "Federal Mahkeme Trump Yönetiminin 100 Bin Dolarlık H-1B Vize Ücretini İptal Etti",
+      "title": "Mahkeme 100 Bin Dolarlık H-1B Ücretini İptal Etti",
       "summary": "ABD'de federal bir yargıç, Trump yönetiminin yeni H-1B vizeleri için uygulamaya koyduğu 100 bin dolarlık ücreti hukuka aykırı bularak iptal etti. Karar, teknoloji şirketleri, üniversiteler ve sağlık kuruluşları tarafından memnuniyetle karşılandı.",
       "content": "<p>ABD'nin Massachusetts eyaletindeki federal mahkeme, Trump yönetiminin yeni H-1B vize başvuruları için getirdiği 100 bin dolarlık ek ücreti iptal etti.</p>\n<p>Boston Bölge Mahkemesi Yargıcı Leo Sorokin, yönetimin söz konusu uygulamayla yetkisini aştığına ve federal kurumların düzenleme süreçlerini belirleyen İdari Usul Yasası'nı ihlal ettiğine karar verdi.</p>\n<p>Mahkeme kararında, yürütme organının Kongre tarafından açık şekilde yetkilendirilmeden H-1B başvuruları üzerinden fiilen vergi niteliğinde bir ücret uygulayamayacağı vurgulandı.</p>\n<p>Trump yönetimi, ücret artışını Amerikalı çalışanların işlerini koruma amacıyla savunmuş ve yabancı iş gücünün ABD vatandaşlarının istihdam fırsatlarını azaltmasını önlemeyi hedeflediğini açıklamıştı.</p>\n<p>H-1B vizesi, ABD'de yüksek uzmanlık gerektiren ve yerel iş gücüyle doldurulması zor olan pozisyonlar için kullanılıyor. Programdan en fazla yararlanan sektörlerin başında teknoloji geliyor. H-1B onaylarının yaklaşık dörtte üçü Hindistan vatandaşlarına veriliyor.</p>\n<p>Ancak eyalet yönetimleri, üniversiteler ve sağlık kuruluşları, zaten personel bulmakta zorlandıkları öğretmen, akademisyen ve doktor pozisyonlarının bu ücret nedeniyle daha da doldurulamaz hale geleceğini savunuyordu.</p>\n<p>Dava açan 20 eyalet, yüksek ücretin devlet okullarında öğretmen istihdamını zorlaştıracağını, üniversitelerdeki araştırma faaliyetlerini olumsuz etkileyeceğini ve sağlık sektöründeki personel açığını büyüteceğini belirtti.</p>\n<p>Massachusetts Başsavcısı Andrea Joy Campbell, kararın ardından yaptığı açıklamada, H-1B programının eğitim, sağlık ve bilimsel araştırma gibi kritik alanlardaki iş gücü eksikliklerini gidermede önemli bir araç olduğunu söyledi.</p>\n<p>Amerikan Tabipler Birliği Başkanı Bobby Mukkamala da kararı &quot;hastalar için bir zafer&quot; olarak nitelendirdi. Mukkamala, özellikle kırsal bölgelerde ve doktor açığının yoğun olduğu yerlerde uluslararası tıp mezunlarının sağlık hizmetlerinin devamlılığı açısından kritik rol oynadığını ifade etti.</p>\n<p>Karar, ABD'de çalışan veya çalışmayı planlayan yüksek vasıflı yabancı profesyoneller açısından önemli bir gelişme olarak görülüyor. 100 bin dolarlık ücret artışı, duyurulduğu dönemde işverenler, öğrenciler ve vize sahipleri arasında büyük belirsizlik yaratmıştı.</p>\n<p>Buna rağmen hukuki süreç henüz sona ermiş değil. İç Güvenlik Bakanlığı karara itiraz edeceğini açıkladı. Beyaz Saray da temyiz sürecinde kararın bozulacağına inandıklarını duyurdu.</p>\n<p>Önümüzdeki aylarda üst mahkemelerin vereceği kararlar, H-1B programının geleceği ve ABD'nin yüksek nitelikli yabancı iş gücüne yönelik politikaları açısından belirleyici olacak.</p>",
       "author": {
@@ -28,7 +65,7 @@
       ],
       "cover_image": {
         "url": "/federal-mahkeme-h1b-100-bin-dolar-vize-ucreti-iptal.png",
-        "alt": "Federal Mahkeme Trump Yönetiminin 100 Bin Dolarlık H-1B Vize Ücretini İptal Etti"
+        "alt": "Mahkeme 100 Bin Dolarlık H-1B Ücretini İptal Etti"
       },
       "status": "published",
       "is_featured": false,
@@ -37,7 +74,7 @@
       "created_at": "2026-06-23T09:00:00Z",
       "updated_at": "2026-06-23T09:00:00Z",
       "seo": {
-        "meta_title": "Federal Mahkeme H-1B 100 Bin Dolarlık Vize Ücretini İptal Etti",
+        "meta_title": "Mahkeme 100 Bin Dolarlık H-1B Ücretini İptal Etti",
         "meta_description": "ABD'de federal mahkeme, Trump yönetiminin yeni H-1B başvuruları için getirdiği 100 bin dolarlık ücreti hukuka aykırı bularak iptal etti.",
         "canonical_url": "https://amerika365.com/haber/federal-mahkeme-trump-yonetiminin-100-bin-dolarlik-h-1b-vize-ucretini-iptal-etti"
       }
