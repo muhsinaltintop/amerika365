@@ -1,10 +1,47 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-23T10:00:00Z",
+  "generated_at": "2026-06-23T11:00:00Z",
   "stats": {
-    "total_news": 20
+    "total_news": 21
   },
   "news": [
+    {
+      "id": "news_doj_17_vatandaslik_iptal",
+      "slug": "doj-17-kisinin-vatandasligini-iptal-etmek-istiyor",
+      "title": "DOJ 17 Kişinin Vatandaşlığını İptal Etmek İstiyor",
+      "summary": "ABD Adalet Bakanlığı, vatandaşlık başvurularında ciddi suç geçmişlerini gizledikleri veya yanlış beyanda bulundukları öne sürülen 17 kişinin vatandaşlıklarının iptal edilmesi için hukuki süreç başlattı.",
+      "content": "<p>ABD Adalet Bakanlığı (DOJ), vatandaşlık başvurularında sahte beyan veya aldatıcı bilgi kullandıkları iddia edilen 17 kişinin ABD vatandaşlığının iptal edilmesi için dava açtığını duyurdu.</p>\n<p>Bakanlığa göre söz konusu kişiler, vatandaşlığa kabul sürecinde yetkililere yanlış bilgi vererek ya da geçmişte işledikleri suçları gizleyerek ABD vatandaşlığı elde etti.</p>\n<p>Yetkililer, federal yasalar kapsamında vatandaşlık başvurularında aranan &quot;iyi ahlaki karakter&quot; şartının bu kişiler tarafından karşılanmadığını savunuyor. İddialara göre başvuru sahipleri, daha önce işledikleri ancak yetkililerin haberdar olmadığı suçlarla ilgili sorulara gerçeğe aykırı cevaplar verdi.</p>\n<p>Adalet Bakan Vekili Todd Blanche yaptığı açıklamada, ABD vatandaşlığının bir hak değil, dürüst şekilde kazanılması gereken bir ayrıcalık olduğunu belirterek vatandaşlık sisteminin kötüye kullanılmasına karşı sıfır tolerans politikası uyguladıklarını söyledi.</p>\n<p>İç Güvenlik Bakanı Markwayne Mullin de benzer şekilde, göçmenlik süreçlerinde yalan beyanda bulunan ve ABD yasalarını ihlal eden kişilerin vatandaşlık ayrıcalığını kaybedebileceğini ifade etti.</p>\n<h2>Hangi Suçlamalar Gündemde?</h2>\n<p>Adalet Bakanlığı'nın açıklamasına göre vatandaşlığının iptali istenen kişiler 13 farklı ülkeden geliyor ve yaşları 39 ile 69 arasında değişiyor.</p>\n<p>Dosyalarda yer alan suçlamalar arasında çocuklara yönelik cinsel istismar suçları, uyuşturucu kaçakçılığı, büyük ölçekli mali dolandırıcılık, kimlik sahteciliği ve göçmenlik başvurularında sahte bilgi kullanımı bulunuyor.</p>\n<p>Yetkililer, 17 kişiden 6'sının çocuklara yönelik cinsel suçlarla bağlantılı olduğunu açıkladı. Bu suçlamalar arasında reşit olmayan kişilere yönelik cinsel istismar ve çocuk istismarı materyallerinin bulundurulması gibi iddialar yer alıyor.</p>\n<p>Dikkat çeken dosyalardan birinde ise bir Katolik rahibin görev konumunu kullanarak bir çocuğu istismar ettiği öne sürülüyor.</p>\n<h2>Milyonlarca Dolarlık Dolandırıcılık İddiaları</h2>\n<p>Vatandaşlığı iptal edilmek istenen bazı kişiler hakkında büyük çaplı mali suç iddiaları da bulunuyor.</p>\n<p>Adalet Bakanlığı'nın açıklamasına göre bir dosyada 54 milyon dolarlık menkul kıymet ve elektronik dolandırıcılık, bir başka dosyada sahte fizik tedavi klinikleri üzerinden 36,7 milyon dolarlık sağlık sigortası dolandırıcılığı, başka bir vakada ise Kolombiyalı bir uyuşturucu karteliyle bağlantılı olduğu iddia edilen paraların gayrimenkul yatırımlarında kullanılması gibi suçlamalar yer alıyor.</p>\n<p>Ayrıca bazı kişilerin Florida'daki bir kabile kumarhanesinden milyonlarca dolar çaldığı iddia ediliyor.</p>\n<h2>Sahte Kimlik ve Gizlenen Başvurular</h2>\n<p>Adalet Bakanlığı, bazı kişilerin göçmenlik sistemini aşmak amacıyla sahte kimlikler kullandığını da öne sürüyor.</p>\n<p>Dosyalara göre dört kişi farklı isimler kullanmak, evlilik durumları hakkında yanlış bilgi vermek veya daha önce reddedilen başvuruların ardından farklı kimliklerle yeniden başvurmakla suçlanıyor.</p>\n<p>Örnek olarak bir kadının, 1995 yılında reddedilen başvurusunun ardından farklı bir isim kullanarak yeniden vatandaşlık sürecine girdiği iddia edildi. Yetkililer, eski parmak izi kayıtlarının dijital ortama aktarılması sayesinde söz konusu kişinin gerçek kimliğinin tespit edildiğini açıkladı.</p>\n<h2>ABD'deki Göçmenler İçin Ne Anlama Geliyor?</h2>\n<p>Uzmanlara göre bu davalar, Trump yönetiminin vatandaşlık süreçlerinde yanlış beyan ve geçmiş suç kayıtlarına yönelik denetimlerini artırdığını gösteriyor.</p>\n<p>Ancak açılan davalar yalnızca belirli kişiler hakkındaki iddiaları içeriyor. Vatandaşlıkların iptal edilip edilmeyeceğine mahkemeler karar verecek ve ilgili kişiler yargılama sürecinde kendilerini savunma hakkına sahip olacak.</p>\n<p>Kararın, özellikle vatandaşlık başvurusu yapan veya vatandaşlığa kabul sürecinde bulunan göçmenlere, başvurularda verilen bilgilerin doğruluğunun büyük önem taşıdığı yönünde güçlü bir mesaj verdiği değerlendiriliyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_immigration",
+        "name": "Göçmenlik"
+      },
+      "tags": [
+        "adalet bakanlığı",
+        "vatandaşlık iptali",
+        "göçmenlik",
+        "doj",
+        "suç geçmişi"
+      ],
+      "cover_image": {
+        "url": "/doj-17-kisinin-vatandasligini-iptal-etmek-istiyor.png",
+        "alt": "DOJ 17 Kişinin Vatandaşlığını İptal Etmek İstiyor"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-06-23T11:00:00Z",
+      "created_at": "2026-06-23T11:00:00Z",
+      "updated_at": "2026-06-23T11:00:00Z",
+      "seo": {
+        "meta_title": "DOJ 17 Kişinin Vatandaşlığını İptal Etmek İstiyor",
+        "meta_description": "ABD Adalet Bakanlığı, suç geçmişlerini gizledikleri veya yanlış beyanda bulundukları iddia edilen 17 kişinin vatandaşlığının iptali için dava açtı.",
+        "canonical_url": "https://amerika365.com/haber/doj-17-kisinin-vatandasligini-iptal-etmek-istiyor"
+      }
+    },
     {
       "id": "news_dhs_secmen_posta_oyu_takip_plani",
       "slug": "dhs-secmen-vatandasligi-ve-posta-oyu-takip-plani",
