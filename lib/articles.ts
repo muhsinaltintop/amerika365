@@ -231,6 +231,24 @@ export async function getCategoryNavItems(limit = CATEGORY_NAV_LIMIT) {
   return getUniqueCategoriesFromArticles(publishedArticles).slice(0, limit).map(toCategoryNavItem);
 }
 
+export async function getLatestArticleCategoryNavItems(limit = 5) {
+  const categoryMap = new Map<string, ArticleCategory>();
+
+  for (const article of await getPublishedArticles()) {
+    const categorySlug = slugifyCategory(article.categoryRecord.name);
+
+    if (!categoryMap.has(categorySlug)) {
+      categoryMap.set(categorySlug, article.categoryRecord);
+    }
+
+    if (categoryMap.size >= limit) {
+      break;
+    }
+  }
+
+  return [...categoryMap.values()].map(toCategoryNavItem);
+}
+
 export async function getCategoryBySlug(slug: string): Promise<ResolvedCategory | null> {
   const publishedArticles = await getPublishedArticles();
   const category = getUniqueCategoriesFromArticles(publishedArticles).find((item) => getCategorySlugCandidates(item).has(slug));
