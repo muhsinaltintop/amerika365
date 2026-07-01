@@ -1,5 +1,5 @@
 import { getPublishedArticles } from "@/lib/articles";
-import { DailyDigest } from "../organisms/DailyDigest";
+// import { DailyDigest } from "../organisms/DailyDigest";
 import { HeroSlider } from "../organisms/HeroSlider";
 import { ImmigrationSection } from "../organisms/ImmigrationSection";
 import { SiteFooter } from "../organisms/SiteFooter";
@@ -15,7 +15,8 @@ export async function HomePage() {
   return (
     <div className="bg-[#f7fbfd] text-slate-900 dark:bg-[#101822] dark:text-slate-100">
       <SiteHeader />
-      <DailyDigest />
+      {/* Amerika 365 – Bugünün İlk 5 Gündemi bölümü isteğe bağlı olarak kapatıldı. */}
+      {/* <DailyDigest /> */}
 
       <main className="mx-auto max-w-[1200px] space-y-10 px-4 py-6 sm:space-y-12 sm:px-6 sm:py-8">
         <HeroSlider slides={sliderArticles} />

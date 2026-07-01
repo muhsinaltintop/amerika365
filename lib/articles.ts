@@ -98,7 +98,8 @@ interface RawArticleRecord {
   seo?: ArticleSeo;
 }
 
-const CATEGORY_NAV_LIMIT = 7;
+const CATEGORY_NAV_ORDER = ["Politika", "Ekonomi", "İş Dünyası", "Teknoloji", "Sağlık", "Eğitim", "Spor", "Göçmenlik"];
+const CATEGORY_NAV_LIMIT = CATEGORY_NAV_ORDER.length;
 
 const data = articleData as ArticleData;
 const articles = data.news.map(toArticleRecord);
@@ -227,8 +228,12 @@ export async function getPublishedArticleBySlug(slug: string) {
 
 export async function getCategoryNavItems(limit = CATEGORY_NAV_LIMIT) {
   const publishedArticles = await getPublishedArticles();
+  const categories = getUniqueCategoriesFromArticles(publishedArticles);
+  const categoryByName = new Map(categories.map((category) => [category.name, category]));
+  const orderedCategories = CATEGORY_NAV_ORDER.map((name) => categoryByName.get(name)).filter((category): category is ArticleCategory => Boolean(category));
+  const remainingCategories = categories.filter((category) => !CATEGORY_NAV_ORDER.includes(category.name));
 
-  return getUniqueCategoriesFromArticles(publishedArticles).slice(0, limit).map(toCategoryNavItem);
+  return [...orderedCategories, ...remainingCategories].slice(0, limit).map(toCategoryNavItem);
 }
 
 export async function getCategoryBySlug(slug: string): Promise<ResolvedCategory | null> {
