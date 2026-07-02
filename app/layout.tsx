@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: "Amerika 365",
   description: "ABD'deki Türk toplumu için güncel haberler ve rehber içerikler.",
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
