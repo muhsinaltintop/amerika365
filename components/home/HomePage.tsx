@@ -4,6 +4,7 @@ import { HeroSlider } from "../organisms/HeroSlider";
 import { ImmigrationSection } from "../organisms/ImmigrationSection";
 import { SiteFooter } from "../organisms/SiteFooter";
 import { SiteHeader } from "../organisms/SiteHeader";
+import { CategoryNewsSections } from "../organisms/CategoryNewsSections";
 import { TopNewsSection } from "../organisms/TopNewsSection";
 // import { TurkishLifeSection } from "../organisms/TurkishLifeSection";
 
@@ -21,6 +22,7 @@ export async function HomePage() {
       <main className="mx-auto max-w-[1200px] space-y-10 px-4 py-6 sm:space-y-12 sm:px-6 sm:py-8">
         <HeroSlider slides={sliderArticles} />
         <TopNewsSection cards={topNewsArticles} />
+        <CategoryNewsSections articles={articles} excludedSlugs={[...sliderArticles, ...topNewsArticles].map((article) => article.slug)} />
         <ImmigrationSection />
         {/* ABD’de Türk Yaşamı bölümü içerikleri hazırlanacağı için geçici olarak kapalı. */}
         {/* <TurkishLifeSection /> */}
