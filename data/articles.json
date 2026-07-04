@@ -1,10 +1,47 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-02T10:00:00Z",
+  "generated_at": "2026-07-04T10:00:00Z",
   "stats": {
-    "total_news": 34
+    "total_news": 35
   },
   "news": [
+    {
+      "id": "news_abd_haziran_istihdam_yavaslama_ucret_enflasyon",
+      "slug": "abdde-haziran-ayinda-istihdam-sert-yavasladi-ucret-artislari-enflasyonun-gerisinde-kaldi",
+      "title": "ABD'de Haziran Ayında İstihdam Sert Yavaşladı, Ücret Artışları Enflasyonun Gerisinde Kaldı",
+      "summary": "ABD ekonomisi haziran ayında yalnızca 57 bin yeni istihdam oluşturdu. İşsizlik oranı gerilerken bunun nedeni yüz binlerce kişinin iş gücünden ayrılması oldu. Zayıf veriler, faiz artışı beklentilerini de azalttı.",
+      "content": "<h2>İstihdam Artışı Beklentilerin Altında Kaldı</h2>\n<p>ABD Çalışma Bakanlığı'nın açıkladığı haziran ayı istihdam verileri, iş gücü piyasasında yavaşlamanın belirginleştiğini ortaya koydu. İşverenler geçen ay yalnızca 57 bin kişiye yeni istihdam sağladı. Bu rakam, önceki iki ayın oldukça altında kalırken, nisan ve mayıs aylarına ilişkin istihdam verileri de aşağı yönlü revize edildi.</p>\n<p>Sektörel verilere göre sağlık hizmetleri alanında istihdam artışı devam etti ancak önceki aylara kıyasla daha sınırlı kaldı. İnşaat ve imalat sektörlerinde de mütevazı düzeyde işe alımlar sürdü. Buna karşın mayıs ayında güçlü performans gösteren konaklama ve eğlence sektöründe haziran ayında 61 bin kişilik istihdam kaybı yaşandı.</p>\n<h2>İşsizlik Oranındaki Düşüş Yanıltıcı Olabilir</h2>\n<p>İşsizlik oranı yüzde 4,3'ten yüzde 4,2'ye gerilese de uzmanlar bunun ilk bakışta göründüğü kadar olumlu olmadığını belirtiyor. Haziran ayında 700 binden fazla kişi iş gücünden ayrıldığı için artık işsiz olarak sayılmadı. Çalışmayan ve aktif olarak iş aramayan kişiler resmi işsizlik hesaplamasına dahil edilmiyor.</p>\n<p>Ekonomistler, işten çıkarmaların halen düşük seviyede olmasının olumlu bir gelişme olduğunu ancak işe alımların da önemli ölçüde yavaşladığını ifade ediyor. Çalışanların büyük bölümü mevcut işlerinde kalmayı tercih ederken, daha yüksek maaş için iş değiştirme eğilimi önceki yıllara göre belirgin şekilde azaldı. Bu durum özellikle iş piyasasına yeni girmek isteyenler için fırsatları sınırlıyor.</p>\n<p>İş arama platformu ZipRecruiter'ın baş ekonomistlerinden Nicole Bachaud, mevcut çalışanların işlerini bırakmamasının iş piyasasında bir darboğaz oluşturduğunu belirterek özellikle yeni üniversite mezunlarının ilk işlerini bulmakta zorlandığını söyledi.</p>\n<h2>Ücretler Enflasyon Karşısında Zayıf Kaldı</h2>\n<p>Ücretlerde ise tablo karmaşık görünüyor. Ortalama saatlik kazançlar haziran ayında geçen yılın aynı dönemine göre yüzde 3,5 arttı. Ancak enflasyonun daha hızlı yükselmesi nedeniyle çalışanların satın alma gücü artmıyor. Başka bir ifadeyle maaşlar artsa da fiyatlar daha hızlı yükseldiği için birçok kişi gelirinin eskisi kadar yetmediğini hissediyor.</p>\n<h2>Fed Beklentileri Değişti</h2>\n<p>Verilerin ardından piyasalarda ABD Merkez Bankası'nın (Fed) temmuz ayındaki toplantısında faiz artıracağı yönündeki beklentiler de zayıfladı. Bir gün önce yaklaşık üçte bir seviyesinde görülen faiz artışı ihtimali, zayıf istihdam raporunun ardından yüzde 20'nin altına geriledi.</p>\n<p>Fed Başkanı Kevin Warsh ise yaptığı açıklamada önceliklerinin fiyat istikrarını sağlamak olduğunu vurguladı. Warsh, siyasi baskılardan bağımsız hareket edeceklerini belirterek ABD Merkez Bankası'nın enflasyonu kontrol altına alma hedefinden vazgeçmeyeceğini ifade etti.</p>\n<p>Haziran ayı verileri, ABD ekonomisinde iş gücü piyasasının ivme kaybetmeye başladığına işaret ediyor. Özellikle iş arayanlar ve yeni mezunlar açısından işe giriş sürecinin zorlaşması beklenirken, ücretlerin enflasyon karşısında yetersiz kalması milyonlarca çalışanın alım gücü üzerindeki baskının sürdüğünü gösteriyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "abd istihdam",
+        "işsizlik",
+        "ücret artışı",
+        "enflasyon",
+        "fed"
+      ],
+      "cover_image": {
+        "url": "/fed-faizleri-sabit.png",
+        "alt": "ABD'de Haziran Ayında İstihdam Sert Yavaşladı"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-07-04T10:00:00Z",
+      "created_at": "2026-07-04T10:00:00Z",
+      "updated_at": "2026-07-04T10:00:00Z",
+      "seo": {
+        "meta_title": "ABD'de Haziran İstihdamı Sert Yavaşladı",
+        "meta_description": "ABD ekonomisi haziranda 57 bin yeni istihdam oluşturdu; ücret artışları enflasyonun gerisinde kalırken Fed faiz artışı beklentileri zayıfladı.",
+        "canonical_url": "https://amerika365.com/haber/abdde-haziran-ayinda-istihdam-sert-yavasladi-ucret-artislari-enflasyonun-gerisinde-kaldi"
+      }
+    },
     {
       "id": "news_fed_arastirmasi_duzensiz_goc_konut_fiyatlari_kiralar",
       "slug": "fed-arastirmasi-duzensiz-goc-konut-fiyatlari-ve-kiralari-yukseltti",
