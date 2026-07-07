@@ -1,10 +1,121 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-02T10:00:00Z",
+  "generated_at": "2026-07-05T11:00:00Z",
   "stats": {
-    "total_news": 34
+    "total_news": 37
   },
   "news": [
+    {
+      "id": "news_medicare_glp1_bridge_kilo_verme_ilaclari",
+      "slug": "medicare-kilo-verme-ilaclari-aylik-50-dolara-dusuyor",
+      "title": "Medicare Kapsamında Kilo Verme İlaçlarının Maliyeti Bazı Yaşlılar İçin Aylık 50 Dolara Düşüyor",
+      "summary": "ABD’de başlatılan yeni Medicare GLP-1 Bridge pilot programı, uygun şartları taşıyan bazı Medicare ve Medicare Advantage üyelerine Wegovy ve Zepbound gibi kilo verme ilaçlarını aylık 50 dolara sunacak.",
+      "content": "<h2>Yeni Pilot Program Başladı</h2>\n<p>ABD’de Medicare kapsamındaki milyonlarca kişi için kilo verme ilaçlarına erişimi kolaylaştırabilecek önemli bir değişiklik yürürlüğe girdi. 1 Temmuz’da başlayan yeni federal pilot program, obeziteyle mücadele eden ve belirli şartları karşılayan bazı Medicare ve Medicare Advantage yararlanıcılarının GLP-1 grubu ilaçlara aylık 50 dolar karşılığında erişmesini sağlayacak.</p>\n<p>Medicare GLP-1 Bridge adı verilen geçici program kapsamında, kilo kaybı için FDA onayı almış bazı markalı ilaçlar kapsama alınıyor. Habere göre bu ilaçlar arasında Eli Lilly’nin Foundayo tabletleri ve Zepbound KwikPen ürünleri ile Novo Nordisk’in Wegovy enjeksiyonları ve tabletleri bulunuyor. Programın 2027 sonuna kadar sürmesi planlanıyor.</p>\n<h2>Sigorta Kapsamı Açısından Önemli Bir İlk</h2>\n<p>Bu gelişme, GLP-1 ilaçlarının yalnızca kilo verme amacıyla kullanıldığında sigorta kapsamında karşılanması açısından önemli bir ilk olarak değerlendiriliyor. Daha önce bu tür ilaçlar genellikle diyabet gibi başka hastalıklar için reçete edildiğinde sigorta tarafından karşılanabiliyordu. Obezite tedavisi amacıyla kullanmak isteyen birçok yaşlı Amerikalı ise yüksek maliyet nedeniyle bu ilaçlara erişemiyordu.</p>\n<p>Program öncesinde Wegovy’nin aylık maliyeti yaklaşık 1.350 ila 1.650 dolar arasında değişirken, Zepbound’un aylık fiyatı yaklaşık 1.086 dolar seviyesindeydi. İlaç üreticileri bazı hastalar için nakit ödeme indirimleri sunsa da, bu fiyatlar özellikle sabit gelirle yaşayan Medicare yararlanıcıları için ciddi bir engel oluşturuyordu. Yeni pilot programla uygun hastalar için maliyetin aylık 50 dolara düşmesi bekleniyor.</p>\n<h2>Kimler Yararlanabilecek?</h2>\n<p>Ancak programdan yararlanmak için belirli koşullar bulunuyor. Katılımcıların GLP-1 tedavisine başladıkları dönemde vücut kitle indeksinin 35 veya üzerinde olması gerekiyor. Alternatif olarak, vücut kitle indeksi 27 veya üzerinde olan ve geçmişte kalp krizi, felç ya da prediyabet gibi ek sağlık sorunları bulunan kişiler de program kapsamında değerlendirilebilecek.</p>\n<p>Buna karşılık, diyabet veya uyku apnesi gibi başka hastalıklar nedeniyle bu ilaçlar için halihazırda sigorta kapsamı bulunan kişiler pilot programa dahil edilmeyecek. Bu nedenle yeni düzenleme, özellikle obezite tedavisi için daha önce kapsam dışında kalan Medicare üyelerini hedefliyor.</p>\n<h2>Medicare Nüfusu İçin Geniş Etki Beklentisi</h2>\n<p>ABD’de 70 milyondan fazla kişi Medicare’e kayıtlı. Sağlık politikaları alanında çalışan KFF’ye göre bu grubun yaklaşık 10 milyonu fazla kilolu veya obez kategorisinde yer alıyor. Bu nedenle programın, yaşlı nüfus içinde kilo yönetimi ve obezite tedavisi açısından geniş bir etki yaratabileceği belirtiliyor.</p>\n<p>Medicare ve Medicaid Hizmetleri Merkezleri yöneticisi Dr. Mehmet Öz, programın hem kısa vadede maliyet yükünü azaltmayı hem de uzun vadeli kapsama kararları için veri toplamayı amaçladığını söyledi. Öz, kurumun programa katılımı ve sağlık sonuçlarını dikkatle izleyeceğini, elde edilecek verilerin ileride kalıcı bir kapsama modeli oluşturulup oluşturulmayacağı konusunda belirleyici olacağını ifade etti.</p>\n<h2>Uzmanlardan Yan Etki Uyarısı</h2>\n<p>Bununla birlikte uzmanlar, yaşlı hastalarda ilaç kullanımında dikkatli olunması gerektiğini vurguluyor. Northwestern Üniversitesi Feinberg Tıp Fakültesi’nden kardiyoloji uzmanı Dr. Micah Eimer, yaşlı bireylerin genel olarak ilaç yan etkilerine daha açık olabildiğini belirtti. Özellikle tansiyon ilacı kullanan bazı hastalarda GLP-1 tedavisine başladıktan sonra baş dönmesi, bayılma ve düşük tansiyon gibi yan etkilerin görülebileceğine dikkat çekti.</p>\n<p>Yeni Medicare GLP-1 Bridge programı, ABD’de kilo verme ilaçlarına erişim konusunda önemli bir dönüm noktası olabilir. Ancak program geçici olduğu için uzun vadeli kapsamın nasıl şekilleneceği henüz net değil. Uygun hastalar açısından bu değişiklik ciddi bir maliyet avantajı sağlayabilir; yine de bu ilaçların doktor kontrolünde, mevcut sağlık durumu ve kullanılan diğer ilaçlar dikkate alınarak değerlendirilmesi önem taşıyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_health",
+        "name": "Sağlık"
+      },
+      "tags": [
+        "medicare",
+        "glp-1",
+        "wegovy",
+        "zepbound",
+        "kilo verme ilaçları"
+      ],
+      "cover_image": {
+        "url": "/medicare-glp1-kilo-verme-ilaclari-aylik-50-dolar.png",
+        "alt": "Medicare kapsamında kilo verme ilaçlarının maliyeti bazı yaşlılar için aylık 50 dolara düşüyor"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-07-05T11:00:00Z",
+      "created_at": "2026-07-05T11:00:00Z",
+      "updated_at": "2026-07-05T11:00:00Z",
+      "seo": {
+        "meta_title": "Medicare Kilo Verme İlaçlarında Aylık 50 Dolar Pilot Programı",
+        "meta_description": "Yeni Medicare GLP-1 Bridge pilot programı, uygun bazı Medicare üyelerine Wegovy ve Zepbound gibi kilo verme ilaçlarını aylık 50 dolara sunacak.",
+        "canonical_url": "https://amerika365.com/haber/medicare-kilo-verme-ilaclari-aylik-50-dolara-dusuyor"
+      }
+    },
+    {
+      "id": "news_virginia_ice_ajanlari_maske_yasagi_tedbir",
+      "slug": "federal-yargic-virginianin-ice-ajanlarina-maske-yasagini-durdurdu",
+      "title": "Federal Yargıç, Virginia’nın ICE Ajanlarına Maske Yasağını Durdurdu",
+      "summary": "Virginia’da federal göçmenlik ajanlarının görev sırasında maske takmasını sınırlayan yeni yasa, mahkeme kararıyla geçici olarak durduruldu. Yargıç, eyaletin federal göçmenlik uygulamalarını düzenleme yetkisinin sınırlı olduğuna dikkat çekti.",
+      "content": "<h2>Mahkemeden Geçici Tedbir Kararı</h2>\n<p>ABD’de federal bir yargıç, Virginia eyaletinde yürürlüğe girmesi beklenen ve ICE ile Sınır Devriyesi ajanlarının görev sırasında maske takmasını sınırlayan yasayı geçici olarak durdurdu. Karar, Trump yönetimi ile Virginia eyaleti arasında federal göçmenlik yetkileri konusunda yaşanan hukuki anlaşmazlığın önemli bir aşaması olarak değerlendiriliyor.</p>\n<p>Federal Bölge Yargıcı Robert E. Payne, Adalet Bakanlığı’nın talebi üzerine geçici tedbir kararı verdi. Böylece yasa, dava süreci devam ederken yürürlüğe giremeyecek. Söz konusu düzenleme, federal göçmenlik görevlilerinin operasyon sırasında yüzlerini kapatmasını sınırlıyor, bazı durumlarda kimlik bilgilerinin görünür olmasını zorunlu kılıyor ve federal ajanların eyalet yasaları kapsamında cezai yaptırımlarla karşılaşmasının önünü açıyordu.</p>\n<h2>Federal Üstünlük İlkesi Vurgulandı</h2>\n<p>Mahkeme kararında, federal hükümetin davada başarılı olma ihtimalinin yüksek olduğu belirtildi. Yargıç Payne, Virginia yasasının federal görevlilerin göçmenlik yasalarını nasıl uygulayacağını düzenlemeye çalıştığını ve bunun ABD Anayasası’ndaki federal üstünlük ilkesiyle çelişebileceğini ifade etti. Bu ilkeye göre, federal hukuk ile eyalet düzenlemeleri arasında çatışma olduğunda federal hukuk üstün kabul ediliyor.</p>\n<p>Adalet Bakanlığı, Virginia’daki düzenlemenin federal ajanları hedef haline getirebileceğini savundu. Bakanlık, ajanların görev sırasında kimliklerinin açığa çıkmasının taciz, ifşa edilme veya fiziksel saldırı riskini artırabileceğini belirtti. Yargıç da kararında, yasanın uygulanması halinde federal çalışanların gerçek bir fiziksel zarar riskiyle karşılaşabileceği değerlendirmesine yer verdi.</p>\n<h2>Virginia Düzenlemeleri Dava Konusu Oldu</h2>\n<p>Dava, Demokrat Partili Virginia Valisi Abigail Spanberger tarafından imzalanan iki ayrı eyalet düzenlemesine dayanıyor. Adalet Bakanlığı, bu düzenlemelerin yalnızca maske ve kimlik kurallarıyla sınırlı olmadığını, aynı zamanda yerel güvenlik birimleri ile federal göçmenlik makamları arasındaki iş birliği anlaşmalarını da etkileyebileceğini savunuyor.</p>\n<p>Habere göre, Virginia yasasını ihlal eden federal ajanlar 1. derece kabahat kapsamında değerlendirilebilecek; bu da 12 aya kadar hapis, 2.500 dolara kadar para cezası veya her ikisiyle sonuçlanabilecek bir yaptırım anlamına geliyor. Ancak mahkemenin verdiği geçici tedbir kararıyla bu yaptırımlar şimdilik uygulanamayacak.</p>\n<h2>Göçmenlik Yetkileri Tartışması Sürüyor</h2>\n<p>Karar yalnızca Virginia’nın maske ve kimlik gösterme düzenlemesini kapsıyor. Adalet Bakanlığı’nın, yerel makamlar ile federal göçmenlik birimleri arasındaki iş birliği anlaşmalarına yönelik ayrı itirazı ise farklı bir takvimle ele alınacak. Bu başlıkla ilgili duruşmanın 3 Ağustos’ta yapılması bekleniyor.</p>\n<p>Bu karar, ABD’de göçmenlik uygulamalarında federal hükümet ile eyalet yönetimleri arasındaki yetki tartışmasının devam ettiğini gösteriyor. Virginia’da yaşayan göçmenler ve göçmenlik sürecindeki kişiler açısından karar, federal göçmenlik operasyonlarının eyalet düzeyindeki sınırlamalardan ne ölçüde etkilenebileceği konusunda dikkatle izlenmesi gereken bir gelişme niteliği taşıyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_immigration",
+        "name": "Göçmenlik"
+      },
+      "tags": [
+        "virginia",
+        "ice",
+        "sınır devriyesi",
+        "göçmenlik",
+        "federal mahkeme"
+      ],
+      "cover_image": {
+        "url": "/virginia-ice-ajanlari-maske-yasagi-mahkeme-karari.png",
+        "alt": "Federal Yargıç, Virginia’nın ICE Ajanlarına Maske Yasağını Durdurdu"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-07-05T10:00:00Z",
+      "created_at": "2026-07-05T10:00:00Z",
+      "updated_at": "2026-07-05T10:00:00Z",
+      "seo": {
+        "meta_title": "Virginia’nın ICE Ajanlarına Maske Yasağı Durduruldu",
+        "meta_description": "Federal yargıç, Virginia’da ICE ve Sınır Devriyesi ajanlarının görev sırasında maske takmasını sınırlayan yasayı geçici olarak durdurdu.",
+        "canonical_url": "https://amerika365.com/haber/federal-yargic-virginianin-ice-ajanlarina-maske-yasagini-durdurdu"
+      }
+    },
+    {
+      "id": "news_abd_haziran_istihdam_yavaslama_ucret_enflasyon",
+      "slug": "abdde-haziran-ayinda-istihdam-sert-yavasladi-ucret-artislari-enflasyonun-gerisinde-kaldi",
+      "title": "ABD'de Haziran Ayında İstihdam Sert Yavaşladı, Ücret Artışları Enflasyonun Gerisinde Kaldı",
+      "summary": "ABD ekonomisi haziran ayında yalnızca 57 bin yeni istihdam oluşturdu. İşsizlik oranı gerilerken bunun nedeni yüz binlerce kişinin iş gücünden ayrılması oldu. Zayıf veriler, faiz artışı beklentilerini de azalttı.",
+      "content": "<h2>İstihdam Artışı Beklentilerin Altında Kaldı</h2>\n<p>ABD Çalışma Bakanlığı'nın açıkladığı haziran ayı istihdam verileri, iş gücü piyasasında yavaşlamanın belirginleştiğini ortaya koydu. İşverenler geçen ay yalnızca 57 bin kişiye yeni istihdam sağladı. Bu rakam, önceki iki ayın oldukça altında kalırken, nisan ve mayıs aylarına ilişkin istihdam verileri de aşağı yönlü revize edildi.</p>\n<p>Sektörel verilere göre sağlık hizmetleri alanında istihdam artışı devam etti ancak önceki aylara kıyasla daha sınırlı kaldı. İnşaat ve imalat sektörlerinde de mütevazı düzeyde işe alımlar sürdü. Buna karşın mayıs ayında güçlü performans gösteren konaklama ve eğlence sektöründe haziran ayında 61 bin kişilik istihdam kaybı yaşandı.</p>\n<h2>İşsizlik Oranındaki Düşüş Yanıltıcı Olabilir</h2>\n<p>İşsizlik oranı yüzde 4,3'ten yüzde 4,2'ye gerilese de uzmanlar bunun ilk bakışta göründüğü kadar olumlu olmadığını belirtiyor. Haziran ayında 700 binden fazla kişi iş gücünden ayrıldığı için artık işsiz olarak sayılmadı. Çalışmayan ve aktif olarak iş aramayan kişiler resmi işsizlik hesaplamasına dahil edilmiyor.</p>\n<p>Ekonomistler, işten çıkarmaların halen düşük seviyede olmasının olumlu bir gelişme olduğunu ancak işe alımların da önemli ölçüde yavaşladığını ifade ediyor. Çalışanların büyük bölümü mevcut işlerinde kalmayı tercih ederken, daha yüksek maaş için iş değiştirme eğilimi önceki yıllara göre belirgin şekilde azaldı. Bu durum özellikle iş piyasasına yeni girmek isteyenler için fırsatları sınırlıyor.</p>\n<p>İş arama platformu ZipRecruiter'ın baş ekonomistlerinden Nicole Bachaud, mevcut çalışanların işlerini bırakmamasının iş piyasasında bir darboğaz oluşturduğunu belirterek özellikle yeni üniversite mezunlarının ilk işlerini bulmakta zorlandığını söyledi.</p>\n<h2>Ücretler Enflasyon Karşısında Zayıf Kaldı</h2>\n<p>Ücretlerde ise tablo karmaşık görünüyor. Ortalama saatlik kazançlar haziran ayında geçen yılın aynı dönemine göre yüzde 3,5 arttı. Ancak enflasyonun daha hızlı yükselmesi nedeniyle çalışanların satın alma gücü artmıyor. Başka bir ifadeyle maaşlar artsa da fiyatlar daha hızlı yükseldiği için birçok kişi gelirinin eskisi kadar yetmediğini hissediyor.</p>\n<h2>Fed Beklentileri Değişti</h2>\n<p>Verilerin ardından piyasalarda ABD Merkez Bankası'nın (Fed) temmuz ayındaki toplantısında faiz artıracağı yönündeki beklentiler de zayıfladı. Bir gün önce yaklaşık üçte bir seviyesinde görülen faiz artışı ihtimali, zayıf istihdam raporunun ardından yüzde 20'nin altına geriledi.</p>\n<p>Fed Başkanı Kevin Warsh ise yaptığı açıklamada önceliklerinin fiyat istikrarını sağlamak olduğunu vurguladı. Warsh, siyasi baskılardan bağımsız hareket edeceklerini belirterek ABD Merkez Bankası'nın enflasyonu kontrol altına alma hedefinden vazgeçmeyeceğini ifade etti.</p>\n<p>Haziran ayı verileri, ABD ekonomisinde iş gücü piyasasının ivme kaybetmeye başladığına işaret ediyor. Özellikle iş arayanlar ve yeni mezunlar açısından işe giriş sürecinin zorlaşması beklenirken, ücretlerin enflasyon karşısında yetersiz kalması milyonlarca çalışanın alım gücü üzerindeki baskının sürdüğünü gösteriyor.</p>",
+      "author": {
+        "id": "auth_001",
+        "name": "Editör Ekibi"
+      },
+      "category": {
+        "id": "cat_economy",
+        "name": "Ekonomi"
+      },
+      "tags": [
+        "abd istihdam",
+        "işsizlik",
+        "ücret artışı",
+        "enflasyon",
+        "fed"
+      ],
+      "cover_image": {
+        "url": "/abd-haziran-istihdam-yavasladi-ucretler-enflasyonun-gerisinde.png",
+        "alt": "ABD'de Haziran Ayında İstihdam Sert Yavaşladı, Ücret Artışları Enflasyonun Gerisinde Kaldı"
+      },
+      "status": "published",
+      "is_featured": false,
+      "language": "tr",
+      "published_at": "2026-07-04T10:00:00Z",
+      "created_at": "2026-07-04T10:00:00Z",
+      "updated_at": "2026-07-04T10:00:00Z",
+      "seo": {
+        "meta_title": "ABD'de Haziran İstihdamı Sert Yavaşladı",
+        "meta_description": "ABD ekonomisi haziranda 57 bin yeni istihdam oluşturdu; ücret artışları enflasyonun gerisinde kalırken Fed faiz artışı beklentileri zayıfladı.",
+        "canonical_url": "https://amerika365.com/haber/abdde-haziran-ayinda-istihdam-sert-yavasladi-ucret-artislari-enflasyonun-gerisinde-kaldi"
+      }
+    },
     {
       "id": "news_fed_arastirmasi_duzensiz_goc_konut_fiyatlari_kiralar",
       "slug": "fed-arastirmasi-duzensiz-goc-konut-fiyatlari-ve-kiralari-yukseltti",
