@@ -183,17 +183,17 @@ export function HeroSlider({ slides }: HeroSliderProps) {
                   {slide.category}
                 </span>
 
-                <h2 data-hero-slider-title className="min-w-0 shrink-0 text-2xl leading-tight font-extrabold text-[#1b1a6b] sm:text-3xl lg:text-4xl dark:text-white">
+                <h2 data-hero-slider-title className="min-h-0 min-w-0 shrink text-2xl leading-tight font-extrabold text-[#1b1a6b] sm:text-3xl lg:text-4xl dark:text-white">
                   {slide.title}
                 </h2>
 
-                <p data-hero-slider-excerpt className="min-h-0 min-w-0 text-sm leading-relaxed text-slate-600 sm:flex-1 sm:text-base dark:text-slate-400">
+                <p data-hero-slider-excerpt className="min-h-0 min-w-0 shrink text-sm leading-relaxed text-slate-600 sm:text-base dark:text-slate-400">
                   {slide.excerpt}
                 </p>
 
                 <Link
                   href={`/${slide.slug}`}
-                  className="mt-auto flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-[#0756b0] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#0756b0]/90 sm:w-fit"
+                  className="relative z-auto flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-[#0756b0] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#0756b0]/90 sm:w-fit"
                 >
                   Devamını Oku
                   <Icon name="arrow_forward" />
