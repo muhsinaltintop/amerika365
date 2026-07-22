@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { TouchEvent, useEffect, useState } from "react";
+import { TouchEvent, useCallback, useEffect, useRef, useState } from "react";
 import type { ArticleRecord } from "@/lib/articles";
 import { Icon } from "../atoms/Icon";
 
@@ -9,22 +9,79 @@ interface HeroSliderProps {
   slides: ArticleRecord[];
 }
 
-function getTitleSizeClass(title: string) {
-  if (title.length > 120) {
-    return "text-xl sm:text-2xl lg:text-3xl";
+const MAX_FONT_FIT_ITERATIONS = 48;
+
+function hasOverflow(element: HTMLElement) {
+  return element.scrollHeight > element.clientHeight + 1 || element.scrollWidth > element.clientWidth + 1;
+}
+
+function getMinimumFontSizes() {
+  if (window.matchMedia("(min-width: 1024px)").matches) {
+    return { title: 30, excerpt: 14 };
   }
 
-  if (title.length > 80) {
-    return "text-2xl sm:text-3xl lg:text-[2rem]";
+  if (window.matchMedia("(min-width: 640px)").matches) {
+    return { title: 26, excerpt: 14 };
   }
 
-  return "text-2xl sm:text-3xl lg:text-4xl";
+  return { title: 22, excerpt: 13 };
+}
+
+function reduceFontUntilFits(element: HTMLElement, minFontSize: number, container?: HTMLElement) {
+  const computedStyle = window.getComputedStyle(element);
+  let fontSize = Number.parseFloat(computedStyle.fontSize);
+  const lineHeightRatio = Number.parseFloat(computedStyle.lineHeight) / fontSize;
+  let iteration = 0;
+
+  while (fontSize > minFontSize && iteration < MAX_FONT_FIT_ITERATIONS && (hasOverflow(element) || (container && hasOverflow(container)))) {
+    fontSize -= 1;
+    element.style.fontSize = `${fontSize}px`;
+    element.style.lineHeight = String(lineHeightRatio);
+    iteration += 1;
+  }
 }
 
 export function HeroSlider({ slides }: HeroSliderProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [touchEndX, setTouchEndX] = useState<number | null>(null);
+  const slideRefs = useRef<Array<HTMLDivElement | null>>([]);
+  const resizeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const fitActiveSlideText = useCallback(() => {
+    const activeSlide = slideRefs.current[currentSlide];
+
+    if (!activeSlide || activeSlide.offsetParent === null) {
+      return;
+    }
+
+    const textColumn = activeSlide.querySelector<HTMLElement>("[data-hero-slider-text]");
+    const title = activeSlide.querySelector<HTMLElement>("[data-hero-slider-title]");
+    const excerpt = activeSlide.querySelector<HTMLElement>("[data-hero-slider-excerpt]");
+
+    if (!textColumn || !title || !excerpt || textColumn.clientWidth === 0) {
+      return;
+    }
+
+    const minimumFontSizes = getMinimumFontSizes();
+
+    // Always start from the stylesheet defaults so short content keeps the original design.
+    title.style.fontSize = "";
+    title.style.lineHeight = "";
+    excerpt.style.fontSize = "";
+    excerpt.style.lineHeight = "";
+
+    // Wait for layout to settle, then shrink only the overflowing text nodes in 1px steps.
+    window.requestAnimationFrame(() => {
+      reduceFontUntilFits(title, minimumFontSizes.title, textColumn);
+      reduceFontUntilFits(excerpt, minimumFontSizes.excerpt, textColumn);
+      reduceFontUntilFits(title, minimumFontSizes.title, textColumn);
+    });
+  }, [currentSlide]);
+
+  const scheduleFitActiveSlideText = useCallback(() => {
+    window.requestAnimationFrame(fitActiveSlideText);
+  }, [fitActiveSlideText]);
 
   const goToPrevSlide = () => {
     if (slides.length < 2) {
@@ -53,6 +110,28 @@ export function HeroSlider({ slides }: HeroSliderProps) {
 
     return () => clearInterval(timer);
   }, [slides.length]);
+
+  useEffect(() => {
+    scheduleFitActiveSlideText();
+  }, [currentSlide, slides, scheduleFitActiveSlideText]);
+
+  useEffect(() => {
+    const onResize = () => {
+      if (resizeTimerRef.current) {
+        clearTimeout(resizeTimerRef.current);
+      }
+
+      resizeTimerRef.current = setTimeout(scheduleFitActiveSlideText, 150);
+    };
+
+    window.addEventListener("resize", onResize);
+    return () => {
+      window.removeEventListener("resize", onResize);
+      if (resizeTimerRef.current) {
+        clearTimeout(resizeTimerRef.current);
+      }
+    };
+  }, [scheduleFitActiveSlideText]);
 
   if (slides.length === 0) {
     return null;
@@ -93,35 +172,28 @@ export function HeroSlider({ slides }: HeroSliderProps) {
         onTouchStart={onTouchStart}
       >
         <div className="flex transition-transform duration-500 ease-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-          {slides.map((slide) => (
-            <div key={slide.slug} className="flex min-w-full flex-col lg:h-[500px] lg:flex-row">
+          {slides.map((slide, index) => (
+            <div key={slide.slug} ref={(element) => { slideRefs.current[index] = element; }} className="flex min-w-full flex-col lg:h-[500px] lg:flex-row">
               <div className="relative h-[230px] sm:h-[300px] lg:h-full lg:w-3/5">
                 <img alt={slide.title} className="h-full w-full object-cover" src={slide.heroImage} />
               </div>
 
-              <div className="flex min-h-0 flex-col justify-between gap-3 p-5 pb-6 sm:gap-4 sm:p-8 lg:h-full lg:w-2/5 lg:p-10">
+              <div data-hero-slider-text className="flex min-h-0 min-w-0 flex-col gap-3 p-5 pb-6 sm:gap-4 sm:p-8 lg:h-full lg:w-2/5 lg:p-10">
                 <span className="w-fit shrink-0 rounded-full bg-[#0756b0]/10 px-3 py-1 text-xs font-extrabold tracking-widest text-[#0756b0] uppercase">
                   {slide.category}
                 </span>
 
-                <h2 className={`${getTitleSizeClass(slide.title)} overflow-hidden font-extrabold leading-tight text-[#1b1a6b] dark:text-white`}>
+                <h2 data-hero-slider-title className="min-h-0 min-w-0 shrink text-2xl leading-tight font-extrabold text-[#1b1a6b] sm:text-3xl lg:text-4xl dark:text-white">
                   {slide.title}
                 </h2>
 
-                <p
-                  className="overflow-hidden text-sm leading-relaxed text-slate-600 dark:text-slate-400 sm:text-base"
-                  style={{
-                    display: "-webkit-box",
-                    WebkitLineClamp: 4,
-                    WebkitBoxOrient: "vertical",
-                  }}
-                >
+                <p data-hero-slider-excerpt className="min-h-0 min-w-0 shrink text-sm leading-relaxed text-slate-600 sm:text-base dark:text-slate-400">
                   {slide.excerpt}
                 </p>
 
                 <Link
                   href={`/${slide.slug}`}
-                  className="flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-[#0756b0] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#0756b0]/90 sm:w-fit"
+                  className="relative z-auto flex w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-[#0756b0] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#0756b0]/90 sm:w-fit"
                 >
                   Devamını Oku
                   <Icon name="arrow_forward" />
