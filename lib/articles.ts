@@ -1,4 +1,5 @@
-import articleData from "@/data/articles.json";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 
 export type ArticleStatus = "draft" | "published" | "archived";
 
@@ -101,8 +102,14 @@ interface RawArticleRecord {
 const CATEGORY_NAV_ORDER = ["Politika", "Ekonomi", "İş Dünyası", "Teknoloji", "Sağlık", "Eğitim", "Spor", "Göçmenlik"];
 const CATEGORY_NAV_LIMIT = CATEGORY_NAV_ORDER.length;
 
-const data = articleData as ArticleData;
-const articles = data.news.map(toArticleRecord);
+const ARTICLES_FILE_PATH = path.join(process.cwd(), "data", "articles.json");
+
+async function getArticleRecords() {
+  const fileContent = await readFile(ARTICLES_FILE_PATH, "utf8");
+  const data = JSON.parse(fileContent) as ArticleData;
+
+  return data.news.map(toArticleRecord);
+}
 
 function toArticleRecord(article: RawArticleRecord): ArticleRecord {
   return {
@@ -195,19 +202,19 @@ function getUniqueCategoriesFromArticles(articleList: ArticleRecord[]) {
 }
 
 export async function getAllArticles() {
-  return articles;
+  return getArticleRecords();
 }
 
 export async function getArticleBySlug(slug: string) {
-  return articles.find((article) => article.slug === slug) ?? null;
+  return (await getArticleRecords()).find((article) => article.slug === slug) ?? null;
 }
 
 export async function getFeaturedArticles() {
-  return articles.filter((article) => article.is_featured && article.status === "published");
+  return (await getArticleRecords()).filter((article) => article.is_featured && article.status === "published");
 }
 
 export async function getPublishedArticles() {
-  return articles
+  return (await getArticleRecords())
     .filter((article) => article.status === "published")
     .sort((a, b) => {
       const aTime = new Date(a.publishedAt).getTime();
