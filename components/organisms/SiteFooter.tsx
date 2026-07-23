@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getCategoryNavItems } from "@/lib/articles";
+import { CookiePreferencesLink } from "@/components/consent/CookiePreferencesLink";
 
 const socialLinks = [
   {
@@ -92,7 +93,11 @@ export async function SiteFooter() {
         </div>
       </div>
       <div className="mx-auto mt-10 max-w-[1200px] border-t border-slate-100 px-4 pt-6 text-center text-xs text-slate-400 sm:mt-12 sm:px-6 sm:pt-8 dark:border-slate-800">
-        © 2026 Amerika 365. Tüm hakları saklıdır.
+        <div className="flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-5">
+          <span>© 2026 Amerika 365. Tüm hakları saklıdır.</span>
+          <CookiePreferencesLink>Çerez Tercihleri</CookiePreferencesLink>
+          <CookiePreferencesLink saleOptOut>Kişisel Bilgilerimi Satmayın veya Paylaşmayın</CookiePreferencesLink>
+        </div>
       </div>
     </footer>
   );
