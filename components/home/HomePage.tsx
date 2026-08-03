@@ -22,7 +22,7 @@ export async function HomePage() {
       <main className="mx-auto max-w-[1200px] space-y-10 px-4 py-6 sm:space-y-12 sm:px-6 sm:py-8">
         <HeroSlider slides={sliderArticles} />
         <TopNewsSection cards={topNewsArticles} />
-        <CategoryNewsSections articles={articles} excludedSlugs={[...sliderArticles, ...topNewsArticles].map((article) => article.slug)} />
+        <CategoryNewsSections articles={articles} />
         <ImmigrationSection />
         {/* ABD’de Türk Yaşamı bölümü içerikleri hazırlanacağı için geçici olarak kapalı. */}
         {/* <TurkishLifeSection /> */}

@@ -5,7 +5,6 @@ import { NewsMeta } from "../molecules/NewsMeta";
 
 interface CategoryNewsSectionsProps {
   articles: ArticleRecord[];
-  excludedSlugs?: string[];
 }
 
 interface CategoryGroup {
@@ -17,22 +16,18 @@ interface CategoryGroup {
 const CATEGORY_SECTION_LIMIT = 4;
 const ARTICLES_PER_CATEGORY = 4;
 
-function groupArticlesByCategory(articles: ArticleRecord[], excludedSlugs: string[] = []) {
-  const excludedSlugSet = new Set(excludedSlugs);
+function getPublishedTime(article: ArticleRecord) {
+  return new Date(article.publishedAt).getTime();
+}
+
+function groupArticlesByCategory(articles: ArticleRecord[]) {
   const categoryMap = new Map<string, CategoryGroup>();
 
-  articles.forEach((article) => {
-    if (excludedSlugSet.has(article.slug)) {
-      return;
-    }
-
+  [...articles].sort((a, b) => getPublishedTime(b) - getPublishedTime(a)).forEach((article) => {
     const currentGroup = categoryMap.get(article.categorySlug);
 
     if (currentGroup) {
-      if (currentGroup.articles.length < ARTICLES_PER_CATEGORY) {
-        currentGroup.articles.push(article);
-      }
-
+      currentGroup.articles.push(article);
       return;
     }
 
@@ -43,11 +38,17 @@ function groupArticlesByCategory(articles: ArticleRecord[], excludedSlugs: strin
     });
   });
 
-  return [...categoryMap.values()].slice(0, CATEGORY_SECTION_LIMIT);
+  return [...categoryMap.values()]
+    .sort((a, b) => getPublishedTime(b.articles[0]) - getPublishedTime(a.articles[0]))
+    .slice(0, CATEGORY_SECTION_LIMIT)
+    .map((group) => ({
+      ...group,
+      articles: group.articles.slice(0, ARTICLES_PER_CATEGORY),
+    }));
 }
 
-export function CategoryNewsSections({ articles, excludedSlugs = [] }: CategoryNewsSectionsProps) {
-  const categoryGroups = groupArticlesByCategory(articles, excludedSlugs);
+export function CategoryNewsSections({ articles }: CategoryNewsSectionsProps) {
+  const categoryGroups = groupArticlesByCategory(articles);
 
   if (!categoryGroups.length) {
     return null;
@@ -61,7 +62,7 @@ export function CategoryNewsSections({ articles, excludedSlugs = [] }: CategoryN
           <SectionTitle title="Amerika Gündeminden Başlıklar" />
         </div>
         <p className="max-w-xl text-sm leading-6 text-slate-500 dark:text-slate-400">
-          En çok okunan haberlerin ardından ekonomi, politika ve günlük yaşam başlıklarını daha hızlı tarayın.
+          Her kategoride yeni yayınlanan haberleri otomatik olarak en güncelden eskiye doğru takip edin.
         </p>
       </div>
 
